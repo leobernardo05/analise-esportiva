@@ -4,6 +4,8 @@ from flask import Flask, render_template, request
 import pandas as pd
 import matplotlib
 
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt
 import os
 
@@ -72,6 +74,8 @@ def inicio():
         "index.html",
         times=times,
         time=time_selecionado,
+        variaveis=variaveis,
+        variavel=variavel,
         estatisticas=estatisticas,
         total_partidas=len(dados_time)
     )
