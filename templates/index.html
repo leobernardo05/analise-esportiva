@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Esportiva</title>
+</head>
+<body>
+
+    <h1>Análise de Dados Esportivos</h1>
+
+    <form method="GET" action="/">
+        <label for="time">Selecione um time:</label>
+
+        <select name="time" id="time">
+            {% for nome in times %}
+                <option value="{{ nome }}"
+                    {% if nome == time %}selected{% endif %}>
+                    {{ nome }}
+                </option>
+            {% endfor %}
+        </select>
+
+        <label for="variavel">Selecione uma variável:</label>
+
+        <select name="variavel" id="variavel">
+            {% for nome in variaveis %}
+                <option value="{{ nome }}"
+                    {% if nome == variavel %}selected{% endif %}>
+                    {{ nome }}
+                </option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Analisar</button>
+    </form>
+
+    <h2>{{ time }}</h2>
+
+    <p>Total de partidas: {{ total_partidas }}</p>
+
+    <h3>Estatísticas descritivas</h3>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Variável</th>
+                <th>Média</th>
+                <th>Desvio padrão</th>
+                <th>Mediana</th>
+                <th>Mínimo</th>
+                <th>Máximo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for variavel, valores in estatisticas.items() %}
+                <tr>
+                    <td>{{ variavel }}</td>
+                    <td>{{ valores["mean"] }}</td>
+                    <td>{{ valores["std"] }}</td>
+                    <td>{{ valores["50%"] }}</td>
+                    <td>{{ valores["min"] }}</td>
+                    <td>{{ valores["max"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h3>Histograma</h3>
+
+    <img
+        src="{{ url_for('static', filename='histograma.png') }}"
+        alt="Histograma da variável selecionada"
+        width="700"
+    >
+
+</body>
+</html>
