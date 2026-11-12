@@ -1,0 +1,199 @@
+time,id_partida,data_partida,variavel,valor,limite_inferior,limite_superior,tipo
+Atlanta Hawks,22500682,2026-01-29,pontos,86,87.25,149.25,Inferior
+Atlanta Hawks,22500396,2025-12-21,pontos,150,87.25,149.25,Superior
+Atlanta Hawks,22500832,2026-02-24,rebotes_totais,61,24.5,60.5,Superior
+Atlanta Hawks,22500682,2026-01-29,assistencias,19,19.75,41.75,Inferior
+Atlanta Hawks,22500223,2025-11-12,assistencias,42,19.75,41.75,Superior
+Atlanta Hawks,22500227,2025-11-13,roubos_bola,18,2.25,16.25,Superior
+Atlanta Hawks,22501037,2026-03-23,cestas_3_convertidas,25,5.25,23.25,Superior
+Atlanta Hawks,22500455,2025-12-29,cestas_3_convertidas,25,5.25,23.25,Superior
+Atlanta Hawks,22500227,2025-11-13,cestas_3_convertidas,24,5.25,23.25,Superior
+Boston Celtics,22500859,2026-02-27,pontos,148,81.625,144.625,Superior
+Boston Celtics,22500493,2026-01-03,pontos,146,81.625,144.625,Superior
+Boston Celtics,22500334,2025-12-04,pontos,146,81.625,144.625,Superior
+Boston Celtics,22500859,2026-02-27,assistencias,38,12.625,35.625,Superior
+Boston Celtics,22500799,2026-02-19,assistencias,36,12.625,35.625,Superior
+Boston Celtics,22501067,2026-03-27,roubos_bola,0,1.5,13.5,Inferior
+Boston Celtics,22500894,2026-03-04,roubos_bola,1,1.5,13.5,Inferior
+Boston Celtics,22500334,2025-12-04,roubos_bola,14,1.5,13.5,Superior
+Boston Celtics,22500799,2026-02-19,faltas_pessoais,6,9.875,28.875,Inferior
+Boston Celtics,22500647,2026-01-24,faltas_pessoais,9,9.875,28.875,Inferior
+Boston Celtics,22500559,2026-01-12,faltas_pessoais,7,9.875,28.875,Inferior
+Brooklyn Nets,22500704,2026-02-01,pontos,77,78.0,134.0,Inferior
+Brooklyn Nets,22500622,2026-01-21,pontos,66,78.0,134.0,Inferior
+Brooklyn Nets,22500637,2026-01-23,rebotes_totais,58,24.0,56.0,Superior
+Charlotte Hornets,22500547,2026-01-10,pontos,150,84.5,148.5,Superior
+Charlotte Hornets,22500547,2026-01-10,rebotes_totais,65,30.0,62.0,Superior
+Charlotte Hornets,22500883,2026-03-03,faltas_pessoais,31,9.5,29.5,Superior
+Chicago Bulls,22500943,2026-03-10,rebotes_totais,64,33.0,57.0,Superior
+Chicago Bulls,22500240,2025-11-16,rebotes_totais,60,33.0,57.0,Superior
+Chicago Bulls,22501079,2026-03-28,bloqueios,11,-1.5,10.5,Superior
+Chicago Bulls,22500814,2026-02-21,bloqueios,13,-1.5,10.5,Superior
+Chicago Bulls,22500722,2026-02-03,bloqueios,11,-1.5,10.5,Superior
+Chicago Bulls,22500614,2026-01-20,bloqueios,11,-1.5,10.5,Superior
+Chicago Bulls,22500051,2025-11-21,bloqueios,13,-1.5,10.5,Superior
+Chicago Bulls,22500240,2025-11-16,faltas_pessoais,29,8.5,28.5,Superior
+Chicago Bulls,22500614,2026-01-20,cestas_3_convertidas,25,4.5,24.5,Superior
+Cleveland Cavaliers,22500732,2026-02-04,roubos_bola,17,2.5,14.5,Superior
+Cleveland Cavaliers,22500710,2026-02-01,roubos_bola,15,2.5,14.5,Superior
+Cleveland Cavaliers,22500029,2025-11-07,roubos_bola,15,2.5,14.5,Superior
+Cleveland Cavaliers,22500324,2025-12-03,bloqueios,11,-0.125,10.875,Superior
+Dallas Mavericks,22501044,2026-03-23,rebotes_totais,26,29.0,61.0,Inferior
+Dallas Mavericks,22500791,2026-02-12,rebotes_totais,28,29.0,61.0,Inferior
+Dallas Mavericks,22500376,2025-12-18,bloqueios,15,-3.0,13.0,Superior
+Denver Nuggets,22500810,2026-02-20,pontos,157,94.5,148.5,Superior
+Denver Nuggets,22500605,2026-01-18,pontos,87,94.5,148.5,Inferior
+Denver Nuggets,22500537,2026-01-09,pontos,87,94.5,148.5,Inferior
+Denver Nuggets,22500810,2026-02-20,rebotes_totais,60,27.0,59.0,Superior
+Denver Nuggets,22500178,2025-11-05,rebotes_totais,61,27.0,59.0,Superior
+Denver Nuggets,22500974,2026-03-14,roubos_bola,13,0.5,12.5,Superior
+Denver Nuggets,22500820,2026-02-22,roubos_bola,13,0.5,12.5,Superior
+Denver Nuggets,22500104,2025-10-25,roubos_bola,14,0.5,12.5,Superior
+Denver Nuggets,22500716,2026-02-03,bloqueios,10,-2.5,9.5,Superior
+Denver Nuggets,22500405,2025-12-22,cestas_3_convertidas,24,3.5,23.5,Superior
+Detroit Pistons,22500904,2026-03-05,roubos_bola,4,4.5,16.5,Inferior
+Detroit Pistons,22500704,2026-02-01,roubos_bola,17,4.5,16.5,Superior
+Detroit Pistons,22500544,2026-01-10,roubos_bola,18,4.5,16.5,Superior
+Detroit Pistons,22500309,2025-12-01,faltas_pessoais,12,12.5,32.5,Inferior
+Golden State Warriors,22501026,2026-03-21,rebotes_totais,29,29.75,55.75,Inferior
+Golden State Warriors,22500838,2026-02-24,rebotes_totais,59,29.75,55.75,Superior
+Golden State Warriors,22500257,2025-11-19,rebotes_totais,62,29.75,55.75,Superior
+Golden State Warriors,22500644,2026-01-25,roubos_bola,20,2.0,18.0,Superior
+Golden State Warriors,22500943,2026-03-10,bloqueios,12,-0.75,9.25,Superior
+Houston Rockets,22500737,2026-02-05,roubos_bola,17,0.625,15.625,Superior
+Houston Rockets,22500042,2025-11-14,roubos_bola,16,0.625,15.625,Superior
+Indiana Pacers,22500595,2026-01-17,pontos,78,84.0,140.0,Inferior
+Indiana Pacers,22500196,2025-11-09,pontos,83,84.0,140.0,Inferior
+Indiana Pacers,22501028,2026-03-21,rebotes_totais,26,27.5,55.5,Inferior
+Indiana Pacers,22500173,2025-11-05,rebotes_totais,56,27.5,55.5,Superior
+Indiana Pacers,22500364,2025-12-08,roubos_bola,14,1.5,13.5,Superior
+Indiana Pacers,22500559,2026-01-12,faltas_pessoais,7,9.0,33.0,Inferior
+Indiana Pacers,22500005,2025-10-23,faltas_pessoais,37,9.0,33.0,Superior
+Los Angeles Clippers,22500952,2026-03-11,pontos,153,87.5,139.5,Superior
+Los Angeles Clippers,22500127,2025-10-28,pontos,79,87.5,139.5,Inferior
+Los Angeles Clippers,22500709,2026-02-01,rebotes_totais,63,25.0,57.0,Superior
+Los Angeles Clippers,22500952,2026-03-11,assistencias,36,13.5,33.5,Superior
+Los Angeles Clippers,22500127,2025-10-28,assistencias,10,13.5,33.5,Inferior
+Los Angeles Clippers,22501062,2026-03-25,bloqueios,12,-1.5,10.5,Superior
+Los Angeles Clippers,22500968,2026-03-13,bloqueios,12,-1.5,10.5,Superior
+Los Angeles Clippers,22500046,2025-11-14,faltas_pessoais,32,8.5,28.5,Superior
+Los Angeles Clippers,22500224,2025-11-12,faltas_pessoais,30,8.5,28.5,Superior
+Los Angeles Clippers,22500127,2025-10-28,faltas_pessoais,5,8.5,28.5,Inferior
+Los Angeles Lakers,22500648,2026-01-24,rebotes_totais,57,25.625,56.625,Superior
+Los Angeles Lakers,22500012,2025-12-25,rebotes_totais,25,25.625,56.625,Inferior
+Los Angeles Lakers,22501052,2026-03-25,roubos_bola,15,2.5,14.5,Superior
+Los Angeles Lakers,22500688,2026-01-30,roubos_bola,17,2.5,14.5,Superior
+Los Angeles Lakers,22500569,2026-01-13,roubos_bola,2,2.5,14.5,Inferior
+Los Angeles Lakers,22500317,2025-12-01,roubos_bola,1,2.5,14.5,Inferior
+Los Angeles Lakers,22500688,2026-01-30,faltas_pessoais,8,11.0,27.0,Inferior
+Los Angeles Lakers,22500562,2026-01-12,faltas_pessoais,9,11.0,27.0,Inferior
+Los Angeles Lakers,22500379,2025-12-18,faltas_pessoais,31,11.0,27.0,Superior
+Los Angeles Lakers,22500179,2025-11-05,faltas_pessoais,30,11.0,27.0,Superior
+Memphis Grizzlies,22500419,2025-12-23,assistencias,41,18.5,38.5,Superior
+Memphis Grizzlies,22500265,2025-11-20,assistencias,42,18.5,38.5,Superior
+Memphis Grizzlies,22501079,2026-03-28,faltas_pessoais,32,10.5,30.5,Superior
+Memphis Grizzlies,22500936,2026-03-10,faltas_pessoais,31,10.5,30.5,Superior
+Memphis Grizzlies,22500787,2026-02-11,faltas_pessoais,32,10.5,30.5,Superior
+Memphis Grizzlies,22500676,2026-01-28,faltas_pessoais,10,10.5,30.5,Inferior
+Memphis Grizzlies,22500501,2026-01-04,faltas_pessoais,31,10.5,30.5,Superior
+Miami Heat,22500705,2026-02-01,assistencias,44,16.0,40.0,Superior
+Miami Heat,22500784,2026-02-11,bloqueios,9,-1.25,8.75,Superior
+Miami Heat,22500313,2025-12-01,bloqueios,10,-1.25,8.75,Superior
+Miami Heat,22500543,2026-01-10,cestas_3_convertidas,4,4.25,22.25,Inferior
+Miami Heat,22500313,2025-12-01,cestas_3_convertidas,24,4.25,22.25,Superior
+Milwaukee Bucks,22500729,2026-02-04,pontos,141,76.625,139.625,Superior
+Milwaukee Bucks,22500043,2025-11-14,pontos,147,76.625,139.625,Superior
+Milwaukee Bucks,22500979,2026-03-15,cestas_3_convertidas,23,8.5,20.5,Superior
+Milwaukee Bucks,22500729,2026-02-04,cestas_3_convertidas,21,8.5,20.5,Superior
+Milwaukee Bucks,22500722,2026-02-03,cestas_3_convertidas,23,8.5,20.5,Superior
+Milwaukee Bucks,22501219,2025-12-14,cestas_3_convertidas,8,8.5,20.5,Inferior
+Milwaukee Bucks,22500311,2025-12-01,cestas_3_convertidas,21,8.5,20.5,Superior
+Minnesota Timberwolves,22500644,2026-01-25,pontos,85,85.625,148.625,Inferior
+Minnesota Timberwolves,22500321,2025-12-02,pontos,149,85.625,148.625,Superior
+Minnesota Timberwolves,22500952,2026-03-11,rebotes_totais,28,29.375,60.375,Inferior
+Minnesota Timberwolves,22500513,2026-01-06,rebotes_totais,63,29.375,60.375,Superior
+Minnesota Timberwolves,22500053,2025-11-21,roubos_bola,17,1.375,16.375,Superior
+Minnesota Timberwolves,22501058,2026-03-25,bloqueios,12,-0.5,11.5,Superior
+Minnesota Timberwolves,22500013,2025-12-25,bloqueios,12,-0.5,11.5,Superior
+New Orleans Pelicans,22500548,2026-01-11,rebotes_totais,26,26.5,62.5,Inferior
+New Orleans Pelicans,22500729,2026-02-04,cestas_3_convertidas,24,2.375,19.375,Superior
+New York Knicks,22501063,2026-03-26,rebotes_totais,24,32.5,60.5,Inferior
+New York Knicks,22500816,2026-02-21,rebotes_totais,29,32.5,60.5,Inferior
+New York Knicks,22500502,2026-01-05,rebotes_totais,30,32.5,60.5,Inferior
+New York Knicks,22500303,2025-11-30,rebotes_totais,61,32.5,60.5,Superior
+New York Knicks,22500911,2026-03-06,assistencias,44,11.0,43.0,Superior
+New York Knicks,22500262,2025-11-19,bloqueios,10,-2.5,9.5,Superior
+Oklahoma City Thunder,22500385,2025-12-19,faltas_pessoais,30,7.75,29.75,Superior
+Oklahoma City Thunder,22500005,2025-10-23,faltas_pessoais,33,7.75,29.75,Superior
+Orlando Magic,22500100,2025-10-25,assistencias,12,14.0,38.0,Inferior
+Orlando Magic,22500811,2026-02-21,bloqueios,15,-1.5,10.5,Superior
+Orlando Magic,22500734,2026-02-05,bloqueios,11,-1.5,10.5,Superior
+Orlando Magic,22500314,2025-12-01,bloqueios,11,-1.5,10.5,Superior
+Orlando Magic,22500800,2026-02-19,cestas_3_convertidas,27,2.125,21.125,Superior
+Philadelphia 76ers,22501053,2026-03-25,pontos,157,82.125,149.125,Superior
+Philadelphia 76ers,22500740,2026-02-05,rebotes_totais,28,29.5,57.5,Inferior
+Philadelphia 76ers,22500680,2026-01-29,rebotes_totais,24,29.5,57.5,Inferior
+Philadelphia 76ers,22500628,2026-01-22,assistencias,41,11.125,38.125,Superior
+Philadelphia 76ers,22500550,2026-01-11,assistencias,11,11.125,38.125,Inferior
+Philadelphia 76ers,22500794,2026-02-19,bloqueios,13,-0.5,11.5,Superior
+Philadelphia 76ers,22500724,2026-02-03,faltas_pessoais,6,11.125,30.125,Inferior
+Philadelphia 76ers,22500518,2026-01-07,faltas_pessoais,11,11.125,30.125,Inferior
+Phoenix Suns,22500839,2026-02-24,pontos,81,82.0,144.0,Inferior
+Phoenix Suns,22500826,2026-02-22,pontos,77,82.0,144.0,Inferior
+Phoenix Suns,22500811,2026-02-21,rebotes_totais,65,25.125,60.125,Superior
+Phoenix Suns,22500655,2026-01-25,assistencias,14,14.5,34.5,Inferior
+Phoenix Suns,22500418,2025-12-23,assistencias,35,14.5,34.5,Superior
+Phoenix Suns,22500346,2025-12-05,assistencias,14,14.5,34.5,Inferior
+Phoenix Suns,22500317,2025-12-01,assistencias,35,14.5,34.5,Superior
+Phoenix Suns,22500290,2025-11-24,assistencias,11,14.5,34.5,Inferior
+Phoenix Suns,22500120,2025-10-27,assistencias,37,14.5,34.5,Superior
+Phoenix Suns,22500941,2026-03-10,cestas_3_convertidas,24,7.0,23.0,Superior
+Phoenix Suns,22500669,2026-01-27,cestas_3_convertidas,5,7.0,23.0,Inferior
+Phoenix Suns,22500346,2025-12-05,cestas_3_convertidas,5,7.0,23.0,Inferior
+Portland Trail Blazers,22500664,2026-01-27,rebotes_totais,69,33.375,58.375,Superior
+Portland Trail Blazers,22500263,2025-11-19,rebotes_totais,64,33.375,58.375,Superior
+Portland Trail Blazers,22500770,2026-02-09,assistencias,36,16.0,34.0,Superior
+Portland Trail Blazers,22500910,2026-03-06,roubos_bola,17,0.0,16.0,Superior
+Portland Trail Blazers,22500967,2026-03-13,bloqueios,12,-0.5,11.5,Superior
+Portland Trail Blazers,22500551,2026-01-11,faltas_pessoais,8,9.125,30.125,Inferior
+Portland Trail Blazers,22500342,2025-12-05,faltas_pessoais,35,9.125,30.125,Superior
+Portland Trail Blazers,22500238,2025-11-16,faltas_pessoais,32,9.125,30.125,Superior
+Portland Trail Blazers,22500187,2025-11-08,faltas_pessoais,32,9.125,30.125,Superior
+Portland Trail Blazers,22500135,2025-10-29,faltas_pessoais,33,9.125,30.125,Superior
+San Antonio Spurs,22500868,2026-03-01,pontos,89,89.125,148.125,Inferior
+San Antonio Spurs,22501041,2026-03-23,rebotes_totais,62,30.625,61.625,Superior
+San Antonio Spurs,22500730,2026-02-04,rebotes_totais,63,30.625,61.625,Superior
+San Antonio Spurs,22500611,2026-01-19,bloqueios,12,-0.5,11.5,Superior
+San Antonio Spurs,22500095,2025-10-24,bloqueios,13,-0.5,11.5,Superior
+San Antonio Spurs,22501076,2026-03-28,faltas_pessoais,6,11.0,27.0,Inferior
+San Antonio Spurs,22500179,2025-11-05,faltas_pessoais,36,11.0,27.0,Superior
+San Antonio Spurs,22500998,2026-03-17,cestas_3_convertidas,25,4.125,23.125,Superior
+San Antonio Spurs,22500523,2026-01-07,cestas_3_convertidas,4,4.125,23.125,Inferior
+Toronto Raptors,22500397,2025-12-21,pontos,81,82.625,145.625,Inferior
+Toronto Raptors,22500131,2025-10-29,rebotes_totais,22,23.0,63.0,Inferior
+Toronto Raptors,22500118,2025-10-27,rebotes_totais,20,23.0,63.0,Inferior
+Toronto Raptors,22501043,2026-03-23,assistencias,49,13.0,45.0,Superior
+Toronto Raptors,22501086,2026-03-29,roubos_bola,20,2.5,14.5,Superior
+Toronto Raptors,22500388,2025-12-20,roubos_bola,2,2.5,14.5,Inferior
+Toronto Raptors,22501043,2026-03-23,faltas_pessoais,30,13.0,29.0,Superior
+Toronto Raptors,22500736,2026-02-05,faltas_pessoais,11,13.0,29.0,Inferior
+Toronto Raptors,22500082,2025-10-22,faltas_pessoais,31,13.0,29.0,Superior
+Toronto Raptors,22500618,2026-01-20,cestas_3_convertidas,21,1.875,20.875,Superior
+Toronto Raptors,22500131,2025-10-29,cestas_3_convertidas,21,1.875,20.875,Superior
+Utah Jazz,22500967,2026-03-13,roubos_bola,16,1.75,15.75,Superior
+Utah Jazz,22500830,2026-02-23,roubos_bola,17,1.75,15.75,Superior
+Utah Jazz,22500678,2026-01-28,roubos_bola,16,1.75,15.75,Superior
+Utah Jazz,22500649,2026-01-24,bloqueios,10,0.0,8.0,Superior
+Utah Jazz,22500830,2026-02-23,faltas_pessoais,10,10.25,32.25,Inferior
+Washington Wizards,22500425,2025-12-26,pontos,138,88.0,136.0,Superior
+Washington Wizards,22500073,2025-11-28,pontos,86,88.0,136.0,Inferior
+Washington Wizards,22500681,2026-01-29,rebotes_totais,61,24.125,59.125,Superior
+Washington Wizards,22500879,2026-03-02,roubos_bola,15,1.5,13.5,Superior
+Washington Wizards,22500803,2026-02-20,roubos_bola,14,1.5,13.5,Superior
+Washington Wizards,22500795,2026-02-19,roubos_bola,14,1.5,13.5,Superior
+Washington Wizards,22500664,2026-01-27,roubos_bola,16,1.5,13.5,Superior
+Washington Wizards,22500645,2026-01-24,roubos_bola,14,1.5,13.5,Superior
+Washington Wizards,22500664,2026-01-27,bloqueios,12,-0.5,11.5,Superior
+Washington Wizards,22500443,2025-12-28,bloqueios,12,-0.5,11.5,Superior
+Washington Wizards,22500938,2026-03-10,faltas_pessoais,34,11.5,31.5,Superior
+Washington Wizards,22500681,2026-01-29,faltas_pessoais,11,11.5,31.5,Inferior

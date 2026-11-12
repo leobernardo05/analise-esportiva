@@ -1,0 +1,211 @@
+time,variavel,q1,q3,iqr,limite_inferior,limite_superior,quantidade_outliers,percentual_outliers
+Atlanta Hawks,pontos,110.5,126.0,15.5,87.25,149.25,2,2.666666666666667
+Atlanta Hawks,rebotes_totais,38.0,47.0,9.0,24.5,60.5,1,1.3333333333333335
+Atlanta Hawks,assistencias,28.0,33.5,5.5,19.75,41.75,2,2.666666666666667
+Atlanta Hawks,roubos_bola,7.5,11.0,3.5,2.25,16.25,1,1.3333333333333335
+Atlanta Hawks,bloqueios,3.0,6.0,3.0,-1.5,10.5,0,0.0
+Atlanta Hawks,faltas_pessoais,17.0,21.0,4.0,11.0,27.0,0,0.0
+Atlanta Hawks,cestas_3_convertidas,12.0,16.5,4.5,5.25,23.25,3,4.0
+Boston Celtics,pontos,105.25,121.0,15.75,81.625,144.625,3,4.054054054054054
+Boston Celtics,rebotes_totais,41.0,52.0,11.0,24.5,68.5,0,0.0
+Boston Celtics,assistencias,21.25,27.0,5.75,12.625,35.625,2,2.7027027027027026
+Boston Celtics,roubos_bola,6.0,9.0,3.0,1.5,13.5,3,4.054054054054054
+Boston Celtics,bloqueios,4.0,7.0,3.0,-0.5,11.5,0,0.0
+Boston Celtics,faltas_pessoais,17.0,21.75,4.75,9.875,28.875,3,4.054054054054054
+Boston Celtics,cestas_3_convertidas,13.0,18.0,5.0,5.5,25.5,0,0.0
+Brooklyn Nets,pontos,99.0,113.0,14.0,78.0,134.0,2,2.666666666666667
+Brooklyn Nets,rebotes_totais,36.0,44.0,8.0,24.0,56.0,1,1.3333333333333335
+Brooklyn Nets,assistencias,22.0,29.0,7.0,11.5,39.5,0,0.0
+Brooklyn Nets,roubos_bola,5.0,10.0,5.0,-2.5,17.5,0,0.0
+Brooklyn Nets,bloqueios,2.0,6.0,4.0,-4.0,12.0,0,0.0
+Brooklyn Nets,faltas_pessoais,18.0,24.0,6.0,9.0,33.0,0,0.0
+Brooklyn Nets,cestas_3_convertidas,11.0,15.5,4.5,4.25,22.25,0,0.0
+Charlotte Hornets,pontos,108.5,124.5,16.0,84.5,148.5,1,1.3333333333333335
+Charlotte Hornets,rebotes_totais,42.0,50.0,8.0,30.0,62.0,1,1.3333333333333335
+Charlotte Hornets,assistencias,23.0,30.0,7.0,12.5,40.5,0,0.0
+Charlotte Hornets,roubos_bola,5.0,10.0,5.0,-2.5,17.5,0,0.0
+Charlotte Hornets,bloqueios,3.0,6.0,3.0,-1.5,10.5,0,0.0
+Charlotte Hornets,faltas_pessoais,17.0,22.0,5.0,9.5,29.5,1,1.3333333333333335
+Charlotte Hornets,cestas_3_convertidas,13.0,19.0,6.0,4.0,28.0,0,0.0
+Chicago Bulls,pontos,108.0,125.75,17.75,81.375,152.375,0,0.0
+Chicago Bulls,rebotes_totais,42.0,48.0,6.0,33.0,57.0,2,2.7027027027027026
+Chicago Bulls,assistencias,25.0,31.75,6.75,14.875,41.875,0,0.0
+Chicago Bulls,roubos_bola,5.0,9.75,4.75,-2.125,16.875,0,0.0
+Chicago Bulls,bloqueios,3.0,6.0,3.0,-1.5,10.5,5,6.756756756756757
+Chicago Bulls,faltas_pessoais,16.0,21.0,5.0,8.5,28.5,1,1.3513513513513513
+Chicago Bulls,cestas_3_convertidas,12.0,17.0,5.0,4.5,24.5,1,1.3513513513513513
+Cleveland Cavaliers,pontos,111.25,129.0,17.75,84.625,155.625,0,0.0
+Cleveland Cavaliers,rebotes_totais,39.0,48.0,9.0,25.5,61.5,0,0.0
+Cleveland Cavaliers,assistencias,25.0,32.0,7.0,14.5,42.5,0,0.0
+Cleveland Cavaliers,roubos_bola,7.0,10.0,3.0,2.5,14.5,3,4.054054054054054
+Cleveland Cavaliers,bloqueios,4.0,6.75,2.75,-0.125,10.875,1,1.3513513513513513
+Cleveland Cavaliers,faltas_pessoais,17.0,22.0,5.0,9.5,29.5,0,0.0
+Cleveland Cavaliers,cestas_3_convertidas,12.0,17.0,5.0,4.5,24.5,0,0.0
+Dallas Mavericks,pontos,105.5,121.75,16.25,81.125,146.125,0,0.0
+Dallas Mavericks,rebotes_totais,41.0,49.0,8.0,29.0,61.0,2,2.7027027027027026
+Dallas Mavericks,assistencias,22.0,28.75,6.75,11.875,38.875,0,0.0
+Dallas Mavericks,roubos_bola,5.0,9.0,4.0,-1.0,15.0,0,0.0
+Dallas Mavericks,bloqueios,3.0,7.0,4.0,-3.0,13.0,1,1.3513513513513513
+Dallas Mavericks,faltas_pessoais,15.25,21.0,5.75,6.625,29.625,0,0.0
+Dallas Mavericks,cestas_3_convertidas,9.0,14.0,5.0,1.5,21.5,0,0.0
+Denver Nuggets,pontos,114.75,128.25,13.5,94.5,148.5,3,3.9473684210526314
+Denver Nuggets,rebotes_totais,39.0,47.0,8.0,27.0,59.0,2,2.631578947368421
+Denver Nuggets,assistencias,24.75,33.0,8.25,12.375,45.375,0,0.0
+Denver Nuggets,roubos_bola,5.0,8.0,3.0,0.5,12.5,3,3.9473684210526314
+Denver Nuggets,bloqueios,2.0,5.0,3.0,-2.5,9.5,1,1.3157894736842104
+Denver Nuggets,faltas_pessoais,16.0,22.0,6.0,7.0,31.0,0,0.0
+Denver Nuggets,cestas_3_convertidas,11.0,16.0,5.0,3.5,23.5,1,1.3157894736842104
+Detroit Pistons,pontos,109.25,126.0,16.75,84.125,151.125,0,0.0
+Detroit Pistons,rebotes_totais,41.0,50.0,9.0,27.5,63.5,0,0.0
+Detroit Pistons,assistencias,24.0,31.0,7.0,13.5,41.5,0,0.0
+Detroit Pistons,roubos_bola,9.0,12.0,3.0,4.5,16.5,3,4.054054054054054
+Detroit Pistons,bloqueios,4.0,8.0,4.0,-2.0,14.0,0,0.0
+Detroit Pistons,faltas_pessoais,20.0,25.0,5.0,12.5,32.5,1,1.3513513513513513
+Detroit Pistons,cestas_3_convertidas,9.0,13.0,4.0,3.0,19.0,0,0.0
+Golden State Warriors,pontos,103.0,124.5,21.5,70.75,156.75,0,0.0
+Golden State Warriors,rebotes_totais,39.5,46.0,6.5,29.75,55.75,3,4.0
+Golden State Warriors,assistencias,25.5,32.5,7.0,15.0,43.0,0,0.0
+Golden State Warriors,roubos_bola,8.0,12.0,4.0,2.0,18.0,1,1.3333333333333335
+Golden State Warriors,bloqueios,3.0,5.5,2.5,-0.75,9.25,1,1.3333333333333335
+Golden State Warriors,faltas_pessoais,17.0,22.0,5.0,9.5,29.5,0,0.0
+Golden State Warriors,cestas_3_convertidas,12.5,19.0,6.5,2.75,28.75,0,0.0
+Houston Rockets,pontos,106.25,122.75,16.5,81.5,147.5,0,0.0
+Houston Rockets,rebotes_totais,44.0,53.0,9.0,30.5,66.5,0,0.0
+Houston Rockets,assistencias,22.25,28.75,6.5,12.5,38.5,0,0.0
+Houston Rockets,roubos_bola,6.25,10.0,3.75,0.625,15.625,2,2.7027027027027026
+Houston Rockets,bloqueios,4.0,8.0,4.0,-2.0,14.0,0,0.0
+Houston Rockets,faltas_pessoais,16.0,21.0,5.0,8.5,28.5,0,0.0
+Houston Rockets,cestas_3_convertidas,9.0,13.0,4.0,3.0,19.0,0,0.0
+Indiana Pacers,pontos,105.0,119.0,14.0,84.0,140.0,2,2.666666666666667
+Indiana Pacers,rebotes_totais,38.0,45.0,7.0,27.5,55.5,2,2.666666666666667
+Indiana Pacers,assistencias,23.5,31.0,7.5,12.25,42.25,0,0.0
+Indiana Pacers,roubos_bola,6.0,9.0,3.0,1.5,13.5,1,1.3333333333333335
+Indiana Pacers,bloqueios,3.0,6.0,3.0,-1.5,10.5,0,0.0
+Indiana Pacers,faltas_pessoais,18.0,24.0,6.0,9.0,33.0,2,2.666666666666667
+Indiana Pacers,cestas_3_convertidas,11.0,15.0,4.0,5.0,21.0,0,0.0
+Los Angeles Clippers,pontos,107.0,120.0,13.0,87.5,139.5,2,2.666666666666667
+Los Angeles Clippers,rebotes_totais,37.0,45.0,8.0,25.0,57.0,1,1.3333333333333335
+Los Angeles Clippers,assistencias,21.0,26.0,5.0,13.5,33.5,2,2.666666666666667
+Los Angeles Clippers,roubos_bola,7.0,12.0,5.0,-0.5,19.5,0,0.0
+Los Angeles Clippers,bloqueios,3.0,6.0,3.0,-1.5,10.5,2,2.666666666666667
+Los Angeles Clippers,faltas_pessoais,16.0,21.0,5.0,8.5,28.5,3,4.0
+Los Angeles Clippers,cestas_3_convertidas,9.0,15.0,6.0,0.0,24.0,0,0.0
+Los Angeles Lakers,pontos,108.0,126.5,18.5,80.25,154.25,0,0.0
+Los Angeles Lakers,rebotes_totais,37.25,45.0,7.75,25.625,56.625,2,2.7027027027027026
+Los Angeles Lakers,assistencias,23.0,29.0,6.0,14.0,38.0,0,0.0
+Los Angeles Lakers,roubos_bola,7.0,10.0,3.0,2.5,14.5,4,5.405405405405405
+Los Angeles Lakers,bloqueios,2.0,6.0,4.0,-4.0,12.0,0,0.0
+Los Angeles Lakers,faltas_pessoais,17.0,21.0,4.0,11.0,27.0,4,5.405405405405405
+Los Angeles Lakers,cestas_3_convertidas,10.0,14.0,4.0,4.0,20.0,0,0.0
+Memphis Grizzlies,pontos,107.5,122.0,14.5,85.75,143.75,0,0.0
+Memphis Grizzlies,rebotes_totais,37.0,48.0,11.0,20.5,64.5,0,0.0
+Memphis Grizzlies,assistencias,26.0,31.0,5.0,18.5,38.5,2,2.7027027027027026
+Memphis Grizzlies,roubos_bola,6.25,11.0,4.75,-0.875,18.125,0,0.0
+Memphis Grizzlies,bloqueios,3.0,7.0,4.0,-3.0,13.0,0,0.0
+Memphis Grizzlies,faltas_pessoais,18.0,23.0,5.0,10.5,30.5,5,6.756756756756757
+Memphis Grizzlies,cestas_3_convertidas,12.0,16.0,4.0,6.0,22.0,0,0.0
+Miami Heat,pontos,111.5,127.5,16.0,87.5,151.5,0,0.0
+Miami Heat,rebotes_totais,41.0,51.0,10.0,26.0,66.0,0,0.0
+Miami Heat,assistencias,25.0,31.0,6.0,16.0,40.0,1,1.3333333333333335
+Miami Heat,roubos_bola,6.0,12.0,6.0,-3.0,21.0,0,0.0
+Miami Heat,bloqueios,2.5,5.0,2.5,-1.25,8.75,2,2.666666666666667
+Miami Heat,faltas_pessoais,16.0,21.5,5.5,7.75,29.75,0,0.0
+Miami Heat,cestas_3_convertidas,11.0,15.5,4.5,4.25,22.25,2,2.666666666666667
+Milwaukee Bucks,pontos,100.25,116.0,15.75,76.625,139.625,2,2.7027027027027026
+Milwaukee Bucks,rebotes_totais,36.25,45.75,9.5,22.0,60.0,0,0.0
+Milwaukee Bucks,assistencias,23.25,29.0,5.75,14.625,37.625,0,0.0
+Milwaukee Bucks,roubos_bola,6.0,9.0,3.0,1.5,13.5,0,0.0
+Milwaukee Bucks,bloqueios,2.0,5.75,3.75,-3.625,11.375,0,0.0
+Milwaukee Bucks,faltas_pessoais,17.0,22.75,5.75,8.375,31.375,0,0.0
+Milwaukee Bucks,cestas_3_convertidas,13.0,16.0,3.0,8.5,20.5,5,6.756756756756757
+Minnesota Timberwolves,pontos,109.25,125.0,15.75,85.625,148.625,2,2.7027027027027026
+Minnesota Timberwolves,rebotes_totais,41.0,48.75,7.75,29.375,60.375,2,2.7027027027027026
+Minnesota Timberwolves,assistencias,22.25,29.0,6.75,12.125,39.125,0,0.0
+Minnesota Timberwolves,roubos_bola,7.0,10.75,3.75,1.375,16.375,1,1.3513513513513513
+Minnesota Timberwolves,bloqueios,4.0,7.0,3.0,-0.5,11.5,2,2.7027027027027026
+Minnesota Timberwolves,faltas_pessoais,19.0,24.0,5.0,11.5,31.5,0,0.0
+Minnesota Timberwolves,cestas_3_convertidas,11.0,15.75,4.75,3.875,22.875,0,0.0
+New Orleans Pelicans,pontos,106.0,122.0,16.0,82.0,146.0,0,0.0
+New Orleans Pelicans,rebotes_totais,40.0,49.0,9.0,26.5,62.5,1,1.3157894736842104
+New Orleans Pelicans,assistencias,22.0,28.0,6.0,13.0,37.0,0,0.0
+New Orleans Pelicans,roubos_bola,6.0,11.0,5.0,-1.5,18.5,0,0.0
+New Orleans Pelicans,bloqueios,3.0,7.0,4.0,-3.0,13.0,0,0.0
+New Orleans Pelicans,faltas_pessoais,17.0,22.25,5.25,9.125,30.125,0,0.0
+New Orleans Pelicans,cestas_3_convertidas,8.75,13.0,4.25,2.375,19.375,1,1.3157894736842104
+New York Knicks,pontos,107.0,128.0,21.0,75.5,159.5,0,0.0
+New York Knicks,rebotes_totais,43.0,50.0,7.0,32.5,60.5,4,5.333333333333334
+New York Knicks,assistencias,23.0,31.0,8.0,11.0,43.0,1,1.3333333333333335
+New York Knicks,roubos_bola,6.5,10.0,3.5,1.25,15.25,0,0.0
+New York Knicks,bloqueios,2.0,5.0,3.0,-2.5,9.5,1,1.3333333333333335
+New York Knicks,faltas_pessoais,17.0,23.0,6.0,8.0,32.0,0,0.0
+New York Knicks,cestas_3_convertidas,11.0,17.0,6.0,2.0,26.0,0,0.0
+Oklahoma City Thunder,pontos,109.5,126.5,17.0,84.0,152.0,0,0.0
+Oklahoma City Thunder,rebotes_totais,39.0,49.0,10.0,24.0,64.0,0,0.0
+Oklahoma City Thunder,assistencias,22.0,28.5,6.5,12.25,38.25,0,0.0
+Oklahoma City Thunder,roubos_bola,7.0,12.0,5.0,-0.5,19.5,0,0.0
+Oklahoma City Thunder,bloqueios,3.5,8.0,4.5,-3.25,14.75,0,0.0
+Oklahoma City Thunder,faltas_pessoais,16.0,21.5,5.5,7.75,29.75,2,2.666666666666667
+Oklahoma City Thunder,cestas_3_convertidas,11.0,16.0,5.0,3.5,23.5,0,0.0
+Orlando Magic,pontos,107.25,125.0,17.75,80.625,151.625,0,0.0
+Orlando Magic,rebotes_totais,38.25,47.75,9.5,24.0,62.0,0,0.0
+Orlando Magic,assistencias,23.0,29.0,6.0,14.0,38.0,1,1.3513513513513513
+Orlando Magic,roubos_bola,6.0,10.75,4.75,-1.125,17.875,0,0.0
+Orlando Magic,bloqueios,3.0,6.0,3.0,-1.5,10.5,3,4.054054054054054
+Orlando Magic,faltas_pessoais,18.25,23.0,4.75,11.125,30.125,0,0.0
+Orlando Magic,cestas_3_convertidas,9.25,14.0,4.75,2.125,21.125,1,1.3513513513513513
+Philadelphia 76ers,pontos,107.25,124.0,16.75,82.125,149.125,1,1.3513513513513513
+Philadelphia 76ers,rebotes_totais,40.0,47.0,7.0,29.5,57.5,2,2.7027027027027026
+Philadelphia 76ers,assistencias,21.25,28.0,6.75,11.125,38.125,2,2.7027027027027026
+Philadelphia 76ers,roubos_bola,7.0,12.0,5.0,-0.5,19.5,0,0.0
+Philadelphia 76ers,bloqueios,4.0,7.0,3.0,-0.5,11.5,1,1.3513513513513513
+Philadelphia 76ers,faltas_pessoais,18.25,23.0,4.75,11.125,30.125,2,2.7027027027027026
+Philadelphia 76ers,cestas_3_convertidas,10.0,16.0,6.0,1.0,25.0,0,0.0
+Phoenix Suns,pontos,105.25,120.75,15.5,82.0,144.0,2,2.7027027027027026
+Phoenix Suns,rebotes_totais,38.25,47.0,8.75,25.125,60.125,1,1.3513513513513513
+Phoenix Suns,assistencias,22.0,27.0,5.0,14.5,34.5,6,8.108108108108109
+Phoenix Suns,roubos_bola,7.0,12.0,5.0,-0.5,19.5,0,0.0
+Phoenix Suns,bloqueios,3.0,5.75,2.75,-1.125,9.875,0,0.0
+Phoenix Suns,faltas_pessoais,18.0,23.75,5.75,9.375,32.375,0,0.0
+Phoenix Suns,cestas_3_convertidas,13.0,17.0,4.0,7.0,23.0,3,4.054054054054054
+Portland Trail Blazers,pontos,103.0,125.0,22.0,70.0,158.0,0,0.0
+Portland Trail Blazers,rebotes_totais,42.75,49.0,6.25,33.375,58.375,2,2.631578947368421
+Portland Trail Blazers,assistencias,22.75,27.25,4.5,16.0,34.0,1,1.3157894736842104
+Portland Trail Blazers,roubos_bola,6.0,10.0,4.0,0.0,16.0,1,1.3157894736842104
+Portland Trail Blazers,bloqueios,4.0,7.0,3.0,-0.5,11.5,1,1.3157894736842104
+Portland Trail Blazers,faltas_pessoais,17.0,22.25,5.25,9.125,30.125,5,6.578947368421052
+Portland Trail Blazers,cestas_3_convertidas,12.0,16.0,4.0,6.0,22.0,0,0.0
+Sacramento Kings,pontos,101.0,119.25,18.25,73.625,146.625,0,0.0
+Sacramento Kings,rebotes_totais,37.0,46.0,9.0,23.5,59.5,0,0.0
+Sacramento Kings,assistencias,22.0,29.0,7.0,11.5,39.5,0,0.0
+Sacramento Kings,roubos_bola,6.0,10.0,4.0,0.0,16.0,0,0.0
+Sacramento Kings,bloqueios,3.0,6.0,3.0,-1.5,10.5,0,0.0
+Sacramento Kings,faltas_pessoais,17.0,22.0,5.0,9.5,29.5,0,0.0
+Sacramento Kings,cestas_3_convertidas,8.0,12.0,4.0,2.0,18.0,0,0.0
+San Antonio Spurs,pontos,111.25,126.0,14.75,89.125,148.125,1,1.3513513513513513
+San Antonio Spurs,rebotes_totais,42.25,50.0,7.75,30.625,61.625,2,2.7027027027027026
+San Antonio Spurs,assistencias,24.0,32.0,8.0,12.0,44.0,0,0.0
+San Antonio Spurs,roubos_bola,6.0,10.0,4.0,0.0,16.0,0,0.0
+San Antonio Spurs,bloqueios,4.0,7.0,3.0,-0.5,11.5,2,2.7027027027027026
+San Antonio Spurs,faltas_pessoais,17.0,21.0,4.0,11.0,27.0,2,2.7027027027027026
+San Antonio Spurs,cestas_3_convertidas,11.25,16.0,4.75,4.125,23.125,2,2.7027027027027026
+Toronto Raptors,pontos,106.25,122.0,15.75,82.625,145.625,1,1.3513513513513513
+Toronto Raptors,rebotes_totais,38.0,48.0,10.0,23.0,63.0,2,2.7027027027027026
+Toronto Raptors,assistencias,25.0,33.0,8.0,13.0,45.0,1,1.3513513513513513
+Toronto Raptors,roubos_bola,7.0,10.0,3.0,2.5,14.5,2,2.7027027027027026
+Toronto Raptors,bloqueios,3.0,6.0,3.0,-1.5,10.5,0,0.0
+Toronto Raptors,faltas_pessoais,19.0,23.0,4.0,13.0,29.0,3,4.054054054054054
+Toronto Raptors,cestas_3_convertidas,9.0,13.75,4.75,1.875,20.875,2,2.7027027027027026
+Utah Jazz,pontos,109.0,126.5,17.5,82.75,152.75,0,0.0
+Utah Jazz,rebotes_totais,38.0,49.0,11.0,21.5,65.5,0,0.0
+Utah Jazz,assistencias,26.5,32.5,6.0,17.5,41.5,0,0.0
+Utah Jazz,roubos_bola,7.0,10.5,3.5,1.75,15.75,3,4.0
+Utah Jazz,bloqueios,3.0,5.0,2.0,0.0,8.0,1,1.3333333333333335
+Utah Jazz,faltas_pessoais,18.5,24.0,5.5,10.25,32.25,1,1.3333333333333335
+Utah Jazz,cestas_3_convertidas,10.5,15.0,4.5,3.75,21.75,0,0.0
+Washington Wizards,pontos,106.0,118.0,12.0,88.0,136.0,2,2.7027027027027026
+Washington Wizards,rebotes_totais,37.25,46.0,8.75,24.125,59.125,1,1.3513513513513513
+Washington Wizards,assistencias,21.25,28.0,6.75,11.125,38.125,0,0.0
+Washington Wizards,roubos_bola,6.0,9.0,3.0,1.5,13.5,5,6.756756756756757
+Washington Wizards,bloqueios,4.0,7.0,3.0,-0.5,11.5,2,2.7027027027027026
+Washington Wizards,faltas_pessoais,19.0,24.0,5.0,11.5,31.5,2,2.7027027027027026
+Washington Wizards,cestas_3_convertidas,11.0,16.0,5.0,3.5,23.5,0,0.0
