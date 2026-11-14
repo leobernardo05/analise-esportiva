@@ -1,0 +1,2239 @@
+time,id_partida,data_partida,rotulo,anomalia
+Atlanta Hawks,22501078,2026-03-28,0,False
+Atlanta Hawks,22501067,2026-03-27,0,False
+Atlanta Hawks,22501051,2026-03-25,0,False
+Atlanta Hawks,22501037,2026-03-23,0,False
+Atlanta Hawks,22501026,2026-03-21,0,False
+Atlanta Hawks,22501018,2026-03-20,-1,True
+Atlanta Hawks,22501006,2026-03-18,0,False
+Atlanta Hawks,22500983,2026-03-16,0,False
+Atlanta Hawks,22500970,2026-03-14,0,False
+Atlanta Hawks,22500956,2026-03-12,0,False
+Atlanta Hawks,22500939,2026-03-10,0,False
+Atlanta Hawks,22500917,2026-03-07,0,False
+Atlanta Hawks,22500897,2026-03-04,0,False
+Atlanta Hawks,22500873,2026-03-01,0,False
+Atlanta Hawks,22500850,2026-02-26,0,False
+Atlanta Hawks,22500832,2026-02-24,0,False
+Atlanta Hawks,22500818,2026-02-22,0,False
+Atlanta Hawks,22500805,2026-02-20,0,False
+Atlanta Hawks,22500794,2026-02-19,0,False
+Atlanta Hawks,22500775,2026-02-11,0,False
+Atlanta Hawks,22500765,2026-02-09,0,False
+Atlanta Hawks,22500751,2026-02-07,0,False
+Atlanta Hawks,22500735,2026-02-05,-1,True
+Atlanta Hawks,22500720,2026-02-03,0,False
+Atlanta Hawks,22500698,2026-01-31,0,False
+Atlanta Hawks,22500682,2026-01-29,0,False
+Atlanta Hawks,22500673,2026-01-28,0,False
+Atlanta Hawks,22500659,2026-01-26,0,False
+Atlanta Hawks,22500636,2026-01-23,0,False
+Atlanta Hawks,22500623,2026-01-21,0,False
+Atlanta Hawks,22500014,2026-01-19,0,False
+Atlanta Hawks,22500594,2026-01-17,0,False
+Atlanta Hawks,22500585,2026-01-15,0,False
+Atlanta Hawks,22500569,2026-01-13,0,False
+Atlanta Hawks,22500556,2026-01-11,0,False
+Atlanta Hawks,22500537,2026-01-09,0,False
+Atlanta Hawks,22500519,2026-01-07,0,False
+Atlanta Hawks,22500504,2026-01-05,0,False
+Atlanta Hawks,22500488,2026-01-03,0,False
+Atlanta Hawks,22500479,2026-01-02,0,False
+Atlanta Hawks,22500463,2025-12-31,0,False
+Atlanta Hawks,22500455,2025-12-29,0,False
+Atlanta Hawks,22500435,2025-12-27,0,False
+Atlanta Hawks,22500423,2025-12-26,0,False
+Atlanta Hawks,22500411,2025-12-23,0,False
+Atlanta Hawks,22500396,2025-12-21,-1,True
+Atlanta Hawks,22500383,2025-12-19,0,False
+Atlanta Hawks,22500371,2025-12-18,0,False
+Atlanta Hawks,22501217,2025-12-14,0,False
+Atlanta Hawks,22501210,2025-12-12,0,False
+Atlanta Hawks,22500351,2025-12-06,0,False
+Atlanta Hawks,22500340,2025-12-05,0,False
+Atlanta Hawks,22500327,2025-12-03,0,False
+Atlanta Hawks,22500309,2025-12-01,0,False
+Atlanta Hawks,22500304,2025-11-30,0,False
+Atlanta Hawks,22500069,2025-11-28,0,False
+Atlanta Hawks,22500057,2025-11-25,0,False
+Atlanta Hawks,22500276,2025-11-23,0,False
+Atlanta Hawks,22500270,2025-11-22,0,False
+Atlanta Hawks,22500267,2025-11-20,0,False
+Atlanta Hawks,22500251,2025-11-18,0,False
+Atlanta Hawks,22500239,2025-11-16,0,False
+Atlanta Hawks,22500227,2025-11-13,0,False
+Atlanta Hawks,22500223,2025-11-12,0,False
+Atlanta Hawks,22500206,2025-11-10,0,False
+Atlanta Hawks,22500185,2025-11-08,0,False
+Atlanta Hawks,22500030,2025-11-07,0,False
+Atlanta Hawks,22500166,2025-11-04,0,False
+Atlanta Hawks,22500151,2025-11-02,0,False
+Atlanta Hawks,22500020,2025-10-31,0,False
+Atlanta Hawks,22500130,2025-10-29,0,False
+Atlanta Hawks,22500115,2025-10-27,0,False
+Atlanta Hawks,22500101,2025-10-25,0,False
+Atlanta Hawks,22500090,2025-10-24,0,False
+Atlanta Hawks,22500082,2025-10-22,0,False
+Boston Celtics,22501085,2026-03-29,0,False
+Boston Celtics,22501067,2026-03-27,0,False
+Boston Celtics,22501054,2026-03-25,0,False
+Boston Celtics,22501035,2026-03-22,0,False
+Boston Celtics,22501019,2026-03-20,0,False
+Boston Celtics,22500999,2026-03-18,0,False
+Boston Celtics,22500986,2026-03-16,0,False
+Boston Celtics,22500971,2026-03-14,0,False
+Boston Celtics,22500959,2026-03-12,0,False
+Boston Celtics,22500942,2026-03-10,0,False
+Boston Celtics,22500921,2026-03-08,0,False
+Boston Celtics,22500908,2026-03-06,0,False
+Boston Celtics,22500894,2026-03-04,0,False
+Boston Celtics,22500880,2026-03-02,0,False
+Boston Celtics,22500874,2026-03-01,0,False
+Boston Celtics,22500859,2026-02-27,0,False
+Boston Celtics,22500847,2026-02-25,0,False
+Boston Celtics,22500839,2026-02-24,0,False
+Boston Celtics,22500823,2026-02-22,0,False
+Boston Celtics,22500799,2026-02-19,0,False
+Boston Celtics,22500778,2026-02-11,0,False
+Boston Celtics,22500757,2026-02-08,0,False
+Boston Celtics,22500741,2026-02-06,0,False
+Boston Celtics,22500728,2026-02-04,0,False
+Boston Celtics,22500721,2026-02-03,0,False
+Boston Celtics,22500702,2026-02-01,0,False
+Boston Celtics,22500689,2026-01-30,0,False
+Boston Celtics,22500673,2026-01-28,0,False
+Boston Celtics,22500660,2026-01-26,0,False
+Boston Celtics,22500647,2026-01-24,0,False
+Boston Celtics,22500637,2026-01-23,0,False
+Boston Celtics,22500621,2026-01-21,0,False
+Boston Celtics,22500017,2026-01-19,0,False
+Boston Celtics,22500594,2026-01-17,0,False
+Boston Celtics,22500580,2026-01-15,0,False
+Boston Celtics,22500559,2026-01-12,0,False
+Boston Celtics,22500545,2026-01-10,0,False
+Boston Celtics,22500532,2026-01-09,0,False
+Boston Celtics,22500520,2026-01-07,0,False
+Boston Celtics,22500503,2026-01-05,0,False
+Boston Celtics,22500493,2026-01-03,0,False
+Boston Celtics,22500474,2026-01-01,0,False
+Boston Celtics,22500459,2025-12-30,0,False
+Boston Celtics,22500444,2025-12-28,0,False
+Boston Celtics,22500426,2025-12-26,0,False
+Boston Celtics,22500403,2025-12-22,0,False
+Boston Celtics,22500388,2025-12-20,0,False
+Boston Celtics,22500381,2025-12-19,0,False
+Boston Celtics,22501222,2025-12-15,0,False
+Boston Celtics,22501206,2025-12-11,0,False
+Boston Celtics,22500358,2025-12-07,0,False
+Boston Celtics,22500338,2025-12-05,0,False
+Boston Celtics,22500334,2025-12-04,-1,True
+Boston Celtics,22500320,2025-12-02,0,False
+Boston Celtics,22500302,2025-11-30,0,False
+Boston Celtics,22500293,2025-11-29,0,False
+Boston Celtics,22500060,2025-11-26,0,False
+Boston Celtics,22500277,2025-11-23,0,False
+Boston Celtics,22500049,2025-11-21,0,False
+Boston Celtics,22500250,2025-11-18,0,False
+Boston Celtics,22500233,2025-11-16,0,False
+Boston Celtics,22500216,2025-11-12,0,False
+Boston Celtics,22500209,2025-11-11,0,False
+Boston Celtics,22500193,2025-11-09,0,False
+Boston Celtics,22500028,2025-11-07,0,False
+Boston Celtics,22500174,2025-11-05,0,False
+Boston Celtics,22500158,2025-11-03,0,False
+Boston Celtics,22500146,2025-11-01,0,False
+Boston Celtics,22500021,2025-10-31,0,False
+Boston Celtics,22500128,2025-10-29,0,False
+Boston Celtics,22500117,2025-10-27,0,False
+Boston Celtics,22500106,2025-10-26,0,False
+Boston Celtics,22500018,2025-10-24,0,False
+Boston Celtics,22500083,2025-10-22,0,False
+Brooklyn Nets,22501084,2026-03-29,0,False
+Brooklyn Nets,22501075,2026-03-27,0,False
+Brooklyn Nets,22501060,2026-03-25,-1,True
+Brooklyn Nets,22501045,2026-03-23,0,False
+Brooklyn Nets,22501033,2026-03-22,0,False
+Brooklyn Nets,22501016,2026-03-20,0,False
+Brooklyn Nets,22501000,2026-03-18,0,False
+Brooklyn Nets,22500985,2026-03-16,0,False
+Brooklyn Nets,22500969,2026-03-14,0,False
+Brooklyn Nets,22500956,2026-03-12,0,False
+Brooklyn Nets,22500937,2026-03-10,0,False
+Brooklyn Nets,22500932,2026-03-09,0,False
+Brooklyn Nets,22500916,2026-03-07,0,False
+Brooklyn Nets,22500901,2026-03-05,0,False
+Brooklyn Nets,22500886,2026-03-03,0,False
+Brooklyn Nets,22500869,2026-03-01,0,False
+Brooklyn Nets,22500859,2026-02-27,0,False
+Brooklyn Nets,22500851,2026-02-26,0,False
+Brooklyn Nets,22500833,2026-02-24,0,False
+Brooklyn Nets,22500818,2026-02-22,0,False
+Brooklyn Nets,22500808,2026-02-20,0,False
+Brooklyn Nets,22500793,2026-02-19,0,False
+Brooklyn Nets,22500779,2026-02-11,0,False
+Brooklyn Nets,22500762,2026-02-09,0,False
+Brooklyn Nets,22500747,2026-02-07,0,False
+Brooklyn Nets,22500734,2026-02-05,0,False
+Brooklyn Nets,22500719,2026-02-03,0,False
+Brooklyn Nets,22500704,2026-02-01,0,False
+Brooklyn Nets,22500694,2026-01-30,0,False
+Brooklyn Nets,22500684,2026-01-29,0,False
+Brooklyn Nets,22500669,2026-01-27,0,False
+Brooklyn Nets,22500656,2026-01-25,0,False
+Brooklyn Nets,22500637,2026-01-23,-1,True
+Brooklyn Nets,22500622,2026-01-21,-1,True
+Brooklyn Nets,22500610,2026-01-19,0,False
+Brooklyn Nets,22500603,2026-01-18,0,False
+Brooklyn Nets,22500587,2026-01-16,0,False
+Brooklyn Nets,22500574,2026-01-14,0,False
+Brooklyn Nets,22500561,2026-01-12,0,False
+Brooklyn Nets,22500549,2026-01-11,0,False
+Brooklyn Nets,22500535,2026-01-09,0,False
+Brooklyn Nets,22500521,2026-01-07,0,False
+Brooklyn Nets,22500496,2026-01-04,0,False
+Brooklyn Nets,22500477,2026-01-02,0,False
+Brooklyn Nets,22500471,2026-01-01,0,False
+Brooklyn Nets,22500449,2025-12-29,0,False
+Brooklyn Nets,22500439,2025-12-27,0,False
+Brooklyn Nets,22500410,2025-12-23,0,False
+Brooklyn Nets,22500397,2025-12-21,0,False
+Brooklyn Nets,22500373,2025-12-18,0,False
+Brooklyn Nets,22501219,2025-12-14,0,False
+Brooklyn Nets,22501214,2025-12-12,0,False
+Brooklyn Nets,22500350,2025-12-06,0,False
+Brooklyn Nets,22500335,2025-12-04,0,False
+Brooklyn Nets,22500329,2025-12-03,0,False
+Brooklyn Nets,22500312,2025-12-01,0,False
+Brooklyn Nets,22500297,2025-11-29,0,False
+Brooklyn Nets,22500070,2025-11-28,0,False
+Brooklyn Nets,22500285,2025-11-24,0,False
+Brooklyn Nets,22500279,2025-11-23,0,False
+Brooklyn Nets,22500049,2025-11-21,0,False
+Brooklyn Nets,22500250,2025-11-18,0,False
+Brooklyn Nets,22500235,2025-11-16,0,False
+Brooklyn Nets,22500040,2025-11-14,0,False
+Brooklyn Nets,22500207,2025-11-11,0,False
+Brooklyn Nets,22500192,2025-11-09,0,False
+Brooklyn Nets,22500031,2025-11-07,0,False
+Brooklyn Nets,22500173,2025-11-05,0,False
+Brooklyn Nets,22500156,2025-11-03,0,False
+Brooklyn Nets,22500149,2025-11-02,0,False
+Brooklyn Nets,22500130,2025-10-29,0,False
+Brooklyn Nets,22500116,2025-10-27,0,False
+Brooklyn Nets,22500105,2025-10-26,0,False
+Brooklyn Nets,22500091,2025-10-24,0,False
+Brooklyn Nets,22500080,2025-10-22,0,False
+Charlotte Hornets,22501085,2026-03-29,0,False
+Charlotte Hornets,22501077,2026-03-28,0,False
+Charlotte Hornets,22501063,2026-03-26,0,False
+Charlotte Hornets,22501047,2026-03-24,0,False
+Charlotte Hornets,22501023,2026-03-21,0,False
+Charlotte Hornets,22501008,2026-03-19,0,False
+Charlotte Hornets,22500991,2026-03-17,0,False
+Charlotte Hornets,22500973,2026-03-14,0,False
+Charlotte Hornets,22500951,2026-03-11,0,False
+Charlotte Hornets,22500944,2026-03-10,0,False
+Charlotte Hornets,22500928,2026-03-08,0,False
+Charlotte Hornets,22500909,2026-03-06,0,False
+Charlotte Hornets,22500894,2026-03-04,0,False
+Charlotte Hornets,22500883,2026-03-03,0,False
+Charlotte Hornets,22500863,2026-02-28,0,False
+Charlotte Hornets,22500848,2026-02-26,0,False
+Charlotte Hornets,22500836,2026-02-24,0,False
+Charlotte Hornets,22500822,2026-02-22,0,False
+Charlotte Hornets,22500802,2026-02-20,0,False
+Charlotte Hornets,22500792,2026-02-19,0,False
+Charlotte Hornets,22500775,2026-02-11,0,False
+Charlotte Hornets,22500761,2026-02-09,0,False
+Charlotte Hornets,22500751,2026-02-07,0,False
+Charlotte Hornets,22500737,2026-02-05,0,False
+Charlotte Hornets,22500712,2026-02-02,0,False
+Charlotte Hornets,22500697,2026-01-31,0,False
+Charlotte Hornets,22500683,2026-01-29,0,False
+Charlotte Hornets,22500676,2026-01-28,0,False
+Charlotte Hornets,22500657,2026-01-26,0,False
+Charlotte Hornets,22500645,2026-01-24,0,False
+Charlotte Hornets,22500627,2026-01-22,0,False
+Charlotte Hornets,22500620,2026-01-21,0,False
+Charlotte Hornets,22500605,2026-01-18,0,False
+Charlotte Hornets,22500599,2026-01-17,0,False
+Charlotte Hornets,22500586,2026-01-15,0,False
+Charlotte Hornets,22500563,2026-01-12,0,False
+Charlotte Hornets,22500547,2026-01-10,0,False
+Charlotte Hornets,22500528,2026-01-08,0,False
+Charlotte Hornets,22500516,2026-01-07,0,False
+Charlotte Hornets,22500506,2026-01-05,0,False
+Charlotte Hornets,22500489,2026-01-03,0,False
+Charlotte Hornets,22500481,2026-01-02,0,False
+Charlotte Hornets,22500462,2025-12-31,0,False
+Charlotte Hornets,22500447,2025-12-29,0,False
+Charlotte Hornets,22500424,2025-12-26,0,False
+Charlotte Hornets,22500409,2025-12-23,0,False
+Charlotte Hornets,22500402,2025-12-22,0,False
+Charlotte Hornets,22500390,2025-12-20,0,False
+Charlotte Hornets,22500371,2025-12-18,0,False
+Charlotte Hornets,22501218,2025-12-14,0,False
+Charlotte Hornets,22501209,2025-12-12,0,False
+Charlotte Hornets,22500359,2025-12-07,0,False
+Charlotte Hornets,22500344,2025-12-05,0,False
+Charlotte Hornets,22500328,2025-12-03,0,False
+Charlotte Hornets,22500312,2025-12-01,0,False
+Charlotte Hornets,22500294,2025-11-29,0,False
+Charlotte Hornets,22500071,2025-11-28,0,False
+Charlotte Hornets,22500061,2025-11-26,0,False
+Charlotte Hornets,22500276,2025-11-23,0,False
+Charlotte Hornets,22500268,2025-11-22,0,False
+Charlotte Hornets,22500256,2025-11-19,0,False
+Charlotte Hornets,22500245,2025-11-17,-1,True
+Charlotte Hornets,22500229,2025-11-15,0,False
+Charlotte Hornets,22500043,2025-11-14,0,False
+Charlotte Hornets,22500213,2025-11-12,0,False
+Charlotte Hornets,22500198,2025-11-10,0,False
+Charlotte Hornets,22500033,2025-11-07,0,False
+Charlotte Hornets,22500168,2025-11-04,0,False
+Charlotte Hornets,22500150,2025-11-02,0,False
+Charlotte Hornets,22500143,2025-11-01,0,False
+Charlotte Hornets,22500138,2025-10-30,0,False
+Charlotte Hornets,22500124,2025-10-28,0,False
+Charlotte Hornets,22500109,2025-10-26,0,False
+Charlotte Hornets,22500102,2025-10-25,0,False
+Charlotte Hornets,22500080,2025-10-22,0,False
+Chicago Bulls,22501079,2026-03-28,0,False
+Chicago Bulls,22501070,2026-03-27,0,False
+Chicago Bulls,22501053,2026-03-25,0,False
+Chicago Bulls,22501042,2026-03-23,0,False
+Chicago Bulls,22501011,2026-03-19,0,False
+Chicago Bulls,22501002,2026-03-18,0,False
+Chicago Bulls,22500987,2026-03-16,0,False
+Chicago Bulls,22500968,2026-03-13,0,False
+Chicago Bulls,22500960,2026-03-12,0,False
+Chicago Bulls,22500943,2026-03-10,0,False
+Chicago Bulls,22500930,2026-03-08,0,False
+Chicago Bulls,22500905,2026-03-05,0,False
+Chicago Bulls,22500889,2026-03-03,0,False
+Chicago Bulls,22500870,2026-03-01,0,False
+Chicago Bulls,22500853,2026-02-26,0,False
+Chicago Bulls,22500836,2026-02-24,0,False
+Chicago Bulls,22500825,2026-02-22,0,False
+Chicago Bulls,22500814,2026-02-21,0,False
+Chicago Bulls,22500797,2026-02-19,0,False
+Chicago Bulls,22500778,2026-02-11,0,False
+Chicago Bulls,22500762,2026-02-09,0,False
+Chicago Bulls,22500752,2026-02-07,0,False
+Chicago Bulls,22500736,2026-02-05,0,False
+Chicago Bulls,22500722,2026-02-03,0,False
+Chicago Bulls,22500705,2026-02-01,0,False
+Chicago Bulls,22500692,2026-01-31,0,False
+Chicago Bulls,22500529,2026-01-29,0,False
+Chicago Bulls,22500672,2026-01-28,0,False
+Chicago Bulls,22500661,2026-01-26,0,False
+Chicago Bulls,22500647,2026-01-24,0,False
+Chicago Bulls,22500631,2026-01-22,0,False
+Chicago Bulls,22500614,2026-01-20,-1,True
+Chicago Bulls,22500603,2026-01-18,0,False
+Chicago Bulls,22500587,2026-01-16,0,False
+Chicago Bulls,22500573,2026-01-14,0,False
+Chicago Bulls,22500565,2026-01-13,0,False
+Chicago Bulls,22500546,2026-01-10,0,False
+Chicago Bulls,22500517,2026-01-07,0,False
+Chicago Bulls,22500503,2026-01-05,0,False
+Chicago Bulls,22500489,2026-01-03,0,False
+Chicago Bulls,22500480,2026-01-02,0,False
+Chicago Bulls,22500466,2025-12-31,0,False
+Chicago Bulls,22500452,2025-12-29,0,False
+Chicago Bulls,22500437,2025-12-27,0,False
+Chicago Bulls,22500427,2025-12-26,0,False
+Chicago Bulls,22500411,2025-12-23,0,False
+Chicago Bulls,22500396,2025-12-21,0,False
+Chicago Bulls,22500384,2025-12-19,0,False
+Chicago Bulls,22500367,2025-12-17,0,False
+Chicago Bulls,22501223,2025-12-14,0,False
+Chicago Bulls,22501209,2025-12-12,0,False
+Chicago Bulls,22500361,2025-12-07,0,False
+Chicago Bulls,22500345,2025-12-05,0,False
+Chicago Bulls,22500329,2025-12-03,0,False
+Chicago Bulls,22500314,2025-12-01,0,False
+Chicago Bulls,22500295,2025-11-29,0,False
+Chicago Bulls,22500071,2025-11-28,0,False
+Chicago Bulls,22500289,2025-11-24,0,False
+Chicago Bulls,22500271,2025-11-22,0,False
+Chicago Bulls,22500051,2025-11-21,-1,True
+Chicago Bulls,22500263,2025-11-19,0,False
+Chicago Bulls,22500248,2025-11-17,0,False
+Chicago Bulls,22500240,2025-11-16,-1,True
+Chicago Bulls,22500214,2025-11-12,0,False
+Chicago Bulls,22500202,2025-11-10,0,False
+Chicago Bulls,22500186,2025-11-08,0,False
+Chicago Bulls,22500035,2025-11-07,0,False
+Chicago Bulls,22500167,2025-11-04,0,False
+Chicago Bulls,22500153,2025-11-02,0,False
+Chicago Bulls,22500023,2025-10-31,0,False
+Chicago Bulls,22500132,2025-10-29,0,False
+Chicago Bulls,22500115,2025-10-27,0,False
+Chicago Bulls,22500100,2025-10-25,0,False
+Chicago Bulls,22500084,2025-10-22,0,False
+Cleveland Cavaliers,22501068,2026-03-27,0,False
+Cleveland Cavaliers,22501055,2026-03-25,0,False
+Cleveland Cavaliers,22501049,2026-03-24,0,False
+Cleveland Cavaliers,22501025,2026-03-21,0,False
+Cleveland Cavaliers,22501011,2026-03-19,0,False
+Cleveland Cavaliers,22500995,2026-03-17,0,False
+Cleveland Cavaliers,22500977,2026-03-15,0,False
+Cleveland Cavaliers,22500965,2026-03-13,0,False
+Cleveland Cavaliers,22500947,2026-03-11,0,False
+Cleveland Cavaliers,22500931,2026-03-09,0,False
+Cleveland Cavaliers,22500921,2026-03-08,0,False
+Cleveland Cavaliers,22500884,2026-03-03,0,False
+Cleveland Cavaliers,22500869,2026-03-01,0,False
+Cleveland Cavaliers,22500858,2026-02-27,0,False
+Cleveland Cavaliers,22500846,2026-02-25,0,False
+Cleveland Cavaliers,22500835,2026-02-24,0,False
+Cleveland Cavaliers,22500817,2026-02-22,0,False
+Cleveland Cavaliers,22500802,2026-02-20,0,False
+Cleveland Cavaliers,22500793,2026-02-19,0,False
+Cleveland Cavaliers,22500776,2026-02-11,0,False
+Cleveland Cavaliers,22500767,2026-02-09,0,False
+Cleveland Cavaliers,22500756,2026-02-07,0,False
+Cleveland Cavaliers,22500732,2026-02-04,0,False
+Cleveland Cavaliers,22500710,2026-02-01,0,False
+Cleveland Cavaliers,22500693,2026-01-30,0,False
+Cleveland Cavaliers,22500671,2026-01-28,0,False
+Cleveland Cavaliers,22500658,2026-01-26,0,False
+Cleveland Cavaliers,22500646,2026-01-24,0,False
+Cleveland Cavaliers,22500638,2026-01-23,0,False
+Cleveland Cavaliers,22500620,2026-01-21,0,False
+Cleveland Cavaliers,22500015,2026-01-19,0,False
+Cleveland Cavaliers,22500589,2026-01-16,0,False
+Cleveland Cavaliers,22500572,2026-01-14,0,False
+Cleveland Cavaliers,22500558,2026-01-12,0,False
+Cleveland Cavaliers,22500542,2026-01-10,-1,True
+Cleveland Cavaliers,22500530,2026-01-08,0,False
+Cleveland Cavaliers,22500510,2026-01-06,0,False
+Cleveland Cavaliers,22500494,2026-01-04,0,False
+Cleveland Cavaliers,22500478,2026-01-02,0,False
+Cleveland Cavaliers,22500465,2025-12-31,0,False
+Cleveland Cavaliers,22500456,2025-12-29,0,False
+Cleveland Cavaliers,22500438,2025-12-27,0,False
+Cleveland Cavaliers,22500009,2025-12-25,0,False
+Cleveland Cavaliers,22500412,2025-12-23,0,False
+Cleveland Cavaliers,22500402,2025-12-22,-1,True
+Cleveland Cavaliers,22500384,2025-12-19,0,False
+Cleveland Cavaliers,22500367,2025-12-17,0,False
+Cleveland Cavaliers,22501218,2025-12-14,0,False
+Cleveland Cavaliers,22501212,2025-12-12,0,False
+Cleveland Cavaliers,22500352,2025-12-06,0,False
+Cleveland Cavaliers,22500341,2025-12-05,0,False
+Cleveland Cavaliers,22500324,2025-12-03,0,False
+Cleveland Cavaliers,22500310,2025-12-01,0,False
+Cleveland Cavaliers,22500302,2025-11-30,0,False
+Cleveland Cavaliers,22500069,2025-11-28,0,False
+Cleveland Cavaliers,22500284,2025-11-24,0,False
+Cleveland Cavaliers,22500278,2025-11-23,0,False
+Cleveland Cavaliers,22500048,2025-11-21,0,False
+Cleveland Cavaliers,22500255,2025-11-19,0,False
+Cleveland Cavaliers,22500241,2025-11-17,0,False
+Cleveland Cavaliers,22500228,2025-11-15,0,False
+Cleveland Cavaliers,22500225,2025-11-13,0,False
+Cleveland Cavaliers,22500217,2025-11-12,0,False
+Cleveland Cavaliers,22500201,2025-11-10,-1,True
+Cleveland Cavaliers,22500186,2025-11-08,0,False
+Cleveland Cavaliers,22500029,2025-11-07,-1,True
+Cleveland Cavaliers,22500171,2025-11-05,0,False
+Cleveland Cavaliers,22500151,2025-11-02,0,False
+Cleveland Cavaliers,22500022,2025-10-31,0,False
+Cleveland Cavaliers,22500128,2025-10-29,0,False
+Cleveland Cavaliers,22500007,2025-10-27,0,False
+Cleveland Cavaliers,22500107,2025-10-26,0,False
+Cleveland Cavaliers,22500091,2025-10-24,0,False
+Cleveland Cavaliers,22500003,2025-10-22,0,False
+Dallas Mavericks,22501074,2026-03-27,0,False
+Dallas Mavericks,22501059,2026-03-25,0,False
+Dallas Mavericks,22501044,2026-03-23,-1,True
+Dallas Mavericks,22501029,2026-03-21,0,False
+Dallas Mavericks,22501006,2026-03-18,0,False
+Dallas Mavericks,22500988,2026-03-16,0,False
+Dallas Mavericks,22500977,2026-03-15,0,False
+Dallas Mavericks,22500965,2026-03-13,0,False
+Dallas Mavericks,22501111,2026-03-12,0,False
+Dallas Mavericks,22500939,2026-03-10,0,False
+Dallas Mavericks,22500924,2026-03-08,0,False
+Dallas Mavericks,22500908,2026-03-06,0,False
+Dallas Mavericks,22500899,2026-03-05,0,False
+Dallas Mavericks,22500883,2026-03-03,0,False
+Dallas Mavericks,22500876,2026-03-01,0,False
+Dallas Mavericks,22500861,2026-02-27,0,False
+Dallas Mavericks,22500854,2026-02-26,0,False
+Dallas Mavericks,22500833,2026-02-24,0,False
+Dallas Mavericks,22500821,2026-02-22,0,False
+Dallas Mavericks,22500806,2026-02-20,0,False
+Dallas Mavericks,22500791,2026-02-12,0,False
+Dallas Mavericks,22500773,2026-02-10,0,False
+Dallas Mavericks,22500749,2026-02-07,0,False
+Dallas Mavericks,22500738,2026-02-05,0,False
+Dallas Mavericks,22500721,2026-02-03,0,False
+Dallas Mavericks,22500701,2026-01-31,0,False
+Dallas Mavericks,22500683,2026-01-29,0,False
+Dallas Mavericks,22500677,2026-01-28,0,False
+Dallas Mavericks,22500648,2026-01-24,0,False
+Dallas Mavericks,22500630,2026-01-22,0,False
+Dallas Mavericks,22500016,2026-01-19,0,False
+Dallas Mavericks,22500593,2026-01-17,0,False
+Dallas Mavericks,22500583,2026-01-15,0,False
+Dallas Mavericks,22500575,2026-01-14,0,False
+Dallas Mavericks,22500561,2026-01-12,0,False
+Dallas Mavericks,22500546,2026-01-10,0,False
+Dallas Mavericks,22500531,2026-01-08,0,False
+Dallas Mavericks,22500515,2026-01-06,0,False
+Dallas Mavericks,22500491,2026-01-03,0,False
+Dallas Mavericks,22500473,2026-01-01,0,False
+Dallas Mavericks,22500457,2025-12-29,0,False
+Dallas Mavericks,22500432,2025-12-27,0,False
+Dallas Mavericks,22500011,2025-12-25,0,False
+Dallas Mavericks,22500415,2025-12-23,0,False
+Dallas Mavericks,22500404,2025-12-22,0,False
+Dallas Mavericks,22500387,2025-12-20,0,False
+Dallas Mavericks,22500376,2025-12-18,-1,True
+Dallas Mavericks,22501224,2025-12-15,0,False
+Dallas Mavericks,22501214,2025-12-12,0,False
+Dallas Mavericks,22500356,2025-12-06,0,False
+Dallas Mavericks,22500349,2025-12-05,0,False
+Dallas Mavericks,22500332,2025-12-03,0,False
+Dallas Mavericks,22500315,2025-12-01,0,False
+Dallas Mavericks,22500300,2025-11-29,0,False
+Dallas Mavericks,22500078,2025-11-28,0,False
+Dallas Mavericks,22500286,2025-11-24,0,False
+Dallas Mavericks,22500273,2025-11-22,0,False
+Dallas Mavericks,22500052,2025-11-21,0,False
+Dallas Mavericks,22500262,2025-11-19,0,False
+Dallas Mavericks,22500246,2025-11-17,0,False
+Dallas Mavericks,22500238,2025-11-16,0,False
+Dallas Mavericks,22500046,2025-11-14,0,False
+Dallas Mavericks,22500221,2025-11-12,0,False
+Dallas Mavericks,22500203,2025-11-10,0,False
+Dallas Mavericks,22500183,2025-11-08,0,False
+Dallas Mavericks,22500034,2025-11-07,0,False
+Dallas Mavericks,22500177,2025-11-05,0,False
+Dallas Mavericks,22500160,2025-11-03,0,False
+Dallas Mavericks,22500147,2025-11-01,0,False
+Dallas Mavericks,22500133,2025-10-29,0,False
+Dallas Mavericks,22500119,2025-10-27,0,False
+Dallas Mavericks,22500111,2025-10-26,0,False
+Dallas Mavericks,22500096,2025-10-24,0,False
+Dallas Mavericks,22500004,2025-10-22,0,False
+Denver Nuggets,22501090,2026-03-29,0,False
+Denver Nuggets,22501072,2026-03-27,0,False
+Denver Nuggets,22501059,2026-03-25,0,False
+Denver Nuggets,22501050,2026-03-24,0,False
+Denver Nuggets,22501032,2026-03-22,0,False
+Denver Nuggets,22501021,2026-03-20,0,False
+Denver Nuggets,22500651,2026-03-18,0,False
+Denver Nuggets,22500997,2026-03-17,0,False
+Denver Nuggets,22500974,2026-03-14,0,False
+Denver Nuggets,22500958,2026-03-12,0,False
+Denver Nuggets,22500950,2026-03-11,0,False
+Denver Nuggets,22500933,2026-03-09,0,False
+Denver Nuggets,22500911,2026-03-06,0,False
+Denver Nuggets,22500906,2026-03-05,0,False
+Denver Nuggets,22500881,2026-03-02,0,False
+Denver Nuggets,22500871,2026-03-01,0,False
+Denver Nuggets,22500862,2026-02-27,0,False
+Denver Nuggets,22500847,2026-02-25,0,False
+Denver Nuggets,22500820,2026-02-22,0,False
+Denver Nuggets,22500810,2026-02-20,-1,True
+Denver Nuggets,22500801,2026-02-19,0,False
+Denver Nuggets,22500787,2026-02-11,0,False
+Denver Nuggets,22500767,2026-02-09,0,False
+Denver Nuggets,22500752,2026-02-07,0,False
+Denver Nuggets,22500726,2026-02-04,0,False
+Denver Nuggets,22500716,2026-02-03,0,False
+Denver Nuggets,22500711,2026-02-01,0,False
+Denver Nuggets,22500695,2026-01-30,0,False
+Denver Nuggets,22500684,2026-01-29,0,False
+Denver Nuggets,22500668,2026-01-27,0,False
+Denver Nuggets,22500640,2026-01-23,0,False
+Denver Nuggets,22500629,2026-01-22,0,False
+Denver Nuggets,22500617,2026-01-20,0,False
+Denver Nuggets,22500605,2026-01-18,0,False
+Denver Nuggets,22500600,2026-01-17,0,False
+Denver Nuggets,22500575,2026-01-14,0,False
+Denver Nuggets,22500567,2026-01-13,0,False
+Denver Nuggets,22500554,2026-01-11,0,False
+Denver Nuggets,22500537,2026-01-09,0,False
+Denver Nuggets,22500520,2026-01-07,0,False
+Denver Nuggets,22500507,2026-01-05,0,False
+Denver Nuggets,22500496,2026-01-04,0,False
+Denver Nuggets,22500478,2026-01-02,0,False
+Denver Nuggets,22500468,2025-12-31,0,False
+Denver Nuggets,22500450,2025-12-29,0,False
+Denver Nuggets,22500433,2025-12-27,0,False
+Denver Nuggets,22500013,2025-12-25,0,False
+Denver Nuggets,22500415,2025-12-23,0,False
+Denver Nuggets,22500405,2025-12-22,0,False
+Denver Nuggets,22500386,2025-12-20,0,False
+Denver Nuggets,22500377,2025-12-18,0,False
+Denver Nuggets,22501225,2025-12-15,0,False
+Denver Nuggets,22501208,2025-12-11,0,False
+Denver Nuggets,22500359,2025-12-07,0,False
+Denver Nuggets,22500340,2025-12-05,0,False
+Denver Nuggets,22500325,2025-12-03,0,False
+Denver Nuggets,22500315,2025-12-01,0,False
+Denver Nuggets,22500299,2025-11-29,0,False
+Denver Nuggets,22500076,2025-11-28,0,False
+Denver Nuggets,22500287,2025-11-24,0,False
+Denver Nuggets,22500274,2025-11-22,0,False
+Denver Nuggets,22500054,2025-11-21,0,False
+Denver Nuggets,22500260,2025-11-19,0,False
+Denver Nuggets,22500248,2025-11-17,0,False
+Denver Nuggets,22500232,2025-11-15,0,False
+Denver Nuggets,22500224,2025-11-12,0,False
+Denver Nuggets,22500212,2025-11-11,0,False
+Denver Nuggets,22500189,2025-11-08,0,False
+Denver Nuggets,22500037,2025-11-07,0,False
+Denver Nuggets,22500178,2025-11-05,0,False
+Denver Nuggets,22500162,2025-11-03,0,False
+Denver Nuggets,22500026,2025-10-31,0,False
+Denver Nuggets,22500134,2025-10-29,0,False
+Denver Nuggets,22500008,2025-10-27,0,False
+Denver Nuggets,22500104,2025-10-25,0,False
+Denver Nuggets,22500006,2025-10-23,0,False
+Detroit Pistons,22501080,2026-03-28,0,False
+Detroit Pistons,22501064,2026-03-26,0,False
+Detroit Pistons,22501051,2026-03-25,0,False
+Detroit Pistons,22501038,2026-03-23,0,False
+Detroit Pistons,22501017,2026-03-20,0,False
+Detroit Pistons,22501009,2026-03-19,0,False
+Detroit Pistons,22500993,2026-03-17,0,False
+Detroit Pistons,22500978,2026-03-15,0,False
+Detroit Pistons,22500961,2026-03-13,0,False
+Detroit Pistons,22500953,2026-03-12,0,False
+Detroit Pistons,22500937,2026-03-10,0,False
+Detroit Pistons,22500923,2026-03-08,0,False
+Detroit Pistons,22500916,2026-03-07,0,False
+Detroit Pistons,22500904,2026-03-05,0,False
+Detroit Pistons,22500884,2026-03-03,0,False
+Detroit Pistons,22500875,2026-03-01,0,False
+Detroit Pistons,22500858,2026-02-27,0,False
+Detroit Pistons,22500842,2026-02-25,0,False
+Detroit Pistons,22500828,2026-02-23,0,False
+Detroit Pistons,22500814,2026-02-21,0,False
+Detroit Pistons,22500796,2026-02-19,0,False
+Detroit Pistons,22500781,2026-02-11,0,False
+Detroit Pistons,22500761,2026-02-09,0,False
+Detroit Pistons,22500742,2026-02-06,0,False
+Detroit Pistons,22500733,2026-02-05,0,False
+Detroit Pistons,22500716,2026-02-03,0,False
+Detroit Pistons,22500704,2026-02-01,0,False
+Detroit Pistons,22500696,2026-01-30,0,False
+Detroit Pistons,22500685,2026-01-29,0,False
+Detroit Pistons,22500668,2026-01-27,0,False
+Detroit Pistons,22500650,2026-01-25,0,False
+Detroit Pistons,22500635,2026-01-23,0,False
+Detroit Pistons,22500624,2026-01-21,0,False
+Detroit Pistons,22500017,2026-01-19,0,False
+Detroit Pistons,22500595,2026-01-17,0,False
+Detroit Pistons,22500579,2026-01-15,0,False
+Detroit Pistons,22500544,2026-01-10,-1,True
+Detroit Pistons,22500517,2026-01-07,0,False
+Detroit Pistons,22500502,2026-01-05,0,False
+Detroit Pistons,22500494,2026-01-04,0,False
+Detroit Pistons,22500472,2026-01-01,0,False
+Detroit Pistons,22500460,2025-12-30,0,False
+Detroit Pistons,22500445,2025-12-28,0,False
+Detroit Pistons,22500430,2025-12-26,0,False
+Detroit Pistons,22500421,2025-12-23,0,False
+Detroit Pistons,22500408,2025-12-22,0,False
+Detroit Pistons,22500390,2025-12-20,0,False
+Detroit Pistons,22500376,2025-12-18,0,False
+Detroit Pistons,22501222,2025-12-15,0,False
+Detroit Pistons,22501210,2025-12-12,0,False
+Detroit Pistons,22500353,2025-12-06,0,False
+Detroit Pistons,22500342,2025-12-05,0,False
+Detroit Pistons,22500331,2025-12-03,0,False
+Detroit Pistons,22500309,2025-12-01,0,False
+Detroit Pistons,22500296,2025-11-29,0,False
+Detroit Pistons,22500072,2025-11-28,0,False
+Detroit Pistons,22500060,2025-11-26,0,False
+Detroit Pistons,22500283,2025-11-24,0,False
+Detroit Pistons,22500272,2025-11-22,0,False
+Detroit Pistons,22500251,2025-11-18,0,False
+Detroit Pistons,22500242,2025-11-17,0,False
+Detroit Pistons,22500041,2025-11-14,0,False
+Detroit Pistons,22500214,2025-11-12,0,False
+Detroit Pistons,22500199,2025-11-10,0,False
+Detroit Pistons,22500195,2025-11-09,0,False
+Detroit Pistons,22500031,2025-11-07,0,False
+Detroit Pistons,22500172,2025-11-05,0,False
+Detroit Pistons,22500161,2025-11-03,0,False
+Detroit Pistons,22500147,2025-11-01,0,False
+Detroit Pistons,22500129,2025-10-29,0,False
+Detroit Pistons,22500007,2025-10-27,0,False
+Detroit Pistons,22500106,2025-10-26,0,False
+Detroit Pistons,22500093,2025-10-24,0,False
+Detroit Pistons,22500084,2025-10-22,0,False
+Golden State Warriors,22501090,2026-03-29,0,False
+Golden State Warriors,22501073,2026-03-27,0,False
+Golden State Warriors,22501060,2026-03-25,0,False
+Golden State Warriors,22501044,2026-03-23,0,False
+Golden State Warriors,22501026,2026-03-21,0,False
+Golden State Warriors,22501017,2026-03-20,0,False
+Golden State Warriors,22500999,2026-03-18,0,False
+Golden State Warriors,22500984,2026-03-16,0,False
+Golden State Warriors,22500981,2026-03-15,0,False
+Golden State Warriors,22500966,2026-03-13,0,False
+Golden State Warriors,22500943,2026-03-10,0,False
+Golden State Warriors,22500934,2026-03-09,0,False
+Golden State Warriors,22500920,2026-03-07,0,False
+Golden State Warriors,22500902,2026-03-05,0,False
+Golden State Warriors,22500882,2026-03-02,0,False
+Golden State Warriors,22500866,2026-02-28,0,False
+Golden State Warriors,22500844,2026-02-25,0,False
+Golden State Warriors,22500838,2026-02-24,0,False
+Golden State Warriors,22500820,2026-02-22,0,False
+Golden State Warriors,22500799,2026-02-19,0,False
+Golden State Warriors,22500788,2026-02-11,0,False
+Golden State Warriors,22500768,2026-02-09,0,False
+Golden State Warriors,22500753,2026-02-07,0,False
+Golden State Warriors,22500739,2026-02-05,0,False
+Golden State Warriors,22500724,2026-02-03,0,False
+Golden State Warriors,22500696,2026-01-30,0,False
+Golden State Warriors,22500678,2026-01-28,0,False
+Golden State Warriors,22500663,2026-01-26,0,False
+Golden State Warriors,22500644,2026-01-25,0,False
+Golden State Warriors,22500630,2026-01-22,0,False
+Golden State Warriors,22500618,2026-01-20,0,False
+Golden State Warriors,22500612,2026-01-19,0,False
+Golden State Warriors,22500599,2026-01-17,0,False
+Golden State Warriors,22500584,2026-01-15,0,False
+Golden State Warriors,22500570,2026-01-13,0,False
+Golden State Warriors,22500556,2026-01-11,0,False
+Golden State Warriors,22500539,2026-01-09,0,False
+Golden State Warriors,22500526,2026-01-07,0,False
+Golden State Warriors,22500508,2026-01-05,0,False
+Golden State Warriors,22500492,2026-01-03,0,False
+Golden State Warriors,22500484,2026-01-02,0,False
+Golden State Warriors,22500462,2025-12-31,0,False
+Golden State Warriors,22500449,2025-12-29,0,False
+Golden State Warriors,22500441,2025-12-28,0,False
+Golden State Warriors,22500011,2025-12-25,0,False
+Golden State Warriors,22500407,2025-12-22,0,False
+Golden State Warriors,22500392,2025-12-20,0,False
+Golden State Warriors,22500378,2025-12-18,0,False
+Golden State Warriors,22501221,2025-12-14,0,False
+Golden State Warriors,22501215,2025-12-12,0,False
+Golden State Warriors,22500361,2025-12-07,0,False
+Golden State Warriors,22500352,2025-12-06,0,False
+Golden State Warriors,22500333,2025-12-04,0,False
+Golden State Warriors,22500323,2025-12-02,0,False
+Golden State Warriors,22500298,2025-11-29,0,False
+Golden State Warriors,22500066,2025-11-26,0,False
+Golden State Warriors,22500291,2025-11-24,0,False
+Golden State Warriors,22500056,2025-11-21,0,False
+Golden State Warriors,22500257,2025-11-19,0,False
+Golden State Warriors,22500249,2025-11-18,0,False
+Golden State Warriors,22500237,2025-11-16,0,False
+Golden State Warriors,22500047,2025-11-14,0,False
+Golden State Warriors,22500220,2025-11-12,0,False
+Golden State Warriors,22500210,2025-11-11,0,False
+Golden State Warriors,22500196,2025-11-09,0,False
+Golden State Warriors,22500037,2025-11-07,0,False
+Golden State Warriors,22500181,2025-11-05,0,False
+Golden State Warriors,22500169,2025-11-04,0,False
+Golden State Warriors,22500144,2025-11-01,0,False
+Golden State Warriors,22500139,2025-10-30,0,False
+Golden State Warriors,22500127,2025-10-28,0,False
+Golden State Warriors,22500121,2025-10-27,0,False
+Golden State Warriors,22500097,2025-10-24,0,False
+Golden State Warriors,22500006,2025-10-23,0,False
+Golden State Warriors,22500002,2025-10-21,0,False
+Houston Rockets,22501088,2026-03-29,0,False
+Houston Rockets,22501069,2026-03-27,0,False
+Houston Rockets,22501058,2026-03-25,0,False
+Houston Rockets,22501042,2026-03-23,0,False
+Houston Rockets,22501027,2026-03-21,0,False
+Houston Rockets,22501018,2026-03-20,0,False
+Houston Rockets,22501007,2026-03-18,0,False
+Houston Rockets,22500989,2026-03-16,0,False
+Houston Rockets,22500964,2026-03-13,0,False
+Houston Rockets,22500950,2026-03-11,0,False
+Houston Rockets,22500940,2026-03-10,0,False
+Houston Rockets,22500927,2026-03-08,0,False
+Houston Rockets,22500910,2026-03-06,0,False
+Houston Rockets,22500902,2026-03-05,0,False
+Houston Rockets,22500879,2026-03-02,0,False
+Houston Rockets,22500864,2026-02-28,0,False
+Houston Rockets,22500852,2026-02-26,0,False
+Houston Rockets,22500845,2026-02-25,0,False
+Houston Rockets,22500830,2026-02-23,0,False
+Houston Rockets,22500816,2026-02-21,0,False
+Houston Rockets,22500792,2026-02-19,0,False
+Houston Rockets,22500782,2026-02-11,0,False
+Houston Rockets,22500772,2026-02-10,0,False
+Houston Rockets,22500748,2026-02-07,0,False
+Houston Rockets,22500737,2026-02-05,0,False
+Houston Rockets,22500728,2026-02-04,0,False
+Houston Rockets,22500713,2026-02-02,0,False
+Houston Rockets,22500701,2026-01-31,0,False
+Houston Rockets,22500682,2026-01-29,0,False
+Houston Rockets,22500679,2026-01-28,0,False
+Houston Rockets,22500662,2026-01-26,0,False
+Houston Rockets,22500635,2026-01-23,0,False
+Houston Rockets,22500628,2026-01-22,0,False
+Houston Rockets,22500615,2026-01-20,0,False
+Houston Rockets,22500604,2026-01-18,0,False
+Houston Rockets,22500591,2026-01-16,0,False
+Houston Rockets,22500581,2026-01-15,0,False
+Houston Rockets,22500565,2026-01-13,0,False
+Houston Rockets,22500557,2026-01-11,0,False
+Houston Rockets,22500540,2026-01-09,0,False
+Houston Rockets,22500527,2026-01-07,0,False
+Houston Rockets,22500505,2026-01-05,0,False
+Houston Rockets,22500491,2026-01-03,0,False
+Houston Rockets,22500471,2026-01-01,0,False
+Houston Rockets,22500453,2025-12-29,0,False
+Houston Rockets,22500438,2025-12-27,0,False
+Houston Rockets,22500012,2025-12-25,0,False
+Houston Rockets,22500422,2025-12-23,0,False
+Houston Rockets,22500401,2025-12-21,0,False
+Houston Rockets,22500386,2025-12-20,0,False
+Houston Rockets,22500375,2025-12-18,0,False
+Houston Rockets,22501225,2025-12-15,0,False
+Houston Rockets,22501205,2025-12-11,0,False
+Houston Rockets,22500356,2025-12-06,0,False
+Houston Rockets,22500346,2025-12-05,0,False
+Houston Rockets,22500330,2025-12-03,0,False
+Houston Rockets,22500316,2025-12-01,0,False
+Houston Rockets,22500301,2025-11-30,0,False
+Houston Rockets,22500066,2025-11-26,0,False
+Houston Rockets,22500290,2025-11-24,0,False
+Houston Rockets,22500054,2025-11-21,0,False
+Houston Rockets,22500255,2025-11-19,0,False
+Houston Rockets,22500236,2025-11-16,0,False
+Houston Rockets,22500042,2025-11-14,0,False
+Houston Rockets,22500218,2025-11-12,0,False
+Houston Rockets,22500191,2025-11-09,0,False
+Houston Rockets,22500032,2025-11-07,0,False
+Houston Rockets,22500176,2025-11-05,0,False
+Houston Rockets,22500160,2025-11-03,0,False
+Houston Rockets,22500146,2025-11-01,0,False
+Houston Rockets,22500131,2025-10-29,0,False
+Houston Rockets,22500116,2025-10-27,0,False
+Houston Rockets,22500093,2025-10-24,0,False
+Houston Rockets,22500001,2025-10-21,0,False
+Indiana Pacers,22501083,2026-03-29,0,False
+Indiana Pacers,22501066,2026-03-27,0,False
+Indiana Pacers,22501052,2026-03-25,0,False
+Indiana Pacers,22501039,2026-03-23,0,False
+Indiana Pacers,22501028,2026-03-21,0,False
+Indiana Pacers,22501001,2026-03-18,0,False
+Indiana Pacers,22500994,2026-03-17,0,False
+Indiana Pacers,22500979,2026-03-15,0,False
+Indiana Pacers,22500962,2026-03-13,0,False
+Indiana Pacers,22500954,2026-03-12,0,False
+Indiana Pacers,22500945,2026-03-10,0,False
+Indiana Pacers,22500929,2026-03-08,0,False
+Indiana Pacers,22500914,2026-03-06,0,False
+Indiana Pacers,22500898,2026-03-04,0,False
+Indiana Pacers,22500872,2026-03-01,0,False
+Indiana Pacers,22500848,2026-02-26,0,False
+Indiana Pacers,22500831,2026-02-24,0,False
+Indiana Pacers,22500821,2026-02-22,0,False
+Indiana Pacers,22500803,2026-02-20,0,False
+Indiana Pacers,22500795,2026-02-19,0,False
+Indiana Pacers,22500779,2026-02-11,0,False
+Indiana Pacers,22500771,2026-02-10,0,False
+Indiana Pacers,22500759,2026-02-08,0,False
+Indiana Pacers,22500743,2026-02-06,0,False
+Indiana Pacers,22500717,2026-02-03,0,False
+Indiana Pacers,22500713,2026-02-02,0,False
+Indiana Pacers,22500698,2026-01-31,0,False
+Indiana Pacers,22500672,2026-01-28,0,False
+Indiana Pacers,22500659,2026-01-26,0,False
+Indiana Pacers,22500641,2026-01-23,0,False
+Indiana Pacers,22500621,2026-01-21,0,False
+Indiana Pacers,22500609,2026-01-19,0,False
+Indiana Pacers,22500595,2026-01-17,-1,True
+Indiana Pacers,22500588,2026-01-16,0,False
+Indiana Pacers,22500571,2026-01-14,0,False
+Indiana Pacers,22500559,2026-01-12,0,False
+Indiana Pacers,22500543,2026-01-10,-1,True
+Indiana Pacers,22500528,2026-01-08,0,False
+Indiana Pacers,22500510,2026-01-06,0,False
+Indiana Pacers,22500495,2026-01-04,0,False
+Indiana Pacers,22500476,2026-01-02,0,False
+Indiana Pacers,22500464,2025-12-31,0,False
+Indiana Pacers,22500453,2025-12-29,0,False
+Indiana Pacers,22500436,2025-12-27,0,False
+Indiana Pacers,22500426,2025-12-26,0,False
+Indiana Pacers,22500413,2025-12-23,0,False
+Indiana Pacers,22500403,2025-12-22,0,False
+Indiana Pacers,22500389,2025-12-20,0,False
+Indiana Pacers,22500372,2025-12-18,0,False
+Indiana Pacers,22501216,2025-12-14,0,False
+Indiana Pacers,22501211,2025-12-12,0,False
+Indiana Pacers,22500364,2025-12-08,0,False
+Indiana Pacers,22500345,2025-12-05,0,False
+Indiana Pacers,22500325,2025-12-03,0,False
+Indiana Pacers,22500310,2025-12-01,0,False
+Indiana Pacers,22500295,2025-11-29,0,False
+Indiana Pacers,22500073,2025-11-28,0,False
+Indiana Pacers,22500063,2025-11-26,0,False
+Indiana Pacers,22500283,2025-11-24,0,False
+Indiana Pacers,22500048,2025-11-21,0,False
+Indiana Pacers,22500256,2025-11-19,0,False
+Indiana Pacers,22500242,2025-11-17,0,False
+Indiana Pacers,22500230,2025-11-15,0,False
+Indiana Pacers,22500226,2025-11-13,0,False
+Indiana Pacers,22500211,2025-11-11,0,False
+Indiana Pacers,22500196,2025-11-09,0,False
+Indiana Pacers,22500189,2025-11-08,0,False
+Indiana Pacers,22500173,2025-11-05,0,False
+Indiana Pacers,22500157,2025-11-03,0,False
+Indiana Pacers,22500144,2025-11-01,0,False
+Indiana Pacers,22500020,2025-10-31,0,False
+Indiana Pacers,22500133,2025-10-29,0,False
+Indiana Pacers,22500110,2025-10-26,0,False
+Indiana Pacers,22500103,2025-10-25,0,False
+Indiana Pacers,22500005,2025-10-23,-1,True
+Los Angeles Clippers,22501082,2026-03-29,0,False
+Los Angeles Clippers,22501066,2026-03-27,0,False
+Los Angeles Clippers,22501062,2026-03-25,0,False
+Los Angeles Clippers,22501046,2026-03-23,0,False
+Los Angeles Clippers,22501029,2026-03-21,-1,True
+Los Angeles Clippers,22501012,2026-03-19,0,False
+Los Angeles Clippers,22501005,2026-03-18,0,False
+Los Angeles Clippers,22500990,2026-03-16,0,False
+Los Angeles Clippers,22500975,2026-03-14,0,False
+Los Angeles Clippers,22500968,2026-03-13,0,False
+Los Angeles Clippers,22500952,2026-03-11,-1,True
+Los Angeles Clippers,22500935,2026-03-09,0,False
+Los Angeles Clippers,22500918,2026-03-07,0,False
+Los Angeles Clippers,22500913,2026-03-06,0,False
+Los Angeles Clippers,22500898,2026-03-04,0,False
+Los Angeles Clippers,22500882,2026-03-02,0,False
+Los Angeles Clippers,22500877,2026-03-01,0,False
+Los Angeles Clippers,22500857,2026-02-26,0,False
+Los Angeles Clippers,22500827,2026-02-22,0,False
+Los Angeles Clippers,22500809,2026-02-20,0,False
+Los Angeles Clippers,22500801,2026-02-19,0,False
+Los Angeles Clippers,22500782,2026-02-11,0,False
+Los Angeles Clippers,22500772,2026-02-10,0,False
+Los Angeles Clippers,22500760,2026-02-08,0,False
+Los Angeles Clippers,22500746,2026-02-06,0,False
+Los Angeles Clippers,22500732,2026-02-04,0,False
+Los Angeles Clippers,22500715,2026-02-02,0,False
+Los Angeles Clippers,22500709,2026-02-01,-1,True
+Los Angeles Clippers,22500695,2026-01-30,0,False
+Los Angeles Clippers,22500670,2026-01-27,0,False
+Los Angeles Clippers,22500656,2026-01-25,0,False
+Los Angeles Clippers,22500633,2026-01-22,0,False
+Los Angeles Clippers,22500614,2026-01-20,0,False
+Los Angeles Clippers,22500608,2026-01-19,0,False
+Los Angeles Clippers,22500590,2026-01-16,0,False
+Los Angeles Clippers,22500577,2026-01-14,0,False
+Los Angeles Clippers,22500563,2026-01-12,0,False
+Los Angeles Clippers,22500544,2026-01-10,0,False
+Los Angeles Clippers,22500535,2026-01-09,0,False
+Los Angeles Clippers,22500522,2026-01-07,0,False
+Los Angeles Clippers,22500508,2026-01-05,0,False
+Los Angeles Clippers,22500493,2026-01-03,0,False
+Los Angeles Clippers,22500475,2026-01-01,0,False
+Los Angeles Clippers,22500461,2025-12-30,0,False
+Los Angeles Clippers,22500445,2025-12-28,0,False
+Los Angeles Clippers,22500431,2025-12-26,0,False
+Los Angeles Clippers,22500422,2025-12-23,0,False
+Los Angeles Clippers,22500395,2025-12-20,0,False
+Los Angeles Clippers,22500369,2025-12-18,0,False
+Los Angeles Clippers,22501226,2025-12-15,0,False
+Los Angeles Clippers,22501205,2025-12-11,0,False
+Los Angeles Clippers,22500355,2025-12-06,0,False
+Los Angeles Clippers,22500347,2025-12-05,0,False
+Los Angeles Clippers,22500327,2025-12-03,0,False
+Los Angeles Clippers,22500313,2025-12-01,0,False
+Los Angeles Clippers,22500300,2025-11-29,0,False
+Los Angeles Clippers,22500079,2025-11-28,0,False
+Los Angeles Clippers,22500059,2025-11-25,0,False
+Los Angeles Clippers,22500278,2025-11-23,0,False
+Los Angeles Clippers,22500268,2025-11-22,0,False
+Los Angeles Clippers,22500264,2025-11-20,0,False
+Los Angeles Clippers,22500243,2025-11-17,0,False
+Los Angeles Clippers,22500233,2025-11-16,0,False
+Los Angeles Clippers,22500046,2025-11-14,-1,True
+Los Angeles Clippers,22500224,2025-11-12,0,False
+Los Angeles Clippers,22500206,2025-11-10,0,False
+Los Angeles Clippers,22500190,2025-11-08,0,False
+Los Angeles Clippers,22500182,2025-11-06,0,False
+Los Angeles Clippers,22500170,2025-11-04,0,False
+Los Angeles Clippers,22500164,2025-11-03,0,False
+Los Angeles Clippers,22500027,2025-10-31,0,False
+Los Angeles Clippers,22500127,2025-10-28,-1,True
+Los Angeles Clippers,22500112,2025-10-26,0,False
+Los Angeles Clippers,22500099,2025-10-24,0,False
+Los Angeles Clippers,22500087,2025-10-22,0,False
+Los Angeles Lakers,22501075,2026-03-27,0,False
+Los Angeles Lakers,22501052,2026-03-25,0,False
+Los Angeles Lakers,22501038,2026-03-23,0,False
+Los Angeles Lakers,22501024,2026-03-21,0,False
+Los Angeles Lakers,22501010,2026-03-19,0,False
+Los Angeles Lakers,22501007,2026-03-18,0,False
+Los Angeles Lakers,22500989,2026-03-16,0,False
+Los Angeles Lakers,22500974,2026-03-14,0,False
+Los Angeles Lakers,22500960,2026-03-12,0,False
+Los Angeles Lakers,22500946,2026-03-10,0,False
+Los Angeles Lakers,22500922,2026-03-08,0,False
+Los Angeles Lakers,22500914,2026-03-06,0,False
+Los Angeles Lakers,22500906,2026-03-05,0,False
+Los Angeles Lakers,22500891,2026-03-03,0,False
+Los Angeles Lakers,22500878,2026-03-01,-1,True
+Los Angeles Lakers,22500866,2026-02-28,0,False
+Los Angeles Lakers,22500855,2026-02-26,0,False
+Los Angeles Lakers,22500840,2026-02-24,0,False
+Los Angeles Lakers,22500823,2026-02-22,0,False
+Los Angeles Lakers,22500809,2026-02-20,0,False
+Los Angeles Lakers,22500791,2026-02-12,0,False
+Los Angeles Lakers,22500774,2026-02-10,0,False
+Los Angeles Lakers,22500769,2026-02-09,0,False
+Los Angeles Lakers,22500753,2026-02-07,0,False
+Los Angeles Lakers,22500740,2026-02-05,0,False
+Los Angeles Lakers,22500719,2026-02-03,0,False
+Los Angeles Lakers,22500708,2026-02-01,0,False
+Los Angeles Lakers,22500688,2026-01-30,-1,True
+Los Angeles Lakers,22500671,2026-01-28,0,False
+Los Angeles Lakers,22500661,2026-01-26,0,False
+Los Angeles Lakers,22500648,2026-01-24,0,False
+Los Angeles Lakers,22500633,2026-01-22,0,False
+Los Angeles Lakers,22500617,2026-01-20,0,False
+Los Angeles Lakers,22500607,2026-01-18,0,False
+Los Angeles Lakers,22500601,2026-01-17,0,False
+Los Angeles Lakers,22500586,2026-01-15,0,False
+Los Angeles Lakers,22500569,2026-01-13,-1,True
+Los Angeles Lakers,22500562,2026-01-12,0,False
+Los Angeles Lakers,22500541,2026-01-09,0,False
+Los Angeles Lakers,22500523,2026-01-07,0,False
+Los Angeles Lakers,22500514,2026-01-06,0,False
+Los Angeles Lakers,22500501,2026-01-04,0,False
+Los Angeles Lakers,22500485,2026-01-02,0,False
+Los Angeles Lakers,22500460,2025-12-30,0,False
+Los Angeles Lakers,22500446,2025-12-28,0,False
+Los Angeles Lakers,22500012,2025-12-25,0,False
+Los Angeles Lakers,22500418,2025-12-23,0,False
+Los Angeles Lakers,22500395,2025-12-20,0,False
+Los Angeles Lakers,22500379,2025-12-18,-1,True
+Los Angeles Lakers,22501228,2025-12-14,0,False
+Los Angeles Lakers,22501204,2025-12-10,0,False
+Los Angeles Lakers,22500362,2025-12-07,0,False
+Los Angeles Lakers,22500338,2025-12-05,0,False
+Los Angeles Lakers,22500336,2025-12-04,0,False
+Los Angeles Lakers,22500317,2025-12-01,0,False
+Los Angeles Lakers,22500308,2025-11-30,0,False
+Los Angeles Lakers,22500078,2025-11-28,0,False
+Los Angeles Lakers,22500059,2025-11-25,0,False
+Los Angeles Lakers,22500282,2025-11-23,0,False
+Los Angeles Lakers,22500253,2025-11-18,0,False
+Los Angeles Lakers,22500231,2025-11-15,0,False
+Los Angeles Lakers,22500045,2025-11-14,0,False
+Los Angeles Lakers,22500222,2025-11-12,0,False
+Los Angeles Lakers,22500198,2025-11-10,0,False
+Los Angeles Lakers,22500185,2025-11-08,0,False
+Los Angeles Lakers,22500179,2025-11-05,0,False
+Los Angeles Lakers,22500163,2025-11-03,0,False
+Los Angeles Lakers,22500155,2025-11-02,0,False
+Los Angeles Lakers,22500024,2025-10-31,0,False
+Los Angeles Lakers,22500136,2025-10-29,0,False
+Los Angeles Lakers,22500122,2025-10-27,0,False
+Los Angeles Lakers,22500113,2025-10-26,0,False
+Los Angeles Lakers,22500019,2025-10-24,0,False
+Los Angeles Lakers,22500002,2025-10-21,0,False
+Memphis Grizzlies,22501079,2026-03-28,0,False
+Memphis Grizzlies,22501069,2026-03-27,0,False
+Memphis Grizzlies,22501056,2026-03-25,0,False
+Memphis Grizzlies,22501037,2026-03-23,0,False
+Memphis Grizzlies,22501023,2026-03-21,0,False
+Memphis Grizzlies,22501019,2026-03-20,0,False
+Memphis Grizzlies,22500651,2026-03-18,0,False
+Memphis Grizzlies,22500987,2026-03-16,0,False
+Memphis Grizzlies,22500961,2026-03-13,0,False
+Memphis Grizzlies,22501111,2026-03-12,0,False
+Memphis Grizzlies,22500936,2026-03-10,0,False
+Memphis Grizzlies,22500932,2026-03-09,0,False
+Memphis Grizzlies,22500918,2026-03-07,0,False
+Memphis Grizzlies,22500896,2026-03-04,0,False
+Memphis Grizzlies,22500890,2026-03-03,0,False
+Memphis Grizzlies,22500872,2026-03-01,0,False
+Memphis Grizzlies,22500861,2026-02-27,0,False
+Memphis Grizzlies,22500844,2026-02-25,0,False
+Memphis Grizzlies,22500829,2026-02-23,0,False
+Memphis Grizzlies,22500813,2026-02-21,0,False
+Memphis Grizzlies,22500804,2026-02-20,0,False
+Memphis Grizzlies,22500787,2026-02-11,0,False
+Memphis Grizzlies,22500768,2026-02-09,0,False
+Memphis Grizzlies,22500755,2026-02-07,0,False
+Memphis Grizzlies,22500745,2026-02-06,0,False
+Memphis Grizzlies,22500731,2026-02-04,0,False
+Memphis Grizzlies,22500714,2026-02-02,0,False
+Memphis Grizzlies,22500700,2026-01-31,0,False
+Memphis Grizzlies,22500691,2026-01-30,0,False
+Memphis Grizzlies,22500676,2026-01-28,0,False
+Memphis Grizzlies,22500662,2026-01-26,0,False
+Memphis Grizzlies,22500639,2026-01-23,0,False
+Memphis Grizzlies,22500623,2026-01-21,0,False
+Memphis Grizzlies,22500602,2026-01-18,0,False
+Memphis Grizzlies,22500578,2026-01-15,0,False
+Memphis Grizzlies,22500549,2026-01-11,0,False
+Memphis Grizzlies,22500536,2026-01-09,0,False
+Memphis Grizzlies,22500524,2026-01-07,0,False
+Memphis Grizzlies,22500512,2026-01-06,0,False
+Memphis Grizzlies,22500501,2026-01-04,0,False
+Memphis Grizzlies,22500485,2026-01-02,0,False
+Memphis Grizzlies,22500458,2025-12-30,0,False
+Memphis Grizzlies,22500443,2025-12-28,0,False
+Memphis Grizzlies,22500428,2025-12-26,0,False
+Memphis Grizzlies,22500419,2025-12-23,0,False
+Memphis Grizzlies,22500406,2025-12-22,0,False
+Memphis Grizzlies,22500391,2025-12-20,0,False
+Memphis Grizzlies,22500368,2025-12-17,0,False
+Memphis Grizzlies,22501226,2025-12-15,0,False
+Memphis Grizzlies,22501213,2025-12-12,0,False
+Memphis Grizzlies,22500360,2025-12-07,0,False
+Memphis Grizzlies,22500347,2025-12-05,0,False
+Memphis Grizzlies,22500322,2025-12-02,0,False
+Memphis Grizzlies,22500307,2025-11-30,0,False
+Memphis Grizzlies,22500079,2025-11-28,0,False
+Memphis Grizzlies,22500065,2025-11-26,0,False
+Memphis Grizzlies,22500287,2025-11-24,0,False
+Memphis Grizzlies,22500273,2025-11-22,0,False
+Memphis Grizzlies,22500265,2025-11-20,-1,True
+Memphis Grizzlies,22500252,2025-11-18,0,False
+Memphis Grizzlies,22500228,2025-11-15,0,False
+Memphis Grizzlies,22500216,2025-11-12,0,False
+Memphis Grizzlies,22500208,2025-11-11,0,False
+Memphis Grizzlies,22500194,2025-11-09,0,False
+Memphis Grizzlies,22500034,2025-11-07,0,False
+Memphis Grizzlies,22500176,2025-11-05,0,False
+Memphis Grizzlies,22500161,2025-11-03,0,False
+Memphis Grizzlies,22500152,2025-11-02,0,False
+Memphis Grizzlies,22500024,2025-10-31,0,False
+Memphis Grizzlies,22500137,2025-10-29,0,False
+Memphis Grizzlies,22500121,2025-10-27,0,False
+Memphis Grizzlies,22500103,2025-10-25,0,False
+Memphis Grizzlies,22500094,2025-10-24,0,False
+Memphis Grizzlies,22500085,2025-10-22,-1,True
+Miami Heat,22501083,2026-03-29,0,False
+Miami Heat,22501068,2026-03-27,0,False
+Miami Heat,22501055,2026-03-25,0,False
+Miami Heat,22501041,2026-03-23,0,False
+Miami Heat,22501027,2026-03-21,0,False
+Miami Heat,22501010,2026-03-19,0,False
+Miami Heat,22500991,2026-03-17,0,False
+Miami Heat,22500972,2026-03-14,0,False
+Miami Heat,22500957,2026-03-12,0,False
+Miami Heat,22500938,2026-03-10,0,False
+Miami Heat,22500923,2026-03-08,0,False
+Miami Heat,22500909,2026-03-06,0,False
+Miami Heat,22500901,2026-03-05,0,False
+Miami Heat,22500886,2026-03-03,0,False
+Miami Heat,22500864,2026-02-28,0,False
+Miami Heat,22500849,2026-02-26,0,False
+Miami Heat,22500837,2026-02-24,0,False
+Miami Heat,22500813,2026-02-21,0,False
+Miami Heat,22500805,2026-02-20,0,False
+Miami Heat,22500784,2026-02-11,0,False
+Miami Heat,22500763,2026-02-09,0,False
+Miami Heat,22500758,2026-02-08,0,False
+Miami Heat,22500741,2026-02-06,0,False
+Miami Heat,22500720,2026-02-03,0,False
+Miami Heat,22500705,2026-02-01,0,False
+Miami Heat,22500692,2026-01-31,0,False
+Miami Heat,22500529,2026-01-29,0,False
+Miami Heat,22500674,2026-01-28,0,False
+Miami Heat,22500655,2026-01-25,0,False
+Miami Heat,22500649,2026-01-24,0,False
+Miami Heat,22500634,2026-01-22,0,False
+Miami Heat,22500619,2026-01-20,0,False
+Miami Heat,22500612,2026-01-19,0,False
+Miami Heat,22500597,2026-01-17,0,False
+Miami Heat,22500580,2026-01-15,0,False
+Miami Heat,22500564,2026-01-13,0,False
+Miami Heat,22500553,2026-01-11,0,False
+Miami Heat,22500543,2026-01-10,0,False
+Miami Heat,22500513,2026-01-06,0,False
+Miami Heat,22500497,2026-01-04,0,False
+Miami Heat,22500486,2026-01-03,0,False
+Miami Heat,22500472,2026-01-01,0,False
+Miami Heat,22500450,2025-12-29,0,False
+Miami Heat,22500436,2025-12-27,0,False
+Miami Heat,22500423,2025-12-26,0,False
+Miami Heat,22500414,2025-12-23,0,False
+Miami Heat,22500398,2025-12-21,0,False
+Miami Heat,22500381,2025-12-19,0,False
+Miami Heat,22500373,2025-12-18,0,False
+Miami Heat,22501227,2025-12-15,0,False
+Miami Heat,22501201,2025-12-09,0,False
+Miami Heat,22500354,2025-12-06,0,False
+Miami Heat,22500339,2025-12-05,0,False
+Miami Heat,22500332,2025-12-03,0,False
+Miami Heat,22500313,2025-12-01,-1,True
+Miami Heat,22500296,2025-11-29,0,False
+Miami Heat,22500062,2025-11-26,0,False
+Miami Heat,22500286,2025-11-24,0,False
+Miami Heat,22500275,2025-11-23,0,False
+Miami Heat,22500051,2025-11-21,0,False
+Miami Heat,22500257,2025-11-19,0,False
+Miami Heat,22500244,2025-11-17,0,False
+Miami Heat,22500039,2025-11-14,0,False
+Miami Heat,22500217,2025-11-12,0,False
+Miami Heat,22500201,2025-11-10,0,False
+Miami Heat,22500187,2025-11-08,0,False
+Miami Heat,22500033,2025-11-07,0,False
+Miami Heat,22500178,2025-11-05,0,False
+Miami Heat,22500164,2025-11-03,0,False
+Miami Heat,22500155,2025-11-02,0,False
+Miami Heat,22500141,2025-10-30,0,False
+Miami Heat,22500124,2025-10-28,0,False
+Miami Heat,22500108,2025-10-26,0,False
+Miami Heat,22500094,2025-10-24,0,False
+Miami Heat,22500081,2025-10-22,0,False
+Milwaukee Bucks,22501082,2026-03-29,-1,True
+Milwaukee Bucks,22501076,2026-03-28,0,False
+Milwaukee Bucks,22501061,2026-03-25,0,False
+Milwaukee Bucks,22501046,2026-03-23,0,False
+Milwaukee Bucks,22501031,2026-03-21,0,False
+Milwaukee Bucks,22501014,2026-03-19,0,False
+Milwaukee Bucks,22500995,2026-03-17,0,False
+Milwaukee Bucks,22500979,2026-03-15,0,False
+Milwaukee Bucks,22500970,2026-03-14,0,False
+Milwaukee Bucks,22500957,2026-03-12,0,False
+Milwaukee Bucks,22500941,2026-03-10,0,False
+Milwaukee Bucks,22500926,2026-03-08,0,False
+Milwaukee Bucks,22500919,2026-03-07,0,False
+Milwaukee Bucks,22500897,2026-03-04,0,False
+Milwaukee Bucks,22500880,2026-03-02,0,False
+Milwaukee Bucks,22500870,2026-03-01,0,False
+Milwaukee Bucks,22500860,2026-02-27,0,False
+Milwaukee Bucks,22500846,2026-02-25,0,False
+Milwaukee Bucks,22500837,2026-02-24,0,False
+Milwaukee Bucks,22500819,2026-02-22,0,False
+Milwaukee Bucks,22500807,2026-02-20,0,False
+Milwaukee Bucks,22500789,2026-02-12,0,False
+Milwaukee Bucks,22500777,2026-02-11,0,False
+Milwaukee Bucks,22500764,2026-02-09,0,False
+Milwaukee Bucks,22500743,2026-02-06,0,False
+Milwaukee Bucks,22500729,2026-02-04,0,False
+Milwaukee Bucks,22500722,2026-02-03,0,False
+Milwaukee Bucks,22500702,2026-02-01,0,False
+Milwaukee Bucks,22500681,2026-01-29,0,False
+Milwaukee Bucks,22500666,2026-01-27,0,False
+Milwaukee Bucks,22500640,2026-01-23,0,False
+Milwaukee Bucks,22500625,2026-01-21,0,False
+Milwaukee Bucks,22500014,2026-01-19,0,False
+Milwaukee Bucks,22500582,2026-01-15,0,False
+Milwaukee Bucks,22500566,2026-01-13,0,False
+Milwaukee Bucks,22500554,2026-01-11,0,False
+Milwaukee Bucks,22500541,2026-01-09,0,False
+Milwaukee Bucks,22500526,2026-01-07,0,False
+Milwaukee Bucks,22500500,2026-01-04,0,False
+Milwaukee Bucks,22500481,2026-01-02,0,False
+Milwaukee Bucks,22500469,2025-12-31,0,False
+Milwaukee Bucks,22500447,2025-12-29,0,False
+Milwaukee Bucks,22500437,2025-12-27,0,False
+Milwaukee Bucks,22500428,2025-12-26,0,False
+Milwaukee Bucks,22500413,2025-12-23,0,False
+Milwaukee Bucks,22500400,2025-12-21,0,False
+Milwaukee Bucks,22500374,2025-12-18,0,False
+Milwaukee Bucks,22501219,2025-12-14,0,False
+Milwaukee Bucks,22501206,2025-12-11,0,False
+Milwaukee Bucks,22500353,2025-12-06,0,False
+Milwaukee Bucks,22500348,2025-12-05,0,False
+Milwaukee Bucks,22500331,2025-12-03,0,False
+Milwaukee Bucks,22500311,2025-12-01,0,False
+Milwaukee Bucks,22500297,2025-11-29,0,False
+Milwaukee Bucks,22500074,2025-11-28,0,False
+Milwaukee Bucks,22500062,2025-11-26,0,False
+Milwaukee Bucks,22500288,2025-11-24,0,False
+Milwaukee Bucks,22500272,2025-11-22,0,False
+Milwaukee Bucks,22500266,2025-11-20,0,False
+Milwaukee Bucks,22500241,2025-11-17,0,False
+Milwaukee Bucks,22500231,2025-11-15,0,False
+Milwaukee Bucks,22500043,2025-11-14,-1,True
+Milwaukee Bucks,22500213,2025-11-12,0,False
+Milwaukee Bucks,22500203,2025-11-10,0,False
+Milwaukee Bucks,22500191,2025-11-09,0,False
+Milwaukee Bucks,22500035,2025-11-07,0,False
+Milwaukee Bucks,22500165,2025-11-04,0,False
+Milwaukee Bucks,22500157,2025-11-03,0,False
+Milwaukee Bucks,22500142,2025-11-01,0,False
+Milwaukee Bucks,22500139,2025-10-30,0,False
+Milwaukee Bucks,22500125,2025-10-28,0,False
+Milwaukee Bucks,22500107,2025-10-26,0,False
+Milwaukee Bucks,22500092,2025-10-24,0,False
+Milwaukee Bucks,22500086,2025-10-22,0,False
+Minnesota Timberwolves,22501080,2026-03-28,0,False
+Minnesota Timberwolves,22501058,2026-03-25,0,False
+Minnesota Timberwolves,22501035,2026-03-22,0,False
+Minnesota Timberwolves,22501020,2026-03-20,0,False
+Minnesota Timberwolves,22501004,2026-03-18,-1,True
+Minnesota Timberwolves,22500996,2026-03-17,0,False
+Minnesota Timberwolves,22500976,2026-03-15,0,False
+Minnesota Timberwolves,22500966,2026-03-13,0,False
+Minnesota Timberwolves,22500952,2026-03-11,0,False
+Minnesota Timberwolves,22500946,2026-03-10,0,False
+Minnesota Timberwolves,22500915,2026-03-07,0,False
+Minnesota Timberwolves,22500903,2026-03-05,0,False
+Minnesota Timberwolves,22500890,2026-03-03,0,False
+Minnesota Timberwolves,22500871,2026-03-01,0,False
+Minnesota Timberwolves,22500857,2026-02-26,0,False
+Minnesota Timberwolves,22500841,2026-02-24,0,False
+Minnesota Timberwolves,22500824,2026-02-22,0,False
+Minnesota Timberwolves,22500806,2026-02-20,0,False
+Minnesota Timberwolves,22500783,2026-02-11,0,False
+Minnesota Timberwolves,22500765,2026-02-09,0,False
+Minnesota Timberwolves,22500760,2026-02-08,0,False
+Minnesota Timberwolves,22500744,2026-02-06,0,False
+Minnesota Timberwolves,22500727,2026-02-04,0,False
+Minnesota Timberwolves,22500714,2026-02-02,0,False
+Minnesota Timberwolves,22500700,2026-01-31,0,False
+Minnesota Timberwolves,22500686,2026-01-29,0,False
+Minnesota Timberwolves,22500677,2026-01-28,0,False
+Minnesota Timberwolves,22500663,2026-01-26,0,False
+Minnesota Timberwolves,22500644,2026-01-25,0,False
+Minnesota Timberwolves,22500631,2026-01-22,0,False
+Minnesota Timberwolves,22500616,2026-01-20,0,False
+Minnesota Timberwolves,22500598,2026-01-17,0,False
+Minnesota Timberwolves,22500591,2026-01-16,0,False
+Minnesota Timberwolves,22500566,2026-01-13,0,False
+Minnesota Timberwolves,22500552,2026-01-11,0,False
+Minnesota Timberwolves,22500542,2026-01-10,0,False
+Minnesota Timberwolves,22500530,2026-01-08,0,False
+Minnesota Timberwolves,22500513,2026-01-06,0,False
+Minnesota Timberwolves,22500498,2026-01-04,0,False
+Minnesota Timberwolves,22500486,2026-01-03,0,False
+Minnesota Timberwolves,22500463,2025-12-31,0,False
+Minnesota Timberwolves,22500452,2025-12-29,0,False
+Minnesota Timberwolves,22500439,2025-12-27,0,False
+Minnesota Timberwolves,22500013,2025-12-25,0,False
+Minnesota Timberwolves,22500416,2025-12-23,0,False
+Minnesota Timberwolves,22500400,2025-12-21,0,False
+Minnesota Timberwolves,22500385,2025-12-19,0,False
+Minnesota Timberwolves,22500368,2025-12-17,0,False
+Minnesota Timberwolves,22501220,2025-12-14,0,False
+Minnesota Timberwolves,22501215,2025-12-12,0,False
+Minnesota Timberwolves,22500365,2025-12-08,0,False
+Minnesota Timberwolves,22500355,2025-12-06,0,False
+Minnesota Timberwolves,22500337,2025-12-04,0,False
+Minnesota Timberwolves,22500321,2025-12-02,0,False
+Minnesota Timberwolves,22500306,2025-11-30,0,False
+Minnesota Timberwolves,22500293,2025-11-29,0,False
+Minnesota Timberwolves,22500064,2025-11-26,0,False
+Minnesota Timberwolves,22500292,2025-11-24,0,False
+Minnesota Timberwolves,22500053,2025-11-21,0,False
+Minnesota Timberwolves,22500259,2025-11-19,0,False
+Minnesota Timberwolves,22500246,2025-11-17,0,False
+Minnesota Timberwolves,22500232,2025-11-15,0,False
+Minnesota Timberwolves,22500044,2025-11-14,0,False
+Minnesota Timberwolves,22500205,2025-11-10,0,False
+Minnesota Timberwolves,22500197,2025-11-09,0,False
+Minnesota Timberwolves,22500036,2025-11-07,0,False
+Minnesota Timberwolves,22500175,2025-11-05,0,False
+Minnesota Timberwolves,22500156,2025-11-03,0,False
+Minnesota Timberwolves,22500143,2025-11-01,0,False
+Minnesota Timberwolves,22500136,2025-10-29,0,False
+Minnesota Timberwolves,22500008,2025-10-27,0,False
+Minnesota Timberwolves,22500110,2025-10-26,0,False
+Minnesota Timberwolves,22500019,2025-10-24,0,False
+Minnesota Timberwolves,22500089,2025-10-22,0,False
+New Orleans Pelicans,22501088,2026-03-29,0,False
+New Orleans Pelicans,22501071,2026-03-27,0,False
+New Orleans Pelicans,22501064,2026-03-26,0,False
+New Orleans Pelicans,22501048,2026-03-24,0,False
+New Orleans Pelicans,22501025,2026-03-21,0,False
+New Orleans Pelicans,22501012,2026-03-19,0,False
+New Orleans Pelicans,22501005,2026-03-18,0,False
+New Orleans Pelicans,22500988,2026-03-16,0,False
+New Orleans Pelicans,22500964,2026-03-13,0,False
+New Orleans Pelicans,22500948,2026-03-11,0,False
+New Orleans Pelicans,22500925,2026-03-08,0,False
+New Orleans Pelicans,22500912,2026-03-06,0,False
+New Orleans Pelicans,22500907,2026-03-05,0,False
+New Orleans Pelicans,22500891,2026-03-03,0,False
+New Orleans Pelicans,22500877,2026-03-01,0,False
+New Orleans Pelicans,22500867,2026-02-28,0,False
+New Orleans Pelicans,22500856,2026-02-26,0,False
+New Orleans Pelicans,22500838,2026-02-24,0,False
+New Orleans Pelicans,22500812,2026-02-21,0,False
+New Orleans Pelicans,22500807,2026-02-20,0,False
+New Orleans Pelicans,22500784,2026-02-11,0,False
+New Orleans Pelicans,22500766,2026-02-09,0,False
+New Orleans Pelicans,22500744,2026-02-06,0,False
+New Orleans Pelicans,22500729,2026-02-04,0,False
+New Orleans Pelicans,22500712,2026-02-02,0,False
+New Orleans Pelicans,22500699,2026-01-31,0,False
+New Orleans Pelicans,22500691,2026-01-30,0,False
+New Orleans Pelicans,22500667,2026-01-27,0,False
+New Orleans Pelicans,22500654,2026-01-25,0,False
+New Orleans Pelicans,22500639,2026-01-23,0,False
+New Orleans Pelicans,22500624,2026-01-21,0,False
+New Orleans Pelicans,22500604,2026-01-18,0,False
+New Orleans Pelicans,22500588,2026-01-16,0,False
+New Orleans Pelicans,22500574,2026-01-14,0,False
+New Orleans Pelicans,22500567,2026-01-13,0,False
+New Orleans Pelicans,22500548,2026-01-11,-1,True
+New Orleans Pelicans,22500534,2026-01-09,0,False
+New Orleans Pelicans,22500519,2026-01-07,0,False
+New Orleans Pelicans,22500514,2026-01-06,0,False
+New Orleans Pelicans,22500497,2026-01-04,0,False
+New Orleans Pelicans,22500482,2026-01-02,0,False
+New Orleans Pelicans,22500466,2025-12-31,0,False
+New Orleans Pelicans,22500454,2025-12-29,0,False
+New Orleans Pelicans,22500434,2025-12-27,0,False
+New Orleans Pelicans,22500429,2025-12-26,0,False
+New Orleans Pelicans,22500412,2025-12-23,0,False
+New Orleans Pelicans,22500404,2025-12-22,0,False
+New Orleans Pelicans,22500389,2025-12-20,0,False
+New Orleans Pelicans,22500375,2025-12-18,0,False
+New Orleans Pelicans,22501223,2025-12-14,0,False
+New Orleans Pelicans,22501207,2025-12-11,0,False
+New Orleans Pelicans,22500366,2025-12-08,-1,True
+New Orleans Pelicans,22500350,2025-12-06,0,False
+New Orleans Pelicans,22500337,2025-12-04,0,False
+New Orleans Pelicans,22500321,2025-12-02,0,False
+New Orleans Pelicans,22500308,2025-11-30,0,False
+New Orleans Pelicans,22500298,2025-11-29,0,False
+New Orleans Pelicans,22500065,2025-11-26,0,False
+New Orleans Pelicans,22500289,2025-11-24,0,False
+New Orleans Pelicans,22500270,2025-11-22,0,False
+New Orleans Pelicans,22500052,2025-11-21,0,False
+New Orleans Pelicans,22500260,2025-11-19,0,False
+New Orleans Pelicans,22500247,2025-11-17,0,False
+New Orleans Pelicans,22500237,2025-11-16,0,False
+New Orleans Pelicans,22500045,2025-11-14,0,False
+New Orleans Pelicans,22500219,2025-11-12,0,False
+New Orleans Pelicans,22500204,2025-11-10,0,False
+New Orleans Pelicans,22500188,2025-11-08,0,False
+New Orleans Pelicans,22500177,2025-11-05,0,False
+New Orleans Pelicans,22500168,2025-11-04,0,False
+New Orleans Pelicans,22500148,2025-11-02,0,False
+New Orleans Pelicans,22500027,2025-10-31,0,False
+New Orleans Pelicans,22500134,2025-10-29,0,False
+New Orleans Pelicans,22500117,2025-10-27,0,False
+New Orleans Pelicans,22500095,2025-10-24,0,False
+New Orleans Pelicans,22500085,2025-10-22,0,False
+New York Knicks,22501089,2026-03-29,0,False
+New York Knicks,22501063,2026-03-26,0,False
+New York Knicks,22501048,2026-03-24,0,False
+New York Knicks,22501034,2026-03-22,0,False
+New York Knicks,22501016,2026-03-20,0,False
+New York Knicks,22500994,2026-03-17,0,False
+New York Knicks,22500981,2026-03-15,0,False
+New York Knicks,22500962,2026-03-13,0,False
+New York Knicks,22500949,2026-03-11,0,False
+New York Knicks,22500935,2026-03-09,0,False
+New York Knicks,22500922,2026-03-08,0,False
+New York Knicks,22500911,2026-03-06,0,False
+New York Knicks,22500893,2026-03-04,0,False
+New York Knicks,22500887,2026-03-03,0,False
+New York Knicks,22500868,2026-03-01,0,False
+New York Knicks,22500860,2026-02-27,0,False
+New York Knicks,22500835,2026-02-24,0,False
+New York Knicks,22500825,2026-02-22,0,False
+New York Knicks,22500816,2026-02-21,0,False
+New York Knicks,22500796,2026-02-19,0,False
+New York Knicks,22500780,2026-02-11,0,False
+New York Knicks,22500771,2026-02-10,0,False
+New York Knicks,22500757,2026-02-08,0,False
+New York Knicks,22500742,2026-02-06,-1,True
+New York Knicks,22500726,2026-02-04,0,False
+New York Knicks,22500718,2026-02-03,0,False
+New York Knicks,22500708,2026-02-01,0,False
+New York Knicks,22500690,2026-01-30,0,False
+New York Knicks,22500675,2026-01-28,0,False
+New York Knicks,22500665,2026-01-27,0,False
+New York Knicks,22500643,2026-01-24,0,False
+New York Knicks,22500622,2026-01-21,0,False
+New York Knicks,22500016,2026-01-19,0,False
+New York Knicks,22500596,2026-01-17,0,False
+New York Knicks,22500584,2026-01-15,0,False
+New York Knicks,22500576,2026-01-14,0,False
+New York Knicks,22500551,2026-01-11,0,False
+New York Knicks,22500538,2026-01-09,0,False
+New York Knicks,22500522,2026-01-07,0,False
+New York Knicks,22500502,2026-01-05,-1,True
+New York Knicks,22500487,2026-01-03,0,False
+New York Knicks,22500479,2026-01-02,0,False
+New York Knicks,22500467,2025-12-31,0,False
+New York Knicks,22500454,2025-12-29,0,False
+New York Knicks,22500435,2025-12-27,0,False
+New York Knicks,22500009,2025-12-25,0,False
+New York Knicks,22500416,2025-12-23,0,False
+New York Knicks,22500398,2025-12-21,0,False
+New York Knicks,22500382,2025-12-19,0,False
+New York Knicks,22500372,2025-12-18,0,False
+New York Knicks,22501229,2025-12-13,0,False
+New York Knicks,22501202,2025-12-09,0,False
+New York Knicks,22500357,2025-12-07,0,False
+New York Knicks,22500343,2025-12-05,0,False
+New York Knicks,22500328,2025-12-03,0,False
+New York Knicks,22500320,2025-12-02,0,False
+New York Knicks,22500303,2025-11-30,0,False
+New York Knicks,22500074,2025-11-28,0,False
+New York Knicks,22500061,2025-11-26,0,False
+New York Knicks,22500285,2025-11-24,0,False
+New York Knicks,22500269,2025-11-22,0,False
+New York Knicks,22500262,2025-11-19,0,False
+New York Knicks,22500244,2025-11-17,0,False
+New York Knicks,22500039,2025-11-14,0,False
+New York Knicks,22500215,2025-11-12,0,False
+New York Knicks,22500208,2025-11-11,0,False
+New York Knicks,22500192,2025-11-09,0,False
+New York Knicks,22500175,2025-11-05,0,False
+New York Knicks,22500159,2025-11-03,0,False
+New York Knicks,22500153,2025-11-02,0,False
+New York Knicks,22500023,2025-10-31,0,False
+New York Knicks,22500125,2025-10-28,0,False
+New York Knicks,22500108,2025-10-26,0,False
+New York Knicks,22500018,2025-10-24,0,False
+New York Knicks,22500003,2025-10-22,0,False
+Oklahoma City Thunder,22501089,2026-03-29,0,False
+Oklahoma City Thunder,22501070,2026-03-27,0,False
+Oklahoma City Thunder,22501054,2026-03-25,0,False
+Oklahoma City Thunder,22501040,2026-03-23,0,False
+Oklahoma City Thunder,22501022,2026-03-21,0,False
+Oklahoma City Thunder,22501000,2026-03-18,0,False
+Oklahoma City Thunder,22500992,2026-03-17,0,False
+Oklahoma City Thunder,22500976,2026-03-15,0,False
+Oklahoma City Thunder,22500959,2026-03-12,0,False
+Oklahoma City Thunder,22500933,2026-03-09,0,False
+Oklahoma City Thunder,22500920,2026-03-07,0,False
+Oklahoma City Thunder,22500893,2026-03-04,0,False
+Oklahoma City Thunder,22500889,2026-03-03,0,False
+Oklahoma City Thunder,22500876,2026-03-01,0,False
+Oklahoma City Thunder,22500862,2026-02-27,0,False
+Oklahoma City Thunder,22500842,2026-02-25,0,False
+Oklahoma City Thunder,22500834,2026-02-24,0,False
+Oklahoma City Thunder,22500817,2026-02-22,0,False
+Oklahoma City Thunder,22500808,2026-02-20,0,False
+Oklahoma City Thunder,22500789,2026-02-12,0,False
+Oklahoma City Thunder,22500785,2026-02-11,0,False
+Oklahoma City Thunder,22500769,2026-02-09,0,False
+Oklahoma City Thunder,22500748,2026-02-07,0,False
+Oklahoma City Thunder,22500730,2026-02-04,0,False
+Oklahoma City Thunder,22500723,2026-02-03,0,False
+Oklahoma City Thunder,22500711,2026-02-01,0,False
+Oklahoma City Thunder,22500686,2026-01-29,0,False
+Oklahoma City Thunder,22500667,2026-01-27,0,False
+Oklahoma City Thunder,22500653,2026-01-25,0,False
+Oklahoma City Thunder,22500641,2026-01-23,0,False
+Oklahoma City Thunder,22500625,2026-01-21,0,False
+Oklahoma City Thunder,22500015,2026-01-19,0,False
+Oklahoma City Thunder,22500597,2026-01-17,0,False
+Oklahoma City Thunder,22500581,2026-01-15,0,False
+Oklahoma City Thunder,22500568,2026-01-13,0,False
+Oklahoma City Thunder,22500553,2026-01-11,0,False
+Oklahoma City Thunder,22500536,2026-01-09,0,False
+Oklahoma City Thunder,22500525,2026-01-07,0,False
+Oklahoma City Thunder,22500506,2026-01-05,0,False
+Oklahoma City Thunder,22500499,2026-01-04,0,False
+Oklahoma City Thunder,22500484,2026-01-02,0,False
+Oklahoma City Thunder,22500470,2025-12-31,0,False
+Oklahoma City Thunder,22500455,2025-12-29,0,False
+Oklahoma City Thunder,22500442,2025-12-28,0,False
+Oklahoma City Thunder,22500010,2025-12-25,0,False
+Oklahoma City Thunder,22500417,2025-12-23,0,False
+Oklahoma City Thunder,22500406,2025-12-22,0,False
+Oklahoma City Thunder,22500385,2025-12-19,-1,True
+Oklahoma City Thunder,22500369,2025-12-18,0,False
+Oklahoma City Thunder,22501230,2025-12-13,0,False
+Oklahoma City Thunder,22501203,2025-12-10,0,False
+Oklahoma City Thunder,22500363,2025-12-07,0,False
+Oklahoma City Thunder,22500349,2025-12-05,0,False
+Oklahoma City Thunder,22500323,2025-12-02,0,False
+Oklahoma City Thunder,22500305,2025-11-30,0,False
+Oklahoma City Thunder,22500075,2025-11-28,0,False
+Oklahoma City Thunder,22500064,2025-11-26,0,False
+Oklahoma City Thunder,22500280,2025-11-23,0,False
+Oklahoma City Thunder,22500055,2025-11-21,-1,True
+Oklahoma City Thunder,22500261,2025-11-19,0,False
+Oklahoma City Thunder,22500247,2025-11-17,0,False
+Oklahoma City Thunder,22500229,2025-11-15,0,False
+Oklahoma City Thunder,22500222,2025-11-12,0,False
+Oklahoma City Thunder,22500210,2025-11-11,0,False
+Oklahoma City Thunder,22500194,2025-11-09,0,False
+Oklahoma City Thunder,22500038,2025-11-07,0,False
+Oklahoma City Thunder,22500180,2025-11-05,0,False
+Oklahoma City Thunder,22500170,2025-11-04,0,False
+Oklahoma City Thunder,22500148,2025-11-02,0,False
+Oklahoma City Thunder,22500140,2025-10-30,0,False
+Oklahoma City Thunder,22500126,2025-10-28,0,False
+Oklahoma City Thunder,22500119,2025-10-27,0,False
+Oklahoma City Thunder,22500101,2025-10-25,0,False
+Oklahoma City Thunder,22500005,2025-10-23,-1,True
+Oklahoma City Thunder,22500001,2025-10-21,0,False
+Orlando Magic,22501086,2026-03-29,0,False
+Orlando Magic,22501065,2026-03-26,0,False
+Orlando Magic,22501049,2026-03-24,0,False
+Orlando Magic,22501039,2026-03-23,0,False
+Orlando Magic,22501024,2026-03-21,0,False
+Orlando Magic,22501008,2026-03-19,0,False
+Orlando Magic,22500992,2026-03-17,0,False
+Orlando Magic,22500983,2026-03-16,0,False
+Orlando Magic,22500972,2026-03-14,0,False
+Orlando Magic,22500955,2026-03-12,0,False
+Orlando Magic,22500947,2026-03-11,0,False
+Orlando Magic,22500926,2026-03-08,0,False
+Orlando Magic,22500915,2026-03-07,0,False
+Orlando Magic,22500899,2026-03-05,0,False
+Orlando Magic,22500885,2026-03-03,0,False
+Orlando Magic,22500875,2026-03-01,0,False
+Orlando Magic,22500852,2026-02-26,0,False
+Orlando Magic,22500840,2026-02-24,0,False
+Orlando Magic,22500827,2026-02-22,0,False
+Orlando Magic,22500811,2026-02-21,-1,True
+Orlando Magic,22500800,2026-02-19,-1,True
+Orlando Magic,22500777,2026-02-11,0,False
+Orlando Magic,22500764,2026-02-09,0,False
+Orlando Magic,22500750,2026-02-07,0,False
+Orlando Magic,22500734,2026-02-05,0,False
+Orlando Magic,22500723,2026-02-03,0,False
+Orlando Magic,22500703,2026-02-01,0,False
+Orlando Magic,22500687,2026-01-30,0,False
+Orlando Magic,22500674,2026-01-28,0,False
+Orlando Magic,22500658,2026-01-26,0,False
+Orlando Magic,22500646,2026-01-24,0,False
+Orlando Magic,22500627,2026-01-22,0,False
+Orlando Magic,22500602,2026-01-18,0,False
+Orlando Magic,22500578,2026-01-15,0,False
+Orlando Magic,22500548,2026-01-11,0,False
+Orlando Magic,22500533,2026-01-09,0,False
+Orlando Magic,22500521,2026-01-07,0,False
+Orlando Magic,22500511,2026-01-06,0,False
+Orlando Magic,22500495,2026-01-04,0,False
+Orlando Magic,22500480,2026-01-02,0,False
+Orlando Magic,22500464,2025-12-31,0,False
+Orlando Magic,22500451,2025-12-29,0,False
+Orlando Magic,22500433,2025-12-27,0,False
+Orlando Magic,22500424,2025-12-26,0,False
+Orlando Magic,22500420,2025-12-23,0,False
+Orlando Magic,22500407,2025-12-22,0,False
+Orlando Magic,22500393,2025-12-20,0,False
+Orlando Magic,22500377,2025-12-18,0,False
+Orlando Magic,22501229,2025-12-13,0,False
+Orlando Magic,22501201,2025-12-09,0,False
+Orlando Magic,22500357,2025-12-07,0,False
+Orlando Magic,22500339,2025-12-05,0,False
+Orlando Magic,22500326,2025-12-03,0,False
+Orlando Magic,22500314,2025-12-01,0,False
+Orlando Magic,22500072,2025-11-28,-1,True
+Orlando Magic,22500058,2025-11-25,0,False
+Orlando Magic,22500277,2025-11-23,0,False
+Orlando Magic,22500269,2025-11-22,0,False
+Orlando Magic,22500264,2025-11-20,0,False
+Orlando Magic,22500249,2025-11-18,0,False
+Orlando Magic,22500236,2025-11-16,0,False
+Orlando Magic,22500040,2025-11-14,0,False
+Orlando Magic,22500215,2025-11-12,0,False
+Orlando Magic,22500200,2025-11-10,0,False
+Orlando Magic,22500193,2025-11-09,0,False
+Orlando Magic,22500028,2025-11-07,0,False
+Orlando Magic,22500166,2025-11-04,0,False
+Orlando Magic,22500145,2025-11-01,0,False
+Orlando Magic,22500138,2025-10-30,0,False
+Orlando Magic,22500129,2025-10-29,0,False
+Orlando Magic,22500114,2025-10-27,0,False
+Orlando Magic,22500100,2025-10-25,0,False
+Orlando Magic,22500090,2025-10-24,0,False
+Orlando Magic,22500081,2025-10-22,0,False
+Philadelphia 76ers,22501077,2026-03-28,0,False
+Philadelphia 76ers,22501053,2026-03-25,0,False
+Philadelphia 76ers,22501040,2026-03-23,0,False
+Philadelphia 76ers,22501030,2026-03-21,0,False
+Philadelphia 76ers,22501015,2026-03-19,0,False
+Philadelphia 76ers,22500997,2026-03-17,0,False
+Philadelphia 76ers,22500980,2026-03-15,0,False
+Philadelphia 76ers,22500969,2026-03-14,0,False
+Philadelphia 76ers,22500953,2026-03-12,0,False
+Philadelphia 76ers,22500936,2026-03-10,0,False
+Philadelphia 76ers,22500931,2026-03-09,0,False
+Philadelphia 76ers,22500917,2026-03-07,0,False
+Philadelphia 76ers,22500895,2026-03-04,0,False
+Philadelphia 76ers,22500888,2026-03-03,0,False
+Philadelphia 76ers,22500874,2026-03-01,0,False
+Philadelphia 76ers,22500849,2026-02-26,0,False
+Philadelphia 76ers,22500831,2026-02-24,0,False
+Philadelphia 76ers,22500824,2026-02-22,0,False
+Philadelphia 76ers,22500812,2026-02-21,0,False
+Philadelphia 76ers,22500794,2026-02-19,0,False
+Philadelphia 76ers,22500780,2026-02-11,0,False
+Philadelphia 76ers,22500770,2026-02-09,0,False
+Philadelphia 76ers,22500754,2026-02-07,0,False
+Philadelphia 76ers,22500740,2026-02-05,0,False
+Philadelphia 76ers,22500724,2026-02-03,0,False
+Philadelphia 76ers,22500715,2026-02-02,0,False
+Philadelphia 76ers,22500699,2026-01-31,0,False
+Philadelphia 76ers,22500680,2026-01-29,0,False
+Philadelphia 76ers,22500666,2026-01-27,0,False
+Philadelphia 76ers,22500657,2026-01-26,0,False
+Philadelphia 76ers,22500643,2026-01-24,0,False
+Philadelphia 76ers,22500628,2026-01-22,0,False
+Philadelphia 76ers,22500613,2026-01-20,0,False
+Philadelphia 76ers,22500609,2026-01-19,-1,True
+Philadelphia 76ers,22500589,2026-01-16,0,False
+Philadelphia 76ers,22500572,2026-01-14,0,False
+Philadelphia 76ers,22500560,2026-01-12,0,False
+Philadelphia 76ers,22500550,2026-01-11,-1,True
+Philadelphia 76ers,22500533,2026-01-09,0,False
+Philadelphia 76ers,22500518,2026-01-07,0,False
+Philadelphia 76ers,22500507,2026-01-05,0,False
+Philadelphia 76ers,22500487,2026-01-03,0,False
+Philadelphia 76ers,22500473,2026-01-01,0,False
+Philadelphia 76ers,22500458,2025-12-30,0,False
+Philadelphia 76ers,22500442,2025-12-28,0,False
+Philadelphia 76ers,22500427,2025-12-26,0,False
+Philadelphia 76ers,22500410,2025-12-23,0,False
+Philadelphia 76ers,22500387,2025-12-20,0,False
+Philadelphia 76ers,22500382,2025-12-19,0,False
+Philadelphia 76ers,22501217,2025-12-14,0,False
+Philadelphia 76ers,22501211,2025-12-12,0,False
+Philadelphia 76ers,22500362,2025-12-07,0,False
+Philadelphia 76ers,22500348,2025-12-05,0,False
+Philadelphia 76ers,22500333,2025-12-04,0,False
+Philadelphia 76ers,22500318,2025-12-02,0,False
+Philadelphia 76ers,22500304,2025-11-30,0,False
+Philadelphia 76ers,22500070,2025-11-28,0,False
+Philadelphia 76ers,22500058,2025-11-25,0,False
+Philadelphia 76ers,22500275,2025-11-23,0,False
+Philadelphia 76ers,22500266,2025-11-20,0,False
+Philadelphia 76ers,22500258,2025-11-19,0,False
+Philadelphia 76ers,22500243,2025-11-17,0,False
+Philadelphia 76ers,22500041,2025-11-14,0,False
+Philadelphia 76ers,22500209,2025-11-11,0,False
+Philadelphia 76ers,22500195,2025-11-09,0,False
+Philadelphia 76ers,22500184,2025-11-08,0,False
+Philadelphia 76ers,22500171,2025-11-05,0,False
+Philadelphia 76ers,22500167,2025-11-04,0,False
+Philadelphia 76ers,22500149,2025-11-02,0,False
+Philadelphia 76ers,22500021,2025-10-31,0,False
+Philadelphia 76ers,22500123,2025-10-28,0,False
+Philadelphia 76ers,22500114,2025-10-27,0,False
+Philadelphia 76ers,22500102,2025-10-25,0,False
+Philadelphia 76ers,22500083,2025-10-22,0,False
+Phoenix Suns,22501081,2026-03-28,0,False
+Phoenix Suns,22501050,2026-03-24,0,False
+Phoenix Suns,22501036,2026-03-22,0,False
+Phoenix Suns,22501031,2026-03-21,0,False
+Phoenix Suns,22501013,2026-03-19,0,False
+Phoenix Suns,22500996,2026-03-17,0,False
+Phoenix Suns,22500986,2026-03-16,0,False
+Phoenix Suns,22500963,2026-03-13,0,False
+Phoenix Suns,22500954,2026-03-12,0,False
+Phoenix Suns,22500941,2026-03-10,0,False
+Phoenix Suns,22500928,2026-03-08,0,False
+Phoenix Suns,22500912,2026-03-06,0,False
+Phoenix Suns,22500905,2026-03-05,0,False
+Phoenix Suns,22500892,2026-03-03,0,False
+Phoenix Suns,22500855,2026-02-26,0,False
+Phoenix Suns,22500839,2026-02-24,0,False
+Phoenix Suns,22500826,2026-02-22,0,False
+Phoenix Suns,22500811,2026-02-21,0,False
+Phoenix Suns,22500798,2026-02-19,0,False
+Phoenix Suns,22500785,2026-02-11,0,False
+Phoenix Suns,22500773,2026-02-10,0,False
+Phoenix Suns,22500754,2026-02-07,0,False
+Phoenix Suns,22500739,2026-02-05,0,False
+Phoenix Suns,22500725,2026-02-03,0,False
+Phoenix Suns,22500709,2026-02-01,0,False
+Phoenix Suns,22500693,2026-01-30,0,False
+Phoenix Suns,22500685,2026-01-29,0,False
+Phoenix Suns,22500669,2026-01-27,0,False
+Phoenix Suns,22500655,2026-01-25,0,False
+Phoenix Suns,22500636,2026-01-23,0,False
+Phoenix Suns,22500613,2026-01-20,0,False
+Phoenix Suns,22500610,2026-01-19,0,False
+Phoenix Suns,22500596,2026-01-17,0,False
+Phoenix Suns,22500579,2026-01-15,0,False
+Phoenix Suns,22500564,2026-01-13,0,False
+Phoenix Suns,22500555,2026-01-11,0,False
+Phoenix Suns,22500538,2026-01-09,0,False
+Phoenix Suns,22500524,2026-01-07,0,False
+Phoenix Suns,22500505,2026-01-05,0,False
+Phoenix Suns,22500499,2026-01-04,0,False
+Phoenix Suns,22500483,2026-01-02,-1,True
+Phoenix Suns,22500465,2025-12-31,0,False
+Phoenix Suns,22500448,2025-12-29,0,False
+Phoenix Suns,22500434,2025-12-27,0,False
+Phoenix Suns,22500429,2025-12-26,0,False
+Phoenix Suns,22500418,2025-12-23,0,False
+Phoenix Suns,22500392,2025-12-20,0,False
+Phoenix Suns,22500378,2025-12-18,0,False
+Phoenix Suns,22501228,2025-12-14,0,False
+Phoenix Suns,22501203,2025-12-10,0,False
+Phoenix Suns,22500365,2025-12-08,0,False
+Phoenix Suns,22500346,2025-12-05,-1,True
+Phoenix Suns,22500317,2025-12-01,-1,True
+Phoenix Suns,22500299,2025-11-29,0,False
+Phoenix Suns,22500075,2025-11-28,0,False
+Phoenix Suns,22500068,2025-11-26,0,False
+Phoenix Suns,22500290,2025-11-24,-1,True
+Phoenix Suns,22500281,2025-11-23,0,False
+Phoenix Suns,22500053,2025-11-21,0,False
+Phoenix Suns,22500254,2025-11-18,0,False
+Phoenix Suns,22500239,2025-11-16,0,False
+Phoenix Suns,22500226,2025-11-13,0,False
+Phoenix Suns,22500221,2025-11-12,0,False
+Phoenix Suns,22500204,2025-11-10,0,False
+Phoenix Suns,22500190,2025-11-08,0,False
+Phoenix Suns,22500182,2025-11-06,0,False
+Phoenix Suns,22500169,2025-11-04,0,False
+Phoenix Suns,22500154,2025-11-02,0,False
+Phoenix Suns,22500025,2025-10-31,0,False
+Phoenix Suns,22500137,2025-10-29,0,False
+Phoenix Suns,22500120,2025-10-27,-1,True
+Phoenix Suns,22500104,2025-10-25,0,False
+Phoenix Suns,22500099,2025-10-24,0,False
+Phoenix Suns,22500088,2025-10-22,0,False
+Portland Trail Blazers,22501087,2026-03-29,0,False
+Portland Trail Blazers,22501074,2026-03-27,0,False
+Portland Trail Blazers,22501061,2026-03-25,0,False
+Portland Trail Blazers,22501045,2026-03-23,0,False
+Portland Trail Blazers,22501032,2026-03-22,0,False
+Portland Trail Blazers,22501020,2026-03-20,0,False
+Portland Trail Blazers,22501001,2026-03-18,0,False
+Portland Trail Blazers,22500985,2026-03-16,0,False
+Portland Trail Blazers,22500980,2026-03-15,0,False
+Portland Trail Blazers,22500967,2026-03-13,0,False
+Portland Trail Blazers,22500944,2026-03-10,0,False
+Portland Trail Blazers,22500929,2026-03-08,0,False
+Portland Trail Blazers,22500910,2026-03-06,0,False
+Portland Trail Blazers,22500896,2026-03-04,0,False
+Portland Trail Blazers,22500873,2026-03-01,0,False
+Portland Trail Blazers,22500863,2026-02-28,0,False
+Portland Trail Blazers,22500853,2026-02-26,0,False
+Portland Trail Blazers,22500841,2026-02-24,0,False
+Portland Trail Blazers,22500826,2026-02-22,-1,True
+Portland Trail Blazers,22500810,2026-02-20,0,False
+Portland Trail Blazers,22500790,2026-02-12,0,False
+Portland Trail Blazers,22500783,2026-02-11,0,False
+Portland Trail Blazers,22500770,2026-02-09,0,False
+Portland Trail Blazers,22500755,2026-02-07,0,False
+Portland Trail Blazers,22500745,2026-02-06,0,False
+Portland Trail Blazers,22500725,2026-02-03,0,False
+Portland Trail Blazers,22500710,2026-02-01,0,False
+Portland Trail Blazers,22500690,2026-01-30,0,False
+Portland Trail Blazers,22500664,2026-01-27,-1,True
+Portland Trail Blazers,22500660,2026-01-26,0,False
+Portland Trail Blazers,22500642,2026-01-23,0,False
+Portland Trail Blazers,22500634,2026-01-22,0,False
+Portland Trail Blazers,22500606,2026-01-18,0,False
+Portland Trail Blazers,22500601,2026-01-17,0,False
+Portland Trail Blazers,22500585,2026-01-15,0,False
+Portland Trail Blazers,22500570,2026-01-13,0,False
+Portland Trail Blazers,22500551,2026-01-11,0,False
+Portland Trail Blazers,22500540,2026-01-09,0,False
+Portland Trail Blazers,22500527,2026-01-07,0,False
+Portland Trail Blazers,22500509,2026-01-05,0,False
+Portland Trail Blazers,22500490,2026-01-03,0,False
+Portland Trail Blazers,22500482,2026-01-02,0,False
+Portland Trail Blazers,22500470,2025-12-31,0,False
+Portland Trail Blazers,22500457,2025-12-29,0,False
+Portland Trail Blazers,22500444,2025-12-28,0,False
+Portland Trail Blazers,22500431,2025-12-26,0,False
+Portland Trail Blazers,22500420,2025-12-23,0,False
+Portland Trail Blazers,22500408,2025-12-22,0,False
+Portland Trail Blazers,22500394,2025-12-20,0,False
+Portland Trail Blazers,22500380,2025-12-18,0,False
+Portland Trail Blazers,22501221,2025-12-14,0,False
+Portland Trail Blazers,22501207,2025-12-11,0,False
+Portland Trail Blazers,22500360,2025-12-07,0,False
+Portland Trail Blazers,22500342,2025-12-05,0,False
+Portland Trail Blazers,22500324,2025-12-03,0,False
+Portland Trail Blazers,22500319,2025-12-02,0,False
+Portland Trail Blazers,22500305,2025-11-30,0,False
+Portland Trail Blazers,22500067,2025-11-26,0,False
+Portland Trail Blazers,22500288,2025-11-24,0,False
+Portland Trail Blazers,22500280,2025-11-23,0,False
+Portland Trail Blazers,22500056,2025-11-21,0,False
+Portland Trail Blazers,22500263,2025-11-19,0,False
+Portland Trail Blazers,22500254,2025-11-18,0,False
+Portland Trail Blazers,22500238,2025-11-16,0,False
+Portland Trail Blazers,22500042,2025-11-14,0,False
+Portland Trail Blazers,22500219,2025-11-12,0,False
+Portland Trail Blazers,22500200,2025-11-10,0,False
+Portland Trail Blazers,22500187,2025-11-08,0,False
+Portland Trail Blazers,22500180,2025-11-05,0,False
+Portland Trail Blazers,22500163,2025-11-03,0,False
+Portland Trail Blazers,22500026,2025-10-31,0,False
+Portland Trail Blazers,22500135,2025-10-29,-1,True
+Portland Trail Blazers,22500122,2025-10-27,0,False
+Portland Trail Blazers,22500112,2025-10-26,0,False
+Portland Trail Blazers,22500097,2025-10-24,0,False
+Portland Trail Blazers,22500089,2025-10-22,0,False
+Sacramento Kings,22501084,2026-03-29,0,False
+Sacramento Kings,22501078,2026-03-28,0,False
+Sacramento Kings,22501065,2026-03-26,0,False
+Sacramento Kings,22501047,2026-03-24,0,False
+Sacramento Kings,22501033,2026-03-22,0,False
+Sacramento Kings,22501015,2026-03-19,0,False
+Sacramento Kings,22500998,2026-03-17,0,False
+Sacramento Kings,22500982,2026-03-15,0,False
+Sacramento Kings,22500975,2026-03-14,0,False
+Sacramento Kings,22500951,2026-03-11,0,False
+Sacramento Kings,22500945,2026-03-10,0,False
+Sacramento Kings,22500930,2026-03-08,0,False
+Sacramento Kings,22500907,2026-03-05,0,False
+Sacramento Kings,22500892,2026-03-03,0,False
+Sacramento Kings,22500878,2026-03-01,0,False
+Sacramento Kings,22500854,2026-02-26,0,False
+Sacramento Kings,22500845,2026-02-25,0,False
+Sacramento Kings,22500829,2026-02-23,0,False
+Sacramento Kings,22500815,2026-02-21,0,False
+Sacramento Kings,22500800,2026-02-19,0,False
+Sacramento Kings,22500786,2026-02-11,0,False
+Sacramento Kings,22500766,2026-02-09,0,False
+Sacramento Kings,22500756,2026-02-07,0,False
+Sacramento Kings,22500746,2026-02-06,0,False
+Sacramento Kings,22500731,2026-02-04,0,False
+Sacramento Kings,22500707,2026-02-01,0,False
+Sacramento Kings,22500689,2026-01-30,0,False
+Sacramento Kings,22500680,2026-01-29,0,False
+Sacramento Kings,22500665,2026-01-27,0,False
+Sacramento Kings,22500650,2026-01-25,0,False
+Sacramento Kings,22500638,2026-01-23,0,False
+Sacramento Kings,22500626,2026-01-21,0,False
+Sacramento Kings,22500619,2026-01-20,0,False
+Sacramento Kings,22500606,2026-01-18,0,False
+Sacramento Kings,22500592,2026-01-16,0,False
+Sacramento Kings,22500576,2026-01-14,0,False
+Sacramento Kings,22500562,2026-01-12,0,False
+Sacramento Kings,22500557,2026-01-11,0,False
+Sacramento Kings,22500539,2026-01-09,0,False
+Sacramento Kings,22500515,2026-01-06,0,False
+Sacramento Kings,22500500,2026-01-04,0,False
+Sacramento Kings,22500483,2026-01-02,0,False
+Sacramento Kings,22500474,2026-01-01,0,False
+Sacramento Kings,22500461,2025-12-30,0,False
+Sacramento Kings,22500446,2025-12-28,0,False
+Sacramento Kings,22500432,2025-12-27,-1,True
+Sacramento Kings,22500421,2025-12-23,0,False
+Sacramento Kings,22500401,2025-12-21,0,False
+Sacramento Kings,22500394,2025-12-20,0,False
+Sacramento Kings,22500380,2025-12-18,0,False
+Sacramento Kings,22501220,2025-12-14,0,False
+Sacramento Kings,22501208,2025-12-11,0,False
+Sacramento Kings,22500364,2025-12-08,0,False
+Sacramento Kings,22500354,2025-12-06,0,False
+Sacramento Kings,22500330,2025-12-03,0,False
+Sacramento Kings,22500307,2025-11-30,0,False
+Sacramento Kings,22500077,2025-11-28,0,False
+Sacramento Kings,22500068,2025-11-26,0,False
+Sacramento Kings,22500292,2025-11-24,0,False
+Sacramento Kings,22500274,2025-11-22,0,False
+Sacramento Kings,22500265,2025-11-20,0,False
+Sacramento Kings,22500261,2025-11-19,0,False
+Sacramento Kings,22500234,2025-11-16,0,False
+Sacramento Kings,22500044,2025-11-14,0,False
+Sacramento Kings,22500223,2025-11-12,0,False
+Sacramento Kings,22500212,2025-11-11,0,False
+Sacramento Kings,22500197,2025-11-09,0,False
+Sacramento Kings,22500038,2025-11-07,0,False
+Sacramento Kings,22500181,2025-11-05,0,False
+Sacramento Kings,22500162,2025-11-03,0,False
+Sacramento Kings,22500142,2025-11-01,0,False
+Sacramento Kings,22500132,2025-10-29,0,False
+Sacramento Kings,22500126,2025-10-28,0,False
+Sacramento Kings,22500113,2025-10-26,0,False
+Sacramento Kings,22500098,2025-10-24,0,False
+Sacramento Kings,22500088,2025-10-22,0,False
+San Antonio Spurs,22501076,2026-03-28,0,False
+San Antonio Spurs,22501056,2026-03-25,0,False
+San Antonio Spurs,22501041,2026-03-23,0,False
+San Antonio Spurs,22501028,2026-03-21,0,False
+San Antonio Spurs,22501013,2026-03-19,0,False
+San Antonio Spurs,22500998,2026-03-17,-1,True
+San Antonio Spurs,22500990,2026-03-16,0,False
+San Antonio Spurs,22500973,2026-03-14,0,False
+San Antonio Spurs,22500958,2026-03-12,0,False
+San Antonio Spurs,22500942,2026-03-10,0,False
+San Antonio Spurs,22500927,2026-03-08,-1,True
+San Antonio Spurs,22500913,2026-03-06,0,False
+San Antonio Spurs,22500904,2026-03-05,0,False
+San Antonio Spurs,22500888,2026-03-03,0,False
+San Antonio Spurs,22500868,2026-03-01,0,False
+San Antonio Spurs,22500851,2026-02-26,0,False
+San Antonio Spurs,22500843,2026-02-25,0,False
+San Antonio Spurs,22500828,2026-02-23,0,False
+San Antonio Spurs,22500815,2026-02-21,0,False
+San Antonio Spurs,22500798,2026-02-19,0,False
+San Antonio Spurs,22500788,2026-02-11,0,False
+San Antonio Spurs,22500774,2026-02-10,0,False
+San Antonio Spurs,22500749,2026-02-07,0,False
+San Antonio Spurs,22500738,2026-02-05,0,False
+San Antonio Spurs,22500730,2026-02-04,0,False
+San Antonio Spurs,22500703,2026-02-01,0,False
+San Antonio Spurs,22500697,2026-01-31,0,False
+San Antonio Spurs,22500679,2026-01-28,0,False
+San Antonio Spurs,22500654,2026-01-25,0,False
+San Antonio Spurs,22500632,2026-01-22,0,False
+San Antonio Spurs,22500615,2026-01-20,0,False
+San Antonio Spurs,22500611,2026-01-19,0,False
+San Antonio Spurs,22500598,2026-01-17,0,False
+San Antonio Spurs,22500582,2026-01-15,0,False
+San Antonio Spurs,22500568,2026-01-13,0,False
+San Antonio Spurs,22500552,2026-01-11,0,False
+San Antonio Spurs,22500545,2026-01-10,0,False
+San Antonio Spurs,22500523,2026-01-07,0,False
+San Antonio Spurs,22500512,2026-01-06,0,False
+San Antonio Spurs,22500490,2026-01-03,0,False
+San Antonio Spurs,22500476,2026-01-02,0,False
+San Antonio Spurs,22500467,2025-12-31,0,False
+San Antonio Spurs,22500456,2025-12-29,0,False
+San Antonio Spurs,22500440,2025-12-27,0,False
+San Antonio Spurs,22500010,2025-12-25,0,False
+San Antonio Spurs,22500417,2025-12-23,0,False
+San Antonio Spurs,22500399,2025-12-21,0,False
+San Antonio Spurs,22500383,2025-12-19,0,False
+San Antonio Spurs,22500370,2025-12-18,0,False
+San Antonio Spurs,22501230,2025-12-13,0,False
+San Antonio Spurs,22501204,2025-12-10,0,False
+San Antonio Spurs,22500366,2025-12-08,0,False
+San Antonio Spurs,22500341,2025-12-05,0,False
+San Antonio Spurs,22500326,2025-12-03,0,False
+San Antonio Spurs,22500322,2025-12-02,0,False
+San Antonio Spurs,22500306,2025-11-30,0,False
+San Antonio Spurs,22500076,2025-11-28,0,False
+San Antonio Spurs,22500067,2025-11-26,0,False
+San Antonio Spurs,22500281,2025-11-23,0,False
+San Antonio Spurs,22500267,2025-11-20,0,False
+San Antonio Spurs,22500252,2025-11-18,0,False
+San Antonio Spurs,22500234,2025-11-16,0,False
+San Antonio Spurs,22500047,2025-11-14,0,False
+San Antonio Spurs,22500220,2025-11-12,0,False
+San Antonio Spurs,22500202,2025-11-10,0,False
+San Antonio Spurs,22500188,2025-11-08,0,False
+San Antonio Spurs,22500032,2025-11-07,0,False
+San Antonio Spurs,22500179,2025-11-05,-1,True
+San Antonio Spurs,22500154,2025-11-02,0,False
+San Antonio Spurs,22500141,2025-10-30,0,False
+San Antonio Spurs,22500118,2025-10-27,0,False
+San Antonio Spurs,22500105,2025-10-26,0,False
+San Antonio Spurs,22500095,2025-10-24,0,False
+San Antonio Spurs,22500004,2025-10-22,0,False
+Toronto Raptors,22501086,2026-03-29,-1,True
+Toronto Raptors,22501071,2026-03-27,0,False
+Toronto Raptors,22501062,2026-03-25,0,False
+Toronto Raptors,22501043,2026-03-23,-1,True
+Toronto Raptors,22501036,2026-03-22,0,False
+Toronto Raptors,22501021,2026-03-20,0,False
+Toronto Raptors,22501002,2026-03-18,0,False
+Toronto Raptors,22500978,2026-03-15,0,False
+Toronto Raptors,22500963,2026-03-13,0,False
+Toronto Raptors,22500948,2026-03-11,0,False
+Toronto Raptors,22500940,2026-03-10,0,False
+Toronto Raptors,22500924,2026-03-08,0,False
+Toronto Raptors,22500903,2026-03-05,0,False
+Toronto Raptors,22500887,2026-03-03,0,False
+Toronto Raptors,22500865,2026-02-28,0,False
+Toronto Raptors,22500843,2026-02-25,0,False
+Toronto Raptors,22500834,2026-02-24,0,False
+Toronto Raptors,22500819,2026-02-22,0,False
+Toronto Raptors,22500797,2026-02-19,0,False
+Toronto Raptors,22500781,2026-02-11,0,False
+Toronto Raptors,22500759,2026-02-08,0,False
+Toronto Raptors,22500736,2026-02-05,0,False
+Toronto Raptors,22500727,2026-02-04,0,False
+Toronto Raptors,22500706,2026-02-01,0,False
+Toronto Raptors,22500687,2026-01-30,0,False
+Toronto Raptors,22500675,2026-01-28,0,False
+Toronto Raptors,22500653,2026-01-25,0,False
+Toronto Raptors,22500642,2026-01-23,0,False
+Toronto Raptors,22500626,2026-01-21,0,False
+Toronto Raptors,22500618,2026-01-20,0,False
+Toronto Raptors,22500607,2026-01-18,0,False
+Toronto Raptors,22500590,2026-01-16,0,False
+Toronto Raptors,22500571,2026-01-14,0,False
+Toronto Raptors,22500560,2026-01-12,0,False
+Toronto Raptors,22500550,2026-01-11,-1,True
+Toronto Raptors,22500532,2026-01-09,0,False
+Toronto Raptors,22500516,2026-01-07,0,False
+Toronto Raptors,22500504,2026-01-05,0,False
+Toronto Raptors,22500488,2026-01-03,0,False
+Toronto Raptors,22500468,2025-12-31,0,False
+Toronto Raptors,22500451,2025-12-29,0,False
+Toronto Raptors,22500441,2025-12-28,0,False
+Toronto Raptors,22500425,2025-12-26,0,False
+Toronto Raptors,22500414,2025-12-23,0,False
+Toronto Raptors,22500397,2025-12-21,0,False
+Toronto Raptors,22500388,2025-12-20,0,False
+Toronto Raptors,22500374,2025-12-18,0,False
+Toronto Raptors,22501227,2025-12-15,0,False
+Toronto Raptors,22501202,2025-12-09,0,False
+Toronto Raptors,22500358,2025-12-07,0,False
+Toronto Raptors,22500344,2025-12-05,0,False
+Toronto Raptors,22500336,2025-12-04,0,False
+Toronto Raptors,22500319,2025-12-02,0,False
+Toronto Raptors,22500303,2025-11-30,0,False
+Toronto Raptors,22500294,2025-11-29,0,False
+Toronto Raptors,22500063,2025-11-26,0,False
+Toronto Raptors,22500284,2025-11-24,0,False
+Toronto Raptors,22500279,2025-11-23,0,False
+Toronto Raptors,22500050,2025-11-21,0,False
+Toronto Raptors,22500258,2025-11-19,0,False
+Toronto Raptors,22500245,2025-11-17,0,False
+Toronto Raptors,22500230,2025-11-15,0,False
+Toronto Raptors,22500225,2025-11-13,0,False
+Toronto Raptors,22500207,2025-11-11,0,False
+Toronto Raptors,22500184,2025-11-08,0,False
+Toronto Raptors,22500030,2025-11-07,0,False
+Toronto Raptors,22500165,2025-11-04,0,False
+Toronto Raptors,22500152,2025-11-02,0,False
+Toronto Raptors,22500022,2025-10-31,0,False
+Toronto Raptors,22500131,2025-10-29,-1,True
+Toronto Raptors,22500118,2025-10-27,0,False
+Toronto Raptors,22500111,2025-10-26,0,False
+Toronto Raptors,22500092,2025-10-24,0,False
+Toronto Raptors,22500082,2025-10-22,0,False
+Utah Jazz,22501081,2026-03-28,0,False
+Utah Jazz,22501072,2026-03-27,0,False
+Utah Jazz,22501057,2026-03-25,0,False
+Utah Jazz,22501043,2026-03-23,0,False
+Utah Jazz,22501030,2026-03-21,0,False
+Utah Jazz,22501014,2026-03-19,0,False
+Utah Jazz,22501004,2026-03-18,0,False
+Utah Jazz,22500982,2026-03-15,0,False
+Utah Jazz,22500967,2026-03-13,0,False
+Utah Jazz,22500949,2026-03-11,0,False
+Utah Jazz,22500934,2026-03-09,0,False
+Utah Jazz,22500919,2026-03-07,0,False
+Utah Jazz,22500900,2026-03-05,0,False
+Utah Jazz,22500895,2026-03-04,0,False
+Utah Jazz,22500881,2026-03-02,0,False
+Utah Jazz,22500867,2026-02-28,0,False
+Utah Jazz,22500856,2026-02-26,0,False
+Utah Jazz,22500830,2026-02-23,0,False
+Utah Jazz,22500804,2026-02-20,0,False
+Utah Jazz,22500790,2026-02-12,0,False
+Utah Jazz,22500786,2026-02-11,0,False
+Utah Jazz,22500763,2026-02-09,0,False
+Utah Jazz,22500750,2026-02-07,0,False
+Utah Jazz,22500735,2026-02-05,0,False
+Utah Jazz,22500717,2026-02-03,0,False
+Utah Jazz,22500706,2026-02-01,0,False
+Utah Jazz,22500694,2026-01-30,0,False
+Utah Jazz,22500678,2026-01-28,0,False
+Utah Jazz,22500670,2026-01-27,0,False
+Utah Jazz,22500649,2026-01-24,0,False
+Utah Jazz,22500632,2026-01-22,0,False
+Utah Jazz,22500616,2026-01-20,0,False
+Utah Jazz,22500611,2026-01-19,0,False
+Utah Jazz,22500593,2026-01-17,0,False
+Utah Jazz,22500583,2026-01-15,0,False
+Utah Jazz,22500573,2026-01-14,0,False
+Utah Jazz,22500558,2026-01-12,0,False
+Utah Jazz,22500547,2026-01-10,0,False
+Utah Jazz,22500531,2026-01-08,0,False
+Utah Jazz,22500525,2026-01-07,0,False
+Utah Jazz,22500509,2026-01-05,0,False
+Utah Jazz,22500492,2026-01-03,0,False
+Utah Jazz,22500475,2026-01-01,0,False
+Utah Jazz,22500459,2025-12-30,0,False
+Utah Jazz,22500440,2025-12-27,0,False
+Utah Jazz,22500430,2025-12-26,0,False
+Utah Jazz,22500419,2025-12-23,0,False
+Utah Jazz,22500405,2025-12-22,0,False
+Utah Jazz,22500393,2025-12-20,0,False
+Utah Jazz,22500379,2025-12-18,0,False
+Utah Jazz,22501224,2025-12-15,0,False
+Utah Jazz,22501213,2025-12-12,0,False
+Utah Jazz,22500363,2025-12-07,0,False
+Utah Jazz,22500343,2025-12-05,0,False
+Utah Jazz,22500335,2025-12-04,0,False
+Utah Jazz,22500316,2025-12-01,0,False
+Utah Jazz,22500301,2025-11-30,0,False
+Utah Jazz,22500077,2025-11-28,0,False
+Utah Jazz,22500291,2025-11-24,0,False
+Utah Jazz,22500282,2025-11-23,0,False
+Utah Jazz,22500055,2025-11-21,0,False
+Utah Jazz,22500253,2025-11-18,0,False
+Utah Jazz,22500240,2025-11-16,-1,True
+Utah Jazz,22500227,2025-11-13,0,False
+Utah Jazz,22500211,2025-11-11,0,False
+Utah Jazz,22500205,2025-11-10,0,False
+Utah Jazz,22500036,2025-11-07,0,False
+Utah Jazz,22500172,2025-11-05,0,False
+Utah Jazz,22500158,2025-11-03,0,False
+Utah Jazz,22500150,2025-11-02,0,False
+Utah Jazz,22500025,2025-10-31,0,False
+Utah Jazz,22500135,2025-10-29,0,False
+Utah Jazz,22500120,2025-10-27,0,False
+Utah Jazz,22500098,2025-10-24,0,False
+Utah Jazz,22500087,2025-10-22,0,False
+Washington Wizards,22501087,2026-03-29,0,False
+Washington Wizards,22501073,2026-03-27,0,False
+Washington Wizards,22501057,2026-03-25,0,False
+Washington Wizards,22501034,2026-03-22,0,False
+Washington Wizards,22501022,2026-03-21,0,False
+Washington Wizards,22501009,2026-03-19,0,False
+Washington Wizards,22500993,2026-03-17,0,False
+Washington Wizards,22500984,2026-03-16,0,False
+Washington Wizards,22500971,2026-03-14,0,False
+Washington Wizards,22500955,2026-03-12,0,False
+Washington Wizards,22500938,2026-03-10,0,False
+Washington Wizards,22500925,2026-03-08,0,False
+Washington Wizards,22500900,2026-03-05,0,False
+Washington Wizards,22500885,2026-03-03,0,False
+Washington Wizards,22500879,2026-03-02,0,False
+Washington Wizards,22500865,2026-02-28,0,False
+Washington Wizards,22500850,2026-02-26,0,False
+Washington Wizards,22500832,2026-02-24,0,False
+Washington Wizards,22500822,2026-02-22,0,False
+Washington Wizards,22500803,2026-02-20,-1,True
+Washington Wizards,22500795,2026-02-19,0,False
+Washington Wizards,22500776,2026-02-11,0,False
+Washington Wizards,22500758,2026-02-08,0,False
+Washington Wizards,22500747,2026-02-07,0,False
+Washington Wizards,22500733,2026-02-05,0,False
+Washington Wizards,22500718,2026-02-03,0,False
+Washington Wizards,22500707,2026-02-01,0,False
+Washington Wizards,22500688,2026-01-30,0,False
+Washington Wizards,22500681,2026-01-29,0,False
+Washington Wizards,22500664,2026-01-27,-1,True
+Washington Wizards,22500645,2026-01-24,0,False
+Washington Wizards,22500629,2026-01-22,0,False
+Washington Wizards,22500608,2026-01-19,0,False
+Washington Wizards,22500600,2026-01-17,0,False
+Washington Wizards,22500592,2026-01-16,0,False
+Washington Wizards,22500577,2026-01-14,0,False
+Washington Wizards,22500555,2026-01-11,0,False
+Washington Wizards,22500534,2026-01-09,0,False
+Washington Wizards,22500518,2026-01-07,0,False
+Washington Wizards,22500511,2026-01-06,0,False
+Washington Wizards,22500498,2026-01-04,0,False
+Washington Wizards,22500477,2026-01-02,0,False
+Washington Wizards,22500469,2025-12-31,0,False
+Washington Wizards,22500448,2025-12-29,0,False
+Washington Wizards,22500443,2025-12-28,0,False
+Washington Wizards,22500425,2025-12-26,0,False
+Washington Wizards,22500409,2025-12-23,0,False
+Washington Wizards,22500399,2025-12-21,0,False
+Washington Wizards,22500391,2025-12-20,0,False
+Washington Wizards,22500370,2025-12-18,0,False
+Washington Wizards,22501216,2025-12-14,0,False
+Washington Wizards,22501212,2025-12-12,0,False
+Washington Wizards,22500351,2025-12-06,0,False
+Washington Wizards,22500334,2025-12-04,0,False
+Washington Wizards,22500318,2025-12-02,0,False
+Washington Wizards,22500311,2025-12-01,0,False
+Washington Wizards,22500073,2025-11-28,0,False
+Washington Wizards,22500057,2025-11-25,0,False
+Washington Wizards,22500271,2025-11-22,0,False
+Washington Wizards,22500050,2025-11-21,0,False
+Washington Wizards,22500259,2025-11-19,0,False
+Washington Wizards,22500235,2025-11-16,0,False
+Washington Wizards,22500218,2025-11-12,0,False
+Washington Wizards,22500199,2025-11-10,0,False
+Washington Wizards,22500183,2025-11-08,0,False
+Washington Wizards,22500029,2025-11-07,0,False
+Washington Wizards,22500174,2025-11-05,0,False
+Washington Wizards,22500159,2025-11-03,0,False
+Washington Wizards,22500145,2025-11-01,0,False
+Washington Wizards,22500140,2025-10-30,0,False
+Washington Wizards,22500123,2025-10-28,0,False
+Washington Wizards,22500109,2025-10-26,0,False
+Washington Wizards,22500096,2025-10-24,0,False
+Washington Wizards,22500086,2025-10-22,0,False

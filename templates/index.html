@@ -4,77 +4,463 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Análise Esportiva</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f4f9;
+            color: #263449;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #142b49;
+            color: white;
+            padding: 28px 6%;
+        }
+
+        header h1 {
+            font-size: 27px;
+            margin-bottom: 4px;
+        }
+
+        header p {
+            color: #cbd6e5;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 1250px;
+            margin: 30px auto;
+            padding: 0 22px;
+        }
+
+        .secao {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 12px rgba(20, 43, 73, 0.05);
+        }
+
+        .titulo-secao {
+            font-size: 19px;
+            color: #142b49;
+            margin-bottom: 18px;
+        }
+
+        .filtros {
+            display: flex;
+            align-items: end;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        .campo {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            color: #475569;
+        }
+
+        select {
+            padding: 11px;
+            border: 1px solid #d6deea;
+            border-radius: 7px;
+            background: white;
+            font-size: 14px;
+            color: #263449;
+        }
+
+        button {
+            padding: 12px 25px;
+            background: #1d4e89;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background: #163c6b;
+        }
+
+        .equipe-titulo {
+            font-size: 24px;
+            color: #142b49;
+            margin-bottom: 5px;
+        }
+
+        .subtitulo {
+            color: #718096;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .indicadores {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 22px;
+        }
+
+        .indicador {
+            background: #f5f8fc;
+            border: 1px solid #e5ebf3;
+            border-radius: 9px;
+            padding: 18px;
+        }
+
+        .indicador span {
+            display: block;
+            color: #64748b;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .indicador strong {
+            font-size: 25px;
+            color: #142b49;
+        }
+
+        .tabela-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 12px 14px;
+            border-bottom: 1px solid #e8edf3;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        th {
+            background: #edf2f8;
+            color: #263f60;
+            font-weight: bold;
+        }
+
+        tbody tr:hover {
+            background: #f7f9fc;
+        }
+
+        .histograma {
+            width: 100%;
+            max-width: 850px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .metodos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 14px;
+        }
+
+        .metodo-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 9px;
+            padding: 16px;
+            background: #fafcff;
+        }
+
+        .metodo-card span {
+            color: #64748b;
+            font-size: 13px;
+            display: block;
+        }
+
+        .metodo-card strong {
+            display: block;
+            font-size: 24px;
+            color: #1d4e89;
+            margin-top: 5px;
+        }
+
+        .metodo-card small {
+            color: #718096;
+        }
+
+        .vazio {
+            padding: 20px;
+            background: #f5f8fc;
+            border-radius: 8px;
+            color: #64748b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #718096;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            main {
+                padding: 0 12px;
+                margin: 18px auto;
+            }
+
+            .secao {
+                padding: 17px;
+            }
+
+            .filtros {
+                align-items: stretch;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Análise de Dados Esportivos</h1>
+    <header>
+        <h1>Análise de Dados Esportivos</h1>
+        <p>Exploração estatística e detecção de anomalias em partidas da NBA</p>
+    </header>
 
-    <form method="GET" action="/">
-        <label for="time">Selecione um time:</label>
+    <main>
 
-        <select name="time" id="time">
-            {% for nome in times %}
-                <option value="{{ nome }}"
-                    {% if nome == time %}selected{% endif %}>
-                    {{ nome }}
-                </option>
-            {% endfor %}
-        </select>
+        <!-- FILTROS -->
+        <section class="secao">
 
-        <label for="variavel">Selecione uma variável:</label>
+            <h2 class="titulo-secao">Filtros de análise</h2>
 
-        <select name="variavel" id="variavel">
-            {% for nome in variaveis %}
-                <option value="{{ nome }}"
-                    {% if nome == variavel %}selected{% endif %}>
-                    {{ nome }}
-                </option>
-            {% endfor %}
-        </select>
+            <form method="GET" action="/" class="filtros">
 
-        <button type="submit">Analisar</button>
-    </form>
+                <div class="campo">
+                    <label for="time">Equipe</label>
 
-    <h2>{{ time }}</h2>
+                    <select name="time" id="time">
+                        {% for nome in times %}
+                            <option value="{{ nome }}"
+                                {% if nome == time %}selected{% endif %}>
+                                {{ nome }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
 
-    <p>Total de partidas: {{ total_partidas }}</p>
+                <div class="campo">
+                    <label for="variavel">Estatística</label>
 
-    <h3>Estatísticas descritivas</h3>
+                    <select name="variavel" id="variavel">
+                        {% for nome in variaveis %}
+                            <option value="{{ nome }}"
+                                {% if nome == variavel %}selected{% endif %}>
+                                {{ nomes_variaveis[nome] }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Variável</th>
-                <th>Média</th>
-                <th>Desvio padrão</th>
-                <th>Mediana</th>
-                <th>Mínimo</th>
-                <th>Máximo</th>
-            </tr>
-        </thead>
+                <button type="submit">Analisar</button>
 
-        <tbody>
-            {% for variavel, valores in estatisticas.items() %}
-                <tr>
-                    <td>{{ variavel }}</td>
-                    <td>{{ valores["mean"] }}</td>
-                    <td>{{ valores["std"] }}</td>
-                    <td>{{ valores["50%"] }}</td>
-                    <td>{{ valores["min"] }}</td>
-                    <td>{{ valores["max"] }}</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+            </form>
 
-    <h3>Histograma</h3>
+        </section>
 
-    <img
-        src="{{ url_for('static', filename='histograma.png') }}"
-        alt="Histograma da variável selecionada"
-        width="700"
-    >
+
+        <!-- VISÃO GERAL -->
+        <section class="secao">
+
+            <h2 class="equipe-titulo">{{ time }}</h2>
+
+            <p class="subtitulo">
+                Visão geral do desempenho da equipe na temporada analisada
+            </p>
+
+            <div class="indicadores">
+
+                <div class="indicador">
+                    <span>Total de partidas</span>
+                    <strong>{{ total_partidas }}</strong>
+                </div>
+
+                <div class="indicador">
+                    <span>Estatística selecionada</span>
+                    <strong style="font-size: 19px;">
+                        {{ nome_variavel }}
+                    </strong>
+                </div>
+
+                <div class="indicador">
+                    <span>Métodos de detecção</span>
+                    <strong>6</strong>
+                </div>
+
+            </div>
+
+            <h3 class="titulo-secao">Estatísticas descritivas</h3>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Estatística</th>
+                            <th>Média</th>
+                            <th>Desvio padrão</th>
+                            <th>Mediana</th>
+                            <th>Mínimo</th>
+                            <th>Máximo</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for codigo, valores in estatisticas.items() %}
+                            <tr>
+                                <td>{{ nomes_variaveis[codigo] }}</td>
+                                <td>{{ valores["mean"] }}</td>
+                                <td>{{ valores["std"] }}</td>
+                                <td>{{ valores["50%"] }}</td>
+                                <td>{{ valores["min"] }}</td>
+                                <td>{{ valores["max"] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- HISTOGRAMA -->
+        <section class="secao">
+
+            <h2 class="titulo-secao">
+                Distribuição de {{ nome_variavel }}
+            </h2>
+
+            <p class="subtitulo">
+                Frequência dos valores registrados nas partidas da equipe
+            </p>
+
+            <img
+                class="histograma"
+                src="{{ url_for('static', filename='histograma.png') }}"
+                alt="Histograma de {{ nome_variavel }}"
+            >
+
+        </section>
+
+
+        <!-- DETECÇÃO DE ANOMALIAS -->
+        <section class="secao">
+
+            <h2 class="titulo-secao">Detecção de anomalias</h2>
+
+            <p class="subtitulo">
+                Quantidade de partidas sinalizadas por cada método
+            </p>
+
+            <div class="metodos">
+
+                {% for resultado in resumo_metodos %}
+
+                    <div class="metodo-card">
+                        <span>{{ resultado.metodo }}</span>
+                        <strong>{{ resultado.quantidade }}</strong>
+                        <small>partidas sinalizadas</small>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
+
+
+        <!-- DETALHAMENTO -->
+        <section class="secao">
+
+            <h2 class="titulo-secao">Registros identificados</h2>
+
+            <p class="subtitulo">
+                Observações sinalizadas pelos métodos de detecção.
+                Uma mesma partida pode aparecer em mais de um método.
+            </p>
+
+            {% if outliers %}
+
+                <div class="tabela-container">
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Método</th>
+                                <th>Partida</th>
+                                <th>Data</th>
+                                <th>Variável</th>
+                                <th>Valor</th>
+                                <th>Detalhes</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {% for registro in outliers %}
+
+                                <tr>
+                                    <td><strong>{{ registro.metodo }}</strong></td>
+                                    <td>{{ registro.partida }}</td>
+                                    <td>{{ registro.data }}</td>
+                                    <td>{{ registro.variavel }}</td>
+                                    <td>{{ registro.valor }}</td>
+                                    <td>{{ registro.detalhe }}</td>
+                                </tr>
+
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+
+            {% else %}
+
+                <p class="vazio">
+                    Nenhuma anomalia foi identificada para esta equipe.
+                </p>
+
+            {% endif %}
+
+        </section>
+
+    </main>
+
+    <footer>
+        Projeto acadêmico de análise de dados esportivos
+    </footer>
 
 </body>
 </html>
