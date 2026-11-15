@@ -372,6 +372,91 @@ def inicio():
 
     plt.close()
 
+    # ======================================
+    # BOXPLOT
+    # ======================================
+
+    valores_boxplot = dados_time[variavel].dropna()
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+
+    ax.boxplot(
+        valores_boxplot,
+        vert=False,
+        patch_artist=True,
+        showmeans=True,
+        whis=1.5,
+        boxprops={
+            "facecolor": "#93C5FD",
+            "edgecolor": "#2563EB",
+            "linewidth": 1.5
+        },
+        medianprops={
+            "color": "#1D4ED8",
+            "linewidth": 2
+        },
+        meanprops={
+            "marker": "D",
+            "markerfacecolor": "#F97316",
+            "markeredgecolor": "#F97316",
+            "markersize": 7
+        },
+        whiskerprops={
+            "color": "#2563EB",
+            "linewidth": 1.4
+        },
+        capprops={
+            "color": "#2563EB",
+            "linewidth": 1.4
+        },
+        flierprops={
+            "marker": "o",
+            "markerfacecolor": "#DC2626",
+            "markeredgecolor": "#DC2626",
+            "markersize": 5,
+            "alpha": 0.9
+        }
+    )
+
+    ax.set_title(
+        f"Boxplot de {nome_variavel} - {time_selecionado}",
+        fontsize=14
+    )
+
+    ax.set_xlabel(nome_variavel)
+    ax.set_yticks([])
+    ax.grid(axis="x", alpha=0.2)
+
+    fig.tight_layout()
+
+    caminho_boxplot = CAMINHO_STATIC / "boxplot.png"
+
+    fig.savefig(
+        caminho_boxplot,
+        dpi=120
+    )
+
+    plt.close(fig)
+
+    # Resumo numérico do boxplot
+    moda_boxplot = valores_analise.mode()
+    moda_boxplot_valor = (
+        float(moda_boxplot.iloc[0])
+        if not moda_boxplot.empty
+        else None
+    )
+
+    resumo_boxplot = {
+        "media": media,
+        "mediana": mediana,
+        "moda": moda_boxplot_valor,
+        "q1": q1,
+        "q3": q3,
+        "iqr": iqr,
+        "limite_inferior": limite_inferior,
+        "limite_superior": limite_superior,
+        "quantidade_outliers": quantidade_outliers
+    }
 
     # ======================================
     # 9. RESUMO DOS MÉTODOS DE OUTLIERS
@@ -508,6 +593,7 @@ def inicio():
         estatisticas=estatisticas,
         total_jogos_time=total_jogos_time,
         interpretacoes=interpretacoes,
+        resumo_boxplot=resumo_boxplot,
 
         # Dataset
         total_registros=total_registros,

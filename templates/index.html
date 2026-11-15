@@ -311,61 +311,46 @@
                 Medidas descritivas
             </h4>
 
+            
             <div class="tabela-container">
-
                 <table>
-
                     <thead>
                         <tr>
                             <th>Variável</th>
                             <th>Média</th>
-                            <th>Desvio padrão</th>
                             <th>Mediana</th>
+                            <th>Moda</th>
+                            <th>Desvio padrão</th>
+                            <th>Variância</th>
                             <th>Mínimo</th>
                             <th>Máximo</th>
+                            <th>Amplitude</th>
+                            <th>Q1</th>
+                            <th>Q3</th>
+                            <th>IQR</th>
                         </tr>
                     </thead>
 
                     <tbody>
-
-                        {% if estatisticas is mapping %}
-
-                            {% for codigo, valores in estatisticas.items() %}
-
-                            <tr>
-                                <td>{{ nomes_variaveis[codigo] }}</td>
-                                <td>{{ "%.2f"|format(valores["mean"]) }}</td>
-                                <td>{{ "%.2f"|format(valores["std"]) }}</td>
-                                <td>{{ "%.2f"|format(valores["50%"]) }}</td>
-                                <td>{{ "%.2f"|format(valores["min"]) }}</td>
-                                <td>{{ "%.2f"|format(valores["max"]) }}</td>
-                            </tr>
-
-                            {% endfor %}
-
-                        {% else %}
-
-                            {% for item in estatisticas %}
-
-                            <tr>
-                                <td>{{ item.nome }}</td>
-                                <td>{{ "%.2f"|format(item.media) }}</td>
-                                <td>{{ "%.2f"|format(item.desvio) }}</td>
-                                <td>{{ "%.2f"|format(item.mediana) }}</td>
-                                <td>{{ "%.2f"|format(item.minimo) }}</td>
-                                <td>{{ "%.2f"|format(item.maximo) }}</td>
-                            </tr>
-
-                            {% endfor %}
-
-                        {% endif %}
-
+                        {% for item in estatisticas %}
+                        <tr>
+                            <td><strong>{{ item.nome }}</strong></td>
+                            <td>{{ "%.2f"|format(item.media) }}</td>
+                            <td>{{ "%.2f"|format(item.mediana) }}</td>
+                            <td>{{ "%.2f"|format(item.moda) if item.moda is not none else "—" }}</td>
+                            <td>{{ "%.2f"|format(item.desvio) }}</td>
+                            <td>{{ "%.2f"|format(item.variancia) }}</td>
+                            <td>{{ "%.2f"|format(item.minimo) }}</td>
+                            <td>{{ "%.2f"|format(item.maximo) }}</td>
+                            <td>{{ "%.2f"|format(item.amplitude) }}</td>
+                            <td>{{ "%.2f"|format(item.q1) }}</td>
+                            <td>{{ "%.2f"|format(item.q3) }}</td>
+                            <td>{{ "%.2f"|format(item.iqr) }}</td>
+                        </tr>
+                        {% endfor %}
                     </tbody>
-
                 </table>
-
             </div>
-
 
             <!-- INTERPRETAÇÃO DOS RESULTADOS -->
 
@@ -426,6 +411,57 @@
                     alt="Histograma de {{ nome_variavel }}"
                 >
 
+            </div>
+
+            <div class="grafico grafico-secundario">
+
+                <div class="grafico-cabecalho">
+                    <h3>Boxplot de {{ nome_variavel }}</h3>
+                    <span class="chip">Boxplot</span>
+                </div>
+
+                <img
+                    src="{{ url_for('static', filename='boxplot.png', v=time ~ '-' ~ variavel) }}"
+                    alt="Boxplot de {{ nome_variavel }} para {{ time }}"
+                >
+
+            </div>
+
+            <div class="tabela-container resumo-boxplot">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Média</th>
+                            <th>Mediana</th>
+                            <th>Moda</th>
+                            <th>Q1</th>
+                            <th>Q3</th>
+                            <th>IQR</th>
+                            <th>Limite inferior</th>
+                            <th>Limite superior</th>
+                            <th>Outliers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ "%.2f"|format(resumo_boxplot.media) }}</td>
+                            <td>{{ "%.2f"|format(resumo_boxplot.mediana) }}</td>
+                            <td>
+                                {% if resumo_boxplot.moda is not none %}
+                                    {{ "%.2f"|format(resumo_boxplot.moda) }}
+                                {% else %}
+                                    —
+                                {% endif %}
+                            </td>
+                            <td>{{ "%.2f"|format(resumo_boxplot.q1) }}</td>
+                            <td>{{ "%.2f"|format(resumo_boxplot.q3) }}</td>
+                            <td>{{ "%.2f"|format(resumo_boxplot.iqr) }}</td>
+                            <td>{{ "%.2f"|format(resumo_boxplot.limite_inferior) }}</td>
+                            <td>{{ "%.2f"|format(resumo_boxplot.limite_superior) }}</td>
+                            <td>{{ resumo_boxplot.quantidade_outliers }}</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <p class="nota-metodologica">
