@@ -119,9 +119,7 @@
                         Partidas distintas
                     </span>
                     <strong class="card-valor">
-                        {{ total_partidas_base
-                           if total_partidas_base is defined
-                           else '—' }}
+                        {{ total_partidas }}
                     </strong>
                     <span class="card-nota">
                         Jogos únicos
@@ -367,6 +365,31 @@
                 </table>
 
             </div>
+
+
+            <!-- INTERPRETAÇÃO DOS RESULTADOS -->
+
+            <div class="interpretacao-resultados">
+
+                <h4 class="subtitulo-tabela">
+                    Interpretação dos resultados
+                </h4>
+
+                <p class="descricao">
+                    Análise da variável {{ nome_variavel }}
+                    para a equipe {{ time }}.
+                </p>
+
+                {% for interpretacao in interpretacoes %}
+
+                    <div class="interpretacao-item">
+                        <p>{{ interpretacao }}</p>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+
 
             <p class="nota-metodologica">
                 Medidas calculadas para a equipe selecionada,

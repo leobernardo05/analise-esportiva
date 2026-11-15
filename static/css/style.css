@@ -604,3 +604,23 @@ tbody tr:last-child td {
     }
 
 }
+
+/* INTERPRETAÇÕES ESTATÍSTICAS */
+.interpretacao-resultados {
+    margin-top: 28px;
+}
+
+.interpretacao-item {
+    background: #f8fafd;
+    border-left: 3px solid #2469cf;
+    border-radius: 7px;
+
+    padding: 14px 18px;
+    margin-top: 10px;
+}
+
+.interpretacao-item p {
+    color: #405775;
+    font-size: 13px;
+    line-height: 1.7;
+}
