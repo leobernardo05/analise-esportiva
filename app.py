@@ -1,4 +1,6 @@
 
+from pathlib import Path
+
 from flask import Flask, render_template, request
 import pandas as pd
 import matplotlib
@@ -6,207 +8,187 @@ import matplotlib
 matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
-import os
+
+
+# --------------------------------------------------
+# CONFIGURAÇÕES INICIAIS
+# --------------------------------------------------
 
 app = Flask(__name__)
 
-# Base original
-df = pd.read_csv(
-    "data/original/stats_times_regular_final.csv",
-    dtype={"Game_ID": "string"}
+BASE_DIR = Path(__file__).resolve().parent
+
+CAMINHO_DADOS = BASE_DIR / "data" / "original" / "stats_times_regular_final.csv"
+CAMINHO_STATIC = BASE_DIR / "static"
+
+CAMINHO_STATIC.mkdir(exist_ok=True)
+
+
+# --------------------------------------------------
+# CARREGAMENTO DA BASE
+# --------------------------------------------------
+
+df = pd.read_csv(CAMINHO_DADOS)
+
+# Conversão da coluna de data
+df["GAME_DATE"] = pd.to_datetime(
+    df["GAME_DATE"],
+    errors="coerce"
 )
 
-# Códigos usados internamente e nomes exibidos na interface
-nomes_variaveis = {
+
+# --------------------------------------------------
+# VARIÁVEIS E NOMES PARA EXIBIÇÃO
+# --------------------------------------------------
+
+variaveis = {
     "PTS": "Pontos",
-    "REB": "Rebotes totais",
+    "REB": "Rebotes",
     "AST": "Assistências",
     "STL": "Roubos de bola",
     "BLK": "Bloqueios",
     "PF": "Faltas pessoais",
-    "FG3M": "Cestas de 3 convertidas"
+    "FG3M": "Cestas de três convertidas"
 }
 
-variaveis = list(nomes_variaveis.keys())
 
-# Correspondência entre nomes dos métodos e arquivos
-arquivos_outliers = {
-    "IQR": "data/processed/outliers_iqr.csv",
-    "Z-score": "data/processed/outliers_zscore.csv",
-    "Grubbs": "data/processed/outliers_grubbs.csv",
-    "ECOD": "data/processed/outliers_ecod.csv",
-    "K-NN": "data/processed/outliers_knn.csv",
-    "DBSCAN": "data/processed/outliers_dbscan.csv"
-}
-
-# Nomes das variáveis da base tratada
-nomes_variaveis_tratadas = {
-    "pontos": "Pontos",
-    "rebotes_totais": "Rebotes totais",
-    "assistencias": "Assistências",
-    "roubos_bola": "Roubos de bola",
-    "bloqueios": "Bloqueios",
-    "faltas_pessoais": "Faltas pessoais",
-    "cestas_3_convertidas": "Cestas de 3 convertidas"
-}
-
-# Carregamento dos resultados dos métodos
-resultados_outliers = {}
-
-for metodo, caminho in arquivos_outliers.items():
-    resultados_outliers[metodo] = pd.read_csv(
-        caminho,
-        dtype={"id_partida": "string"}
-    )
-
-os.makedirs("static", exist_ok=True)
-
+# --------------------------------------------------
+# ROTA PRINCIPAL
+# --------------------------------------------------
 
 @app.route("/")
 def inicio():
 
-    times = sorted(df["TEAM_NAME"].unique())
+    # Lista de equipes
+    times = sorted(df["TEAM_NAME"].dropna().unique())
 
+    # Recebe os filtros enviados pelo formulário
     time_selecionado = request.args.get("time", times[0])
+    variavel = request.args.get("variavel", "PTS")
 
+    # Validação dos filtros
     if time_selecionado not in times:
         time_selecionado = times[0]
-
-    variavel = request.args.get("variavel", "PTS")
 
     if variavel not in variaveis:
         variavel = "PTS"
 
-    # Dados da equipe selecionada
-    dados_time = df[df["TEAM_NAME"] == time_selecionado]
+    # Filtra os dados da equipe
+    dados_time = df[
+        df["TEAM_NAME"] == time_selecionado
+    ].copy()
 
-    # Estatísticas descritivas
-    estatisticas = (
-        dados_time[variaveis]
-        .describe()
-        .round(2)
-        .to_dict()
-    )
+    # --------------------------------------------------
+    # ESTATÍSTICAS DESCRITIVAS
+    # --------------------------------------------------
 
-    # Histograma
+    estatisticas = []
+
+    for codigo, nome in variaveis.items():
+
+        valores = dados_time[codigo].describe()
+
+        estatisticas.append({
+            "nome": nome,
+            "media": valores["mean"],
+            "desvio": valores["std"],
+            "mediana": valores["50%"],
+            "minimo": valores["min"],
+            "maximo": valores["max"]
+        })
+
+    # --------------------------------------------------
+    # DADOS GERAIS DA BASE
+    # --------------------------------------------------
+
+    total_registros = len(df)
+    total_colunas = len(df.columns)
+    total_times = df["TEAM_NAME"].nunique()
+    total_partidas = df["Game_ID"].nunique()
+
+    total_jogos_time = len(dados_time)
+
+    total_ausentes = int(df.isna().sum().sum())
+    total_duplicados = int(df.duplicated().sum())
+
+    data_inicial = df["GAME_DATE"].min()
+    data_final = df["GAME_DATE"].max()
+
+    periodo = "Não informado"
+
+    if pd.notna(data_inicial) and pd.notna(data_final):
+        periodo = (
+            f"{data_inicial.strftime('%d/%m/%Y')} "
+            f"até {data_final.strftime('%d/%m/%Y')}"
+        )
+
+    # --------------------------------------------------
+    # HISTOGRAMA
+    # --------------------------------------------------
+
+    nome_variavel = variaveis[variavel]
+
     plt.figure(figsize=(9, 5))
 
     plt.hist(
         dados_time[variavel].dropna(),
         bins=10,
-        edgecolor="white",
-        linewidth=1.2
+        edgecolor="black",
+        alpha=0.8
     )
 
-    nome_variavel = nomes_variaveis[variavel]
+    plt.title(
+        f"Distribuição de {nome_variavel} - {time_selecionado}"
+    )
 
-    plt.title(f"Distribuição de {nome_variavel}", fontsize=14)
     plt.xlabel(nome_variavel)
     plt.ylabel("Frequência")
-    plt.grid(axis="y", alpha=0.2)
+
+    plt.grid(
+        axis="y",
+        alpha=0.3
+    )
 
     plt.tight_layout()
-    plt.savefig("static/histograma.png", dpi=120)
+
+    caminho_grafico = CAMINHO_STATIC / "histograma.png"
+
+    plt.savefig(caminho_grafico, dpi=120)
     plt.close()
 
-    # Resumo dos métodos
-    resumo_metodos = []
-    outliers = []
-
-    for metodo, dados_metodo in resultados_outliers.items():
-
-        dados_equipe = dados_metodo[
-            dados_metodo["time"] == time_selecionado
-        ]
-
-        quantidade_partidas = dados_equipe["id_partida"].nunique()
-
-        resumo_metodos.append({
-            "metodo": metodo,
-            "quantidade": quantidade_partidas
-        })
-
-        # Detalhamento dos registros identificados
-        for _, linha in dados_equipe.iterrows():
-
-            registro = {
-                "metodo": metodo,
-                "partida": linha["id_partida"],
-                "data": linha["data_partida"],
-                "variavel": "Análise multivariada",
-                "valor": "—",
-                "detalhe": "Anomalia identificada"
-            }
-
-            if metodo == "IQR":
-                registro["variavel"] = nomes_variaveis_tratadas.get(
-                    linha["variavel"], linha["variavel"]
-                )
-                registro["valor"] = linha["valor"]
-                registro["detalhe"] = (
-                    f"{linha['tipo']} | Limites: "
-                    f"{linha['limite_inferior']} a "
-                    f"{linha['limite_superior']}"
-                )
-
-            elif metodo == "Z-score":
-                registro["variavel"] = nomes_variaveis_tratadas.get(
-                    linha["variavel"], linha["variavel"]
-                )
-                registro["valor"] = linha["valor"]
-                registro["detalhe"] = (
-                    f"Z-score: {linha['z_score']:.2f}"
-                )
-
-            elif metodo == "Grubbs":
-                registro["variavel"] = nomes_variaveis_tratadas.get(
-                    linha["variavel"], linha["variavel"]
-                )
-                registro["valor"] = linha["valor"]
-                registro["detalhe"] = (
-                    f"G: {linha['G']:.2f} | "
-                    f"G crítico: {linha['G_critico']:.2f}"
-                )
-
-            elif metodo == "ECOD":
-                registro["valor"] = round(
-                    linha["pontuacao_anomalia"], 2
-                )
-                registro["detalhe"] = "Pontuação de anomalia"
-
-            elif metodo == "K-NN":
-                registro["valor"] = round(
-                    linha["pontuacao_anomalia"], 2
-                )
-                registro["detalhe"] = "Pontuação de anomalia"
-
-            elif metodo == "DBSCAN":
-                registro["valor"] = linha["rotulo"]
-                registro["detalhe"] = (
-                    "Observação classificada como ruído"
-                )
-
-            outliers.append(registro)
-
-    outliers.sort(
-        key=lambda registro: str(registro["data"]),
-        reverse=True
-    )
+    # --------------------------------------------------
+    # ENVIO DOS DADOS PARA O HTML
+    # --------------------------------------------------
 
     return render_template(
         "index.html",
+
         times=times,
         time=time_selecionado,
+
         variaveis=variaveis,
-        nomes_variaveis=nomes_variaveis,
         variavel=variavel,
         nome_variavel=nome_variavel,
+
         estatisticas=estatisticas,
-        total_partidas=len(dados_time),
-        resumo_metodos=resumo_metodos,
-        outliers=outliers
+
+        total_registros=total_registros,
+        total_colunas=total_colunas,
+        total_times=total_times,
+        total_partidas=total_partidas,
+
+        total_jogos_time=total_jogos_time,
+
+        total_ausentes=total_ausentes,
+        total_duplicados=total_duplicados,
+
+        periodo=periodo
     )
 
+
+# --------------------------------------------------
+# EXECUÇÃO
+# --------------------------------------------------
 
 if __name__ == "__main__":
     app.run(debug=True)
