@@ -99,6 +99,7 @@
 
         </section>
 
+
         <!-- QUALIDADE DOS DADOS -->
         <section class="secao" id="qualidade">
 
@@ -189,11 +190,23 @@
 
                     <label for="time">Equipe</label>
 
+                    <div class="equipe-visual" aria-label="Escudo da equipe selecionada">
+                        <div class="equipe-escudo">
+                            <img id="escudo-equipe"
+                                 src="https://cdn.nba.com/logos/nba/{{ team_logo_id }}/primary/L/logo.svg"
+                                 alt="Escudo de {{ time }}"
+                                 loading="lazy"
+                                 onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+                            <span id="escudo-alternativo" hidden aria-hidden="true">&#127936;</span>
+                        </div>
+                        <div><strong id="nome-equipe-visual">{{ time }}</strong>
+                        <small>Equipe selecionada</small></div>
+                    </div>
                     <select name="time" id="time">
 
                         {% for nome in times %}
 
-                        <option value="{{ nome }}"
+                        <option value="{{ nome }}" data-team-id="{{ ids_times.get(nome, '') }}"
                             {% if nome == time %}
                                 selected
                             {% endif %}>
@@ -700,10 +713,61 @@
 
     
 
+
+
+<!-- DESTAQUES DA ANALISE: ANTES DA SINTESE FINAL -->
+<section class="secao insights-painel" id="insights" aria-label="Indicadores da equipe selecionada">
+    <div class="secao-cabecalho">
+        <span class="secao-etiqueta">DESTAQUES DA ANALISE</span>
+        <h2>{{ time }} — {{ nome_variavel }}</h2>
+        <p class="descricao">Tres indicadores para entender rapidamente os resultados dos jogos selecionados.</p>
+    </div>
+    <div class="insights-grid">
+        <article class="insight-card">
+            <span class="insight-label">REGULARIDADE ENTRE JOGOS</span>
+            <strong class="insight-value">{% if insight_cv is not none %}{{ '%.2f'|format(insight_cv) }}%{% else %}—{% endif %}</strong>
+            <p>Coeficiente de variacao (CV): quanto menor, menor a oscilacao relativa nesta estatistica.</p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-label">METADE CENTRAL DAS PARTIDAS</span>
+            <strong class="insight-value">{{ '%.1f'|format(insight_q1) }} a {{ '%.1f'|format(insight_q3) }}</strong>
+            <p>Metade dos jogos ficou aproximadamente entre o primeiro e o terceiro quartil (Q1 e Q3).</p>
+        </article>
+        <article class="insight-card">
+            <span class="insight-label">FORMA DA DISTRIBUICAO</span>
+            <strong class="insight-value">{% if insight_assimetria is not none %}{{ '%+.3f'|format(insight_assimetria) }}{% else %}—{% endif %}</strong>
+            <p>{% if insight_assimetria is not none %}Assimetria {{ insight_direcao|lower }}. Consulte o histograma para ver a distribuicao.{% else %}Dados insuficientes para medir a assimetria.{% endif %}</p>
+        </article>
+    </div>
+</section>
+
 <section class="secao" id="sintese">
   <div class="secao-cabecalho"><span class="secao-etiqueta">SÍNTESE</span><h2>Interpretação comparativa</h2><p class="descricao">Observações referentes à variável {{ nome_variavel }}.</p></div>
   {% for mensagem in destaques_comparativos %}<div class="interpretacao-item"><p>{{ mensagem }}</p></div>{% endfor %}
   <p class="nota-metodologica">As conclusões descrevem apenas as partidas presentes neste dataset. Uma equipe mais regular em pontos não será necessariamente mais regular em rebotes ou assistências. Os métodos de outliers também podem sinalizar partidas diferentes porque usam critérios distintos.</p>
 </section>
+
+
+<!-- REFINO_GAME_INSIGHTS_2026: atualiza apenas a imagem do escudo no filtro. -->
+<script>
+(function () {
+    var seletor = document.getElementById('time');
+    var escudo = document.getElementById('escudo-equipe');
+    var fallback = document.getElementById('escudo-alternativo');
+    var nome = document.getElementById('nome-equipe-visual');
+    if (!seletor || !escudo || !fallback) return;
+    seletor.addEventListener('change', function () {
+        var opcao = seletor.options[seletor.selectedIndex];
+        var codigo = opcao.getAttribute('data-team-id');
+        nome.textContent = opcao.value;
+        escudo.hidden = !codigo;
+        fallback.hidden = !!codigo;
+        if (codigo) {
+            escudo.src = 'https://cdn.nba.com/logos/nba/' + codigo + '/primary/L/logo.svg';
+            escudo.alt = 'Escudo de ' + opcao.value;
+        }
+    });
+})();
+</script>
 
 {% endblock %}

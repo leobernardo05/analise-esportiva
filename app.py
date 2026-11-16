@@ -536,7 +536,7 @@ def inicio():
 
     # Destaca a equipe selecionada
     cores = [
-        "#2563EB" if nome == time_selecionado
+        "#E65B3A" if nome == time_selecionado
         else "#94A3B8"
         for nome in medias_times.index
     ]
@@ -735,6 +735,15 @@ def inicio():
         df, variaveis, time_selecionado, variavel, BASE_DIR
     )
 
+    # REFINO_GAME_INSIGHTS_2026: identificadores usados apenas para exibir os escudos.
+    ids_times = (
+        df[["TEAM_NAME", "Team_ID"]]
+        .drop_duplicates(subset=["TEAM_NAME"])
+        .set_index("TEAM_NAME")["Team_ID"]
+        .astype(str)
+        .to_dict()
+    )
+
     return render_template(
         "index.html",
 
@@ -744,6 +753,14 @@ def inicio():
         variaveis=variaveis,
         variavel=variavel,
         nome_variavel=nome_variavel,
+        # REFINO_GAME_INSIGHTS_2026: valores ja calculados acima.
+        insight_cv=cv,
+        insight_q1=q1,
+        insight_q3=q3,
+        insight_assimetria=coef,
+        insight_direcao=assimetria_selecionada["direcao"],
+        ids_times=ids_times,
+        team_logo_id=ids_times.get(time_selecionado, ""),
 
         # Estatísticas
         estatisticas=estatisticas,

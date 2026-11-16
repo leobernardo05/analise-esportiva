@@ -138,36 +138,94 @@ def preparar_relatorio(df, variaveis, time_selecionado, variavel, pasta):
     incluir('Partidas sem exatamente uma vitória', (df.groupby('Game_ID')['WL'].sum() != 1).sum())
     zeros = [{'coluna': c, 'quantidade': int((df[c] == 0).sum())} for c in contagem]
 
-    # Destaques específicos para a variável escolhida, sem impor limiares arbitrários.
+    # REFINO_GAME_INSIGHTS_2026: traduzir resultados estatisticos para o basquete.
     valido_cv = recorte.dropna(subset=['cv'])
     valido_iqr = recorte.dropna(subset=['iqr'])
     destaques = []
-    if not valido_cv.empty:
-        maior_cv = valido_cv.loc[valido_cv['cv'].idxmax()]
-        menor_cv = valido_cv.loc[valido_cv['cv'].idxmin()]
-        destaques.append(
-            f'Em {variaveis[variavel]}, {maior_cv["time"]} apresenta maior CV ({maior_cv["cv"]:.2f}%), '
-            f'enquanto {menor_cv["time"]} apresenta menor CV ({menor_cv["cv"]:.2f}%). '
-            'CV maior indica maior dispersão relativa, mas sua leitura exige cautela quando a média é baixa.'
-        )
-    if not valido_iqr.empty:
-        maior_iqr = valido_iqr.loc[valido_iqr['iqr'].idxmax()]
-        menor_iqr = valido_iqr.loc[valido_iqr['iqr'].idxmin()]
-        destaques.append(
-            f'Para {variaveis[variavel]}, a faixa dos 50% centrais é mais larga em '
-            f'{maior_iqr["time"]} (IQR {maior_iqr["iqr"]:.2f}) e mais estreita em '
-            f'{menor_iqr["time"]} (IQR {menor_iqr["iqr"]:.2f}).'
-        )
     time_atual = recorte[recorte['time'] == time_selecionado]
+
     if not time_atual.empty:
-        registro = time_atual.iloc[0]
-        if pd.notna(registro['skew']):
-            escolha = 'A mediana merece atenção por ser menos sensível a extremos.' if abs(registro['skew']) >= 1 else 'Média e mediana devem ser comparadas com o gráfico.'
-            destaques.append(f'Assimetria de {time_selecionado} em {variaveis[variavel]}: {registro["skew"]:.3f}. {escolha}')
-        if registro['media'] > 0 and registro['media'] < 1:
-            destaques.append('A média está próxima de zero: o CV pode ficar artificialmente elevado.')
-        if registro['iqr'] > 0 and registro['amplitude'] > 3*registro['iqr']:
-            destaques.append('A amplitude é mais de três vezes o IQR; a distribuição merece inspeção dos extremos no Boxplot.')
+        atual = time_atual.iloc[0]
+        destaques.append(
+            f'Nos jogos do {time_selecionado}, a media de {variaveis[variavel].lower()} '
+            f'foi {atual["media"]:.2f} por partida e a mediana foi {atual["mediana"]:.2f}. '
+            'A media resume todos os jogos; a mediana indica o valor central, '
+            'sem ser tao influenciada por partidas muito diferentes do habitual.'
+        )
+
+    if not valido_cv.empty:
+        mais_regular = valido_cv.loc[valido_cv['cv'].idxmin()]
+        menos_regular = valido_cv.loc[valido_cv['cv'].idxmax()]
+        destaques.append(
+            f'Na estatistica de {variaveis[variavel].lower()}, '
+            f'{mais_regular["time"]} teve a menor oscilacao relativa entre partidas '
+            f'(CV de {mais_regular["cv"]:.2f}%). '
+            f'{menos_regular["time"]} oscilou mais (CV de {menos_regular["cv"]:.2f}%). '
+            'Isso fala de regularidade, nao de quem teve o melhor desempenho medio.'
+        )
+
+    if not time_atual.empty:
+        atual = time_atual.iloc[0]
+        destaques.append(
+            f'No {time_selecionado}, metade dos jogos ficou aproximadamente entre '
+            f'{atual["q1"]:.2f} e {atual["q3"]:.2f} '
+            f'em {variaveis[variavel].lower()}. Essa faixa tem largura de '
+            f'{atual["iqr"]:.2f} (IQR). Quanto mais estreita, mais proximos '
+            'ficaram os resultados centrais das partidas.'
+        )
+
+    if not valido_iqr.empty:
+        mais_concentrado = valido_iqr.loc[valido_iqr['iqr'].idxmin()]
+        mais_espalhado = valido_iqr.loc[valido_iqr['iqr'].idxmax()]
+        destaques.append(
+            f'Comparando as equipes nessa mesma estatistica, a metade central '
+            f'dos jogos foi mais concentrada em {mais_concentrado["time"]} '
+            f'(IQR {mais_concentrado["iqr"]:.2f}) e mais espalhada em '
+            f'{mais_espalhado["time"]} (IQR {mais_espalhado["iqr"]:.2f}). '
+            'O IQR observa os resultados centrais e sofre menos influencia de jogos extremos.'
+        )
+
+    if not time_atual.empty:
+        atual = time_atual.iloc[0]
+        if pd.notna(atual['skew']):
+            g = atual['skew']
+            if abs(g) < 0.5:
+                forma = 'os resultados ficaram aproximadamente equilibrados em torno da faixa central'
+            elif g > 0:
+                forma = 'algumas partidas com valores mais altos alongaram a cauda da distribuicao para a direita'
+            else:
+                forma = 'algumas partidas com valores mais baixos alongaram a cauda da distribuicao para a esquerda'
+            destaques.append(
+                f'A assimetria do {time_selecionado} em {variaveis[variavel].lower()} '
+                f'foi {g:.3f}: {forma}. O histograma e o Boxplot ajudam a conferir '
+                'esse comportamento; o coeficiente sozinho nao conta toda a historia.'
+            )
+        if atual['media'] > 0 and atual['media'] < 1:
+            destaques.append(
+                'Como a media desta estatistica e muito pequena, uma pequena mudanca '
+                'entre jogos pode produzir CV elevado. Por isso, a interpretacao exige cautela.'
+            )
+        if atual['iqr'] > 0 and atual['amplitude'] > 3 * atual['iqr']:
+            destaques.append(
+                f'A diferenca entre o maior e o menor resultado do {time_selecionado} '
+                'e bem maior do que a faixa central dos jogos. Isso sugere que vale '
+                'olhar as partidas extremas no Boxplot, sem concluir que haja erro nos dados.'
+            )
+
+    # Comparacao das sete estatisticas dentro da equipe, sempre pelo CV (percentual).
+    dados_equipe = tabela[tabela['time'] == time_selecionado].dropna(subset=['cv'])
+    dados_equipe = dados_equipe[dados_equipe['media'] > 0]
+    if len(dados_equipe) > 1:
+        menor = dados_equipe.loc[dados_equipe['cv'].idxmin()]
+        maior = dados_equipe.loc[dados_equipe['cv'].idxmax()]
+        destaques.append(
+            f'Entre as sete estatisticas do {time_selecionado}, '
+            f'{menor["variavel"].lower()} teve a menor variacao proporcional '
+            f'(CV {menor["cv"]:.2f}%), enquanto {maior["variavel"].lower()} '
+            f'teve a maior (CV {maior["cv"]:.2f}%). '
+            'Essa comparacao usa porcentagens porque pontos, assistencias e bloqueios '
+            'possuem escalas diferentes. Medias muito pequenas exigem cuidado.'
+        )
 
     return {
         'equipes_comparacao': equipes,
