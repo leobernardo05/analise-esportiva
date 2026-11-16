@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#182536">
+    <title>{% block title %}NBA Analytics | Game Insights{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- O checkbox controla o menu mobile apenas com CSS. -->
+    <input type="checkbox" id="menu-mobile" class="menu-controle" aria-label="Abrir menu de navega&#231;&#227;o">
+    <label for="menu-mobile" class="menu-sombra" aria-label="Fechar menu"></label>
+
+    <aside class="sidebar" aria-label="Navega&#231;&#227;o principal">
+        <div class="sidebar-marca">
+            <div class="marca-emblema" aria-hidden="true">NBA</div>
+            <div>
+                <strong>NBA Analytics</strong>
+                <span>GAME INSIGHTS</span>
+            </div>
+        </div>
+        <p class="menu-legenda">PAINEL DE AN&#193;LISE</p>
+        <nav class="sidebar-nav" aria-label="Se&#231;&#245;es do relat&#243;rio">
+            <a href="#visao-geral"><span class="menu-icone" aria-hidden="true">&#9707;</span> Vis&#227;o geral</a>
+            <a href="#qualidade"><span class="menu-icone" aria-hidden="true">&#10003;</span> Qualidade</a>
+            <a href="#estatisticas"><span class="menu-icone" aria-hidden="true">&#9636;</span> Estat&#237;sticas</a>
+            <a href="#distribuicao"><span class="menu-icone" aria-hidden="true">&#9637;</span> Distribui&#231;&#227;o</a>
+            <a href="#comparacao"><span class="menu-icone" aria-hidden="true">&#8801;</span> Compara&#231;&#227;o</a>
+            <a href="#matrizes"><span class="menu-icone" aria-hidden="true">&#8862;</span> Matrizes CV / IQR</a>
+            <a href="#dicionario"><span class="menu-icone" aria-hidden="true">&#9635;</span> Dicion&#225;rio</a>
+            <a href="#sintese"><span class="menu-icone" aria-hidden="true">&#9998;</span> S&#237;ntese</a>
+            <a href="#outliers"><span class="menu-icone" aria-hidden="true">&#9678;</span> Outliers</a>
+        </nav>
+        <div class="sidebar-rodape">
+            <div class="quadra-decorativa" aria-hidden="true"></div>
+            <span>UFAPE &#183; Ci&#234;ncia de Dados</span>
+            <small>Projeto acad&#234;mico &#183; 2026.2</small>
+        </div>
+    </aside>
+
+    <div class="pagina">
+        <header class="topbar">
+            <div class="topbar-esquerda">
+                <label for="menu-mobile" class="botao-menu" title="Abrir ou fechar menu" aria-label="Abrir ou fechar menu">
+                    <span></span><span></span><span></span>
+                </label>
+                <div class="topbar-titulo">
+                    <strong>NBA Analytics</strong>
+                    <span>Game Insights <b>&#8226;</b> An&#225;lise de desempenho da NBA</span>
+                </div>
+            </div>
+            <div class="topbar-selo">Laborat&#243;rio de Ci&#234;ncia de Dados <span>2026.2</span></div>
+        </header>
+
+        <main class="container" id="conteudo-principal">
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer class="rodape">NBA Analytics &#183; Laborat&#243;rio de Ci&#234;ncia de Dados &#183; UFAPE</footer>
+    </div>
+    <script>
+        // Fecha o menu m&#243;vel depois de escolher uma se&#231;&#227;o.
+        document.querySelectorAll(".sidebar-nav a").forEach(function(link) {
+            link.addEventListener("click", function() {
+                document.getElementById("menu-mobile").checked = false;
+            });
+        });
+    </script>
+</body>
+</html>

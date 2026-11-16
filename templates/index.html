@@ -1,56 +1,7 @@
+{% extends "base.html" %}
+{% block title %}NBA Analytics | Game Insights{% endblock %}
+{% block content %}
 
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>NBA Analytics | Análise Esportiva</title>
-
-    <link rel="stylesheet"
-      href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-
-<body>
-
-    <!-- CABEÇALHO -->
-    <header class="cabecalho">
-        <div class="cabecalho-interno">
-
-            <div class="marca">
-                <div class="marca-icone">NBA</div>
-
-                <div>
-                    <h1>NBA <span>Analytics</span></h1>
-                    <p>Laboratório de Ciência de Dados</p>
-                </div>
-            </div>
-
-            <span class="selo-projeto">
-                Projeto acadêmico · 2026.2
-            </span>
-
-        </div>
-    </header>
-
-    <!-- NAVEGAÇÃO -->
-    <nav class="navegacao">
-        <div class="navegacao-interna">
-            <a href="#visao-geral">Visão geral</a>
-            <a href="#qualidade">Qualidade</a>
-            <a href="#estatisticas">Estatísticas</a>
-            <a href="#distribuicao">Distribuição</a>
-            <a href="#comparacao">Comparação</a>
-            <a href="#matrizes">Matrizes CV/IQR</a>
-            <a href="#dicionario">Dicionário</a>
-            <a href="#sintese">Síntese</a>
-            <a href="#outliers">Outliers</a>
-        </div>
-    </nav>
-
-    <main class="container">
 
         <!-- APRESENTAÇÃO -->
         <section class="apresentacao">
@@ -751,12 +702,5 @@
 
         {% endif %}
 
-    </main>
-
-    <footer class="rodape">
-        Projeto acadêmico de Análise de Dados Esportivos
-        · Laboratório de Ciência de Dados
-    </footer>
-
-</body>
-</html>
+    
+{% endblock %}
