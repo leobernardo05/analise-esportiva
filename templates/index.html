@@ -42,6 +42,7 @@
             <a href="#qualidade">Qualidade</a>
             <a href="#estatisticas">Estatísticas</a>
             <a href="#distribuicao">Distribuição</a>
+            <a href="#comparacao">Comparação</a>
             <a href="#outliers">Outliers</a>
         </div>
     </nav>
@@ -381,6 +382,52 @@
                 apresentadas com duas casas decimais.
             </p>
 
+
+        <!-- COEFICIENTE DE ASSIMETRIA -->
+        <h4 class="subtitulo-tabela">
+            Análise de assimetria
+        </h4>
+
+        <p class="descricao">
+            Coeficiente de assimetria das variáveis
+            para a equipe {{ time }}.
+        </p>
+
+        <div class="tabela-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variável</th>
+                        <th>Coeficiente</th>
+                        <th>Direção</th>
+                        <th>Intensidade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for item in assimetrias %}
+                    <tr>
+                        <td>{{ item.nome }}</td>
+
+                        <td>
+                            {% if item.coeficiente is not none %}
+                                {{ "%.3f"|format(item.coeficiente) }}
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+
+                        <td>{{ item.direcao }}</td>
+                        <td>{{ item.intensidade }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+
+
         </section>
 
         <!-- DISTRIBUIÇÃO -->
@@ -470,6 +517,74 @@
             </p>
 
         </section>
+
+
+        <!-- COMPARAÇÃO ENTRE EQUIPES -->
+        <section class="secao" id="comparacao">
+
+            <div class="secao-cabecalho">
+
+                <span class="secao-etiqueta">
+                    05 / COMPARAÇÃO
+                </span>
+
+                <h2>Comparação entre equipes</h2>
+
+                <p class="descricao">
+                    Média de {{ nome_variavel }} por partida.
+                    A equipe selecionada aparece destacada
+                    em azul.
+                </p>
+
+            </div>
+
+            <div class="grafico">
+
+                <div class="grafico-cabecalho">
+                    <h3>{{ nome_variavel }} por equipe</h3>
+                    <span class="chip">Comparativo</span>
+                </div>
+
+                <img
+                    src="{{ url_for(
+                        'static',
+                        filename='barras.png',
+                        v=time ~ '-' ~ variavel
+                    ) }}"
+                    alt="Comparação de {{ nome_variavel }}
+                        entre equipes"
+                >
+
+            </div>
+
+            <div class="interpretacao-resultados">
+
+                <h4 class="subtitulo-tabela">
+                    Interpretação da comparação
+                </h4>
+
+                <div class="interpretacao-item">
+                    <p>
+                        A equipe {{ time }} apresentou média
+                        de {{ "%.2f"|format(media_time_selecionado) }}
+                        em {{ nome_variavel.lower() }} por partida.
+                    </p>
+                </div>
+
+                <div class="interpretacao-item">
+                    <p>
+                        A maior média foi registrada por
+                        {{ time_maior_media }},
+                        com {{ "%.2f"|format(maior_media) }}.
+                        A menor foi de {{ time_menor_media }},
+                        com {{ "%.2f"|format(menor_media) }}.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
 
         <!-- DETECÇÃO DE OUTLIERS -->
         {% if resumo_metodos is defined %}

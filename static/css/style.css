@@ -483,6 +483,7 @@ tbody tr:last-child td {
 
     padding: 18px;
     text-align: center;
+    margin-bottom: 18px;
 }
 
 .grafico-cabecalho {
@@ -624,3 +625,15 @@ tbody tr:last-child td {
     font-size: 13px;
     line-height: 1.7;
 }
+
+/* COMPARAÇÃO ENTRE EQUIPES */
+#comparacao .grafico img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+#comparacao .interpretacao-resultados {
+    margin-top: 22px;
+}
+

@@ -225,6 +225,53 @@ def inicio():
             "iqr": iqr
         })
 
+    
+    # ======================================
+    # ANÁLISE DE ASSIMETRIA
+    # ======================================
+
+    assimetrias = []
+
+    for codigo, nome in variaveis.items():
+
+        valores = dados_time[codigo].dropna()
+
+        # A assimetria exige pelo menos 3 valores
+        # e variação entre as observações.
+        if len(valores) >= 3 and valores.std() > 0:
+
+            coeficiente = float(valores.skew())
+
+            if abs(coeficiente) < 0.5:
+                intensidade = "Aproximadamente simétrica"
+
+            elif abs(coeficiente) < 1:
+                intensidade = "Moderada"
+
+            else:
+                intensidade = "Forte"
+
+            if coeficiente > 0:
+                direcao = "Positiva (à direita)"
+
+            elif coeficiente < 0:
+                direcao = "Negativa (à esquerda)"
+
+            else:
+                direcao = "Nula"
+
+        else:
+            coeficiente = None
+            intensidade = "Não calculável"
+            direcao = "Não calculável"
+
+        assimetrias.append({
+            "codigo": codigo,
+            "nome": nome,
+            "coeficiente": coeficiente,
+            "direcao": direcao,
+            "intensidade": intensidade
+        })
 
     # ======================================
     # INTERPRETAÇÃO DOS RESULTADOS
@@ -324,12 +371,40 @@ def inicio():
         f"a regra de 1,5 × IQR."
     )
 
+    
+    # Assimetria da variável escolhida
+    assimetria_selecionada = next(
+        item for item in assimetrias
+        if item["codigo"] == variavel
+    )
+
+    coef = assimetria_selecionada["coeficiente"]
+
+    if coef is not None:
+
+        interpretacao_assimetria = (
+            f"O coeficiente de assimetria de "
+            f"{nome_variavel.lower()} é {coef:.3f}. "
+            f"A distribuição apresenta assimetria "
+            f"{assimetria_selecionada['intensidade'].lower()}, "
+            f"com direção "
+            f"{assimetria_selecionada['direcao'].lower()}."
+        )
+
+    else:
+        interpretacao_assimetria = (
+            "Não há dados suficientes para calcular "
+            "a assimetria desta variável."
+        )
+
     interpretacoes = [
         interpretacao_central,
         interpretacao_dispersao,
         interpretacao_iqr,
-        interpretacao_outliers
+        interpretacao_outliers,
+        interpretacao_assimetria
     ]
+
 
     # ======================================
     # 8. HISTOGRAMA
@@ -457,6 +532,90 @@ def inicio():
         "limite_superior": limite_superior,
         "quantidade_outliers": quantidade_outliers
     }
+
+
+    # ======================================
+    # GRÁFICO DE BARRAS COMPARATIVO
+    # ======================================
+
+    # Calcula a média da variável para cada equipe
+    medias_times = (
+        df.groupby("TEAM_NAME")[variavel]
+        .mean()
+        .sort_values(ascending=True)
+    )
+
+    # Destaca a equipe selecionada
+    cores = [
+        "#2563EB" if nome == time_selecionado
+        else "#94A3B8"
+        for nome in medias_times.index
+    ]
+
+    # Altura proporcional ao número de equipes
+    altura = max(6, len(medias_times) * 0.35)
+
+    fig, ax = plt.subplots(figsize=(11, altura))
+
+    barras = ax.barh(
+        medias_times.index,
+        medias_times.values,
+        color=cores
+    )
+
+    # Mostra o valor médio ao lado de cada barra
+    ax.bar_label(
+        barras,
+        fmt="%.2f",
+        padding=4,
+        fontsize=8
+    )
+
+    ax.set_title(
+        f"Média de {nome_variavel} por equipe",
+        fontsize=14
+    )
+
+    ax.set_xlabel(
+        f"Média de {nome_variavel} por partida"
+    )
+
+    ax.set_ylabel("Equipe")
+
+    ax.set_xlim(
+        0,
+        max(1, medias_times.max() * 1.15)
+    )
+
+    ax.grid(
+        axis="x",
+        alpha=0.2
+    )
+
+    ax.set_axisbelow(True)
+
+    fig.tight_layout()
+
+    caminho_barras = CAMINHO_STATIC / "barras.png"
+
+    fig.savefig(
+        caminho_barras,
+        dpi=120,
+        bbox_inches="tight"
+    )
+
+    plt.close(fig)
+
+    # Informações para interpretação
+    time_maior_media = medias_times.idxmax()
+    maior_media = medias_times.max()
+
+    time_menor_media = medias_times.idxmin()
+    menor_media = medias_times.min()
+
+    media_time_selecionado = medias_times[
+        time_selecionado
+    ]
 
     # ======================================
     # 9. RESUMO DOS MÉTODOS DE OUTLIERS
@@ -611,7 +770,15 @@ def inicio():
 
         # Outliers
         resumo_metodos=resumo_metodos,
-        outliers=outliers
+        outliers=outliers,
+
+        # grafico de comparação
+        time_maior_media=time_maior_media,
+        maior_media=maior_media,
+        time_menor_media=time_menor_media,
+        menor_media=menor_media,
+        media_time_selecionado=media_time_selecionado,
+        assimetrias=assimetrias,
     )
 
 
