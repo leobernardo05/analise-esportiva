@@ -441,9 +441,7 @@
                 </div>
 
                 <img
-                    src="{{ url_for('static',
-                           filename='histograma.png',
-                           v=time ~ '-' ~ variavel) }}"
+                    src="data:image/png;base64,{{ grafico_histograma }}"
                     alt="Histograma de {{ nome_variavel }}"
                 >
 
@@ -457,7 +455,7 @@
                 </div>
 
                 <img
-                    src="{{ url_for('static', filename='boxplot.png', v=time ~ '-' ~ variavel) }}"
+                    src="data:image/png;base64,{{ grafico_boxplot }}"
                     alt="Boxplot de {{ nome_variavel }} para {{ time }}"
                 >
 
@@ -535,11 +533,7 @@
                 </div>
 
                 <img
-                    src="{{ url_for(
-                        'static',
-                        filename='barras.png',
-                        v=time ~ '-' ~ variavel
-                    ) }}"
+                    src="data:image/png;base64,{{ grafico_barras }}"
                     alt="Comparação de {{ nome_variavel }}
                         entre equipes"
                 >

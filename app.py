@@ -12,6 +12,16 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
+# Uma figura PNG vira texto base64 e e enviada diretamente ao template.
+# Nao grava arquivos: funciona no Windows e na Vercel.
+def imagem_em_memoria(fig):
+    from io import BytesIO
+    from base64 import b64encode
+    memoria = BytesIO()
+    fig.savefig(memoria, format="png", dpi=120, bbox_inches="tight")
+    return b64encode(memoria.getvalue()).decode("ascii")
+
+
 # ==========================================
 # 1. CONFIGURAÇÕES INICIAIS
 # ==========================================
@@ -32,7 +42,7 @@ CAMINHO_DADOS = (
 CAMINHO_PROCESSADOS = BASE_DIR / "data" / "processed"
 CAMINHO_STATIC = BASE_DIR / "static"
 
-CAMINHO_STATIC.mkdir(exist_ok=True)
+# Os graficos agora sao gerados em memoria.
 
 
 # ==========================================
@@ -433,7 +443,7 @@ def inicio():
     ax.legend()
     ax.grid(axis="y", alpha=0.2)
     fig.tight_layout()
-    fig.savefig(CAMINHO_STATIC / "histograma.png", dpi=120)
+    grafico_histograma = imagem_em_memoria(fig)
     plt.close(fig)
 
     # ======================================
@@ -495,11 +505,7 @@ def inicio():
 
     caminho_boxplot = CAMINHO_STATIC / "boxplot.png"
 
-    fig.savefig(
-        caminho_boxplot,
-        dpi=120
-    )
-
+    grafico_boxplot = imagem_em_memoria(fig)
     plt.close(fig)
 
     # Resumo numérico do boxplot
@@ -587,12 +593,7 @@ def inicio():
 
     caminho_barras = CAMINHO_STATIC / "barras.png"
 
-    fig.savefig(
-        caminho_barras,
-        dpi=120,
-        bbox_inches="tight"
-    )
-
+    grafico_barras = imagem_em_memoria(fig)
     plt.close(fig)
 
     # Informações para interpretação
@@ -746,6 +747,9 @@ def inicio():
 
     return render_template(
         "index.html",
+        grafico_histograma=grafico_histograma,
+        grafico_boxplot=grafico_boxplot,
+        grafico_barras=grafico_barras,
 
         # Filtros
         times=times,
