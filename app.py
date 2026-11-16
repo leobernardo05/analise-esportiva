@@ -3,6 +3,9 @@ from pathlib import Path
 
 from flask import Flask, render_template, request
 import pandas as pd
+import numpy as np
+from scipy.stats import gaussian_kde
+from analise_complementar import preparar_relatorio  # PROJETO1_COMPLEMENTO_2026
 import matplotlib
 
 matplotlib.use("Agg")
@@ -87,7 +90,8 @@ arquivos_outliers = {
     "Grubbs": "outliers_grubbs.csv",
     "ECOD": "outliers_ecod.csv",
     "K-NN": "outliers_knn.csv",
-    "DBSCAN": "outliers_dbscan.csv"
+    "DBSCAN": "outliers_dbscan.csv",
+    "LOF": "outliers_lof.csv"
 }
 
 resultados_outliers = {}
@@ -96,10 +100,11 @@ for metodo, arquivo in arquivos_outliers.items():
 
     caminho = CAMINHO_PROCESSADOS / arquivo
 
-    resultados_outliers[metodo] = pd.read_csv(
-        caminho,
-        dtype={"id_partida": "string"}
-    )
+    if caminho.exists():
+        resultados_outliers[metodo] = pd.read_csv(
+            caminho,
+            dtype={"id_partida": "string"}
+        )
 
 
 # ==========================================
@@ -407,45 +412,29 @@ def inicio():
 
 
     # ======================================
-    # 8. HISTOGRAMA
+    # 8. HISTOGRAMA COM KDE (PROJETO1_COMPLEMENTO_2026)
     # ======================================
 
-    plt.figure(figsize=(9, 5))
-
-    plt.hist(
-        dados_time[variavel].dropna(),
-        bins=10,
-        color="#4285D4",
-        edgecolor="white",
-        linewidth=1.2
+    valores_histograma = dados_time[variavel].dropna().to_numpy(dtype=float)
+    fig, ax = plt.subplots(figsize=(9, 5))
+    frequencias, limites, _ = ax.hist(
+        valores_histograma, bins=10, color="#4285D4",
+        edgecolor="white", alpha=0.75, label="Frequência observada"
     )
-
-    plt.title(
-        f"Distribuição de {nome_variavel}"
-        f" - {time_selecionado}",
-        fontsize=14
-    )
-
-    plt.xlabel(nome_variavel)
-    plt.ylabel("Frequência de partidas")
-
-    plt.grid(
-        axis="y",
-        alpha=0.2
-    )
-
-    plt.tight_layout()
-
-    caminho_grafico = (
-        CAMINHO_STATIC / "histograma.png"
-    )
-
-    plt.savefig(
-        caminho_grafico,
-        dpi=120
-    )
-
-    plt.close()
+    if len(valores_histograma) >= 3 and np.unique(valores_histograma).size > 1:
+        kde = gaussian_kde(valores_histograma, bw_method="scott")
+        x = np.linspace(limites[0], limites[-1], 300)
+        largura = limites[1] - limites[0]
+        ax.plot(x, kde(x) * len(valores_histograma) * largura,
+                color="#F97316", linewidth=2.5, label="KDE")
+    ax.set_title(f"Distribuição de {nome_variavel} - {time_selecionado}")
+    ax.set_xlabel(nome_variavel)
+    ax.set_ylabel("Frequência de partidas")
+    ax.legend()
+    ax.grid(axis="y", alpha=0.2)
+    fig.tight_layout()
+    fig.savefig(CAMINHO_STATIC / "histograma.png", dpi=120)
+    plt.close(fig)
 
     # ======================================
     # BOXPLOT
@@ -716,6 +705,10 @@ def inicio():
                     "Pontuação de anomalia"
                 )
 
+            elif metodo == "LOF":
+                registro["valor"] = round(linha["pontuacao_anomalia"], 2)
+                registro["detalhe"] = "Pontuação de anomalia LOF"
+
             elif metodo == "DBSCAN":
 
                 registro["valor"] = linha["rotulo"]
@@ -737,6 +730,10 @@ def inicio():
     # ======================================
     # 11. ENVIO DOS DADOS AO HTML
     # ======================================
+
+    relatorio = preparar_relatorio(
+        df, variaveis, time_selecionado, variavel, BASE_DIR
+    )
 
     return render_template(
         "index.html",
@@ -779,6 +776,7 @@ def inicio():
         menor_media=menor_media,
         media_time_selecionado=media_time_selecionado,
         assimetrias=assimetrias,
+        **relatorio,
     )
 
 
