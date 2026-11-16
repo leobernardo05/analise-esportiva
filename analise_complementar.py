@@ -1,4 +1,4 @@
-"""Análises complementares do Projeto 1.
+"""Análises complementares do Projeto.
 
 Recebe os dados do app.py e devolve tabelas e interpretações.
 Não muda o fluxo do Flask nem os arquivos CSV já existentes.
